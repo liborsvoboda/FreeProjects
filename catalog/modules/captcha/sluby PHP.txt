@@ -1,0 +1,1 @@
+An updated version of the 2.0 beta version has been released. It adds support for users with cookies disabled (requires PHP5 & SQLite support), code timeouts, fixes to color allocation, and an easier way to define colors.

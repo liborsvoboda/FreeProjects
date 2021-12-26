@@ -1,0 +1,12 @@
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\RS232_Receiver.exe
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\RS232_Receiver.pdb
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\RS232_Receiver.xml
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.main_form.resources
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.Resources.resources
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.vbproj.GenerateResource.Cache
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.exe
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.xml
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.pdb
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.exe
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.xml
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.pdb

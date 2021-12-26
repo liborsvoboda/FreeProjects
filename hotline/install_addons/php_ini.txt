@@ -1,0 +1,9 @@
+disable functions = Off   for exe command (exec,system, etc...)
+
+
+FOR LDAP
+LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
+LoadModule ldap_module modules/mod_ldap.so
+
+extension=php_ldap.dll
+

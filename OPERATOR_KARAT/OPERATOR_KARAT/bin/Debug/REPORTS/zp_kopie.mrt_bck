@@ -1,0 +1,3197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <serverSQL Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>serverSQL</Alias>
+        <ConnectionStringEncrypted>9Fz7z8ZWQ935CE1MehxrY9E63YhIS7ukRU3tvcOAoOOLGrMLV23S7fFa1RhpSaTX5lb3ocZdMdVqSZxMd1zrF9Fa2S9OA8IFa1FtzE74417EcPsJzUxD+X5G</ConnectionStringEncrypted>
+        <Name>serverSQL</Name>
+      </serverSQL>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <dba_v_opvvyrza Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>dba.v_opvvyrza</Alias>
+        <Columns isList="true" count="142">
+          <value>xplan,System.String</value>
+          <value>user_cena_vyr_pl,System.String</value>
+          <value>user_cena_vyr_sk,System.String</value>
+          <value>user_cena_celk_sk,System.String</value>
+          <value>obdobi_zac_rv,System.String</value>
+          <value>mesic_zac_rv,System.String</value>
+          <value>obdobi_kon_rv,System.String</value>
+          <value>mesic_kon_rv,System.String</value>
+          <value>user_strom_nesh,System.Byte</value>
+          <value>ps_oceneni_uct,System.String</value>
+          <value>ps_fiskalni_rok_uct,System.String</value>
+          <value>ps_mesic_uct,System.String</value>
+          <value>ps_ucet_uct,System.String</value>
+          <value>inv_doklad,System.String</value>
+          <value>inv_datum,System.DateTime</value>
+          <value>oceneni_prumer,System.String</value>
+          <value>plan_nasledujici,System.Byte</value>
+          <value>user_plan_dokonceni,System.DateTime</value>
+          <value>user_plan_expedice,System.DateTime</value>
+          <value>user_plan_uvolneni,System.DateTime</value>
+          <value>user_lpst,System.DateTime</value>
+          <value>typ_zakazky,System.String</value>
+          <value>zakazka,System.String</value>
+          <value>id_partnera,System.String</value>
+          <value>user_gen_fp,System.Byte</value>
+          <value>user_id_importu,System.Int32</value>
+          <value>da_sk_uz,System.DateTime</value>
+          <value>da_sk_oc,System.DateTime</value>
+          <value>doklad_rekl,System.String</value>
+          <value>polozka_rekl,System.Int32</value>
+          <value>zapl_opv,System.Byte</value>
+          <value>fixace,System.Byte</value>
+          <value>terminzac,System.DateTime</value>
+          <value>terminkon,System.DateTime</value>
+          <value>norminuty,System.String</value>
+          <value>rezminuty,System.String</value>
+          <value>norminuty_obs,System.String</value>
+          <value>rezminuty_obs,System.String</value>
+          <value>jedn_mzdy,System.String</value>
+          <value>rez_mzdy,System.String</value>
+          <value>material,System.String</value>
+          <value>kooper,System.String</value>
+          <value>strnakl,System.String</value>
+          <value>rn1,System.String</value>
+          <value>rn2,System.String</value>
+          <value>rn3,System.String</value>
+          <value>rn4,System.String</value>
+          <value>rn5,System.String</value>
+          <value>rn6,System.String</value>
+          <value>rn7,System.String</value>
+          <value>rn8,System.String</value>
+          <value>rn9,System.String</value>
+          <value>rn0,System.String</value>
+          <value>cena,System.String</value>
+          <value>id_nomen,System.String</value>
+          <value>attr_pln_1,System.Byte</value>
+          <value>attr_pln_2,System.Byte</value>
+          <value>attr_pln_3,System.Byte</value>
+          <value>storno,System.Byte</value>
+          <value>kod,System.String</value>
+          <value>ps_oceneni,System.String</value>
+          <value>cistahm,System.String</value>
+          <value>hrubahm,System.String</value>
+          <value>predani,System.Byte</value>
+          <value>auto_sklad,System.Byte</value>
+          <value>kod_vc,System.String</value>
+          <value>typ_definice,System.Byte</value>
+          <value>por_atributu,System.Byte</value>
+          <value>autor,System.String</value>
+          <value>ts,System.DateTime</value>
+          <value>prijem_odvvydpred,System.Byte</value>
+          <value>prub_doba,System.Int32</value>
+          <value>user_opv,System.String</value>
+          <value>vlastni_prub_doba,System.Int32</value>
+          <value>user_vytisteno,System.Byte</value>
+          <value>user_vytisteno_datum,System.DateTime</value>
+          <value>user_vytisteno_autor,System.String</value>
+          <value>potvr_zapl_opv,System.Byte</value>
+          <value>zpusob_a1,System.Byte</value>
+          <value>zpusob_a2,System.Byte</value>
+          <value>zpusob_a3,System.Byte</value>
+          <value>uzavreno_oceneni,System.Byte</value>
+          <value>opv,System.String</value>
+          <value>typ_zp,System.Byte</value>
+          <value>xpotvrzprev,System.Byte</value>
+          <value>xukonceno,System.Byte</value>
+          <value>xuzavreno,System.Byte</value>
+          <value>xpozastaveno,System.Byte</value>
+          <value>kod_vzorce,System.String</value>
+          <value>id_meny,System.String</value>
+          <value>fiskalni_rok,System.String</value>
+          <value>odvstred,System.String</value>
+          <value>druh_uct,System.String</value>
+          <value>sklad,System.String</value>
+          <value>nomenklatura,System.String</value>
+          <value>popis,System.String</value>
+          <value>kj,System.String</value>
+          <value>prijmout,System.String</value>
+          <value>planvyrobax,System.String</value>
+          <value>planvyroba0,System.Decimal</value>
+          <value>navyseno_operaci,System.String</value>
+          <value>prevedeno_na,System.String</value>
+          <value>predano,System.String</value>
+          <value>planvyroba,System.Decimal</value>
+          <value>odvedeno,System.String</value>
+          <value>zmetky,System.String</value>
+          <value>vevyrobe,System.String</value>
+          <value>posloperace0,System.Int32</value>
+          <value>posloperace,System.Int32</value>
+          <value>doklad_zmt,System.String</value>
+          <value>baleni,System.String</value>
+          <value>atribut_1,System.String</value>
+          <value>atribut_2,System.String</value>
+          <value>atribut_3,System.String</value>
+          <value>postup,System.String</value>
+          <value>poradi,System.Int32</value>
+          <value>index_vyr,System.Int16</value>
+          <value>msopv,System.Byte</value>
+          <value>opvfinal,System.String</value>
+          <value>opvrodic,System.String</value>
+          <value>da_po_uk,System.DateTime</value>
+          <value>da_pl_uk,System.DateTime</value>
+          <value>da_pl_zah,System.DateTime</value>
+          <value>da_vy_op,System.DateTime</value>
+          <value>da_po_pl,System.DateTime</value>
+          <value>da_sk_uk,System.DateTime</value>
+          <value>priorita,System.Byte</value>
+          <value>transdavka,System.String</value>
+          <value>vykres,System.String</value>
+          <value>user_duvod_neukon,System.String</value>
+          <value>xcmd,System.String</value>
+          <value>xpravo,System.String</value>
+          <value>xattach,System.Byte</value>
+          <value>poznamka,System.String</value>
+          <value>user_duvod_ruc_uk,System.String</value>
+          <value>klic,System.String</value>
+          <value>user_byznys_cislo,System.String</value>
+          <value>user_cislo_prog,System.String</value>
+          <value>user_cislo_vykresu,System.String</value>
+          <value>user_kat_oznaceni,System.String</value>
+          <value>odp_oso_tvd,System.String</value>
+          <value>planvyroba1,System.Int32</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>dba.v_opvvyrza</Name>
+        <NameInSource>serverSQL</NameInSource>
+        <Parameters isList="true" count="1">
+          <value>input_opv,pr_opv,22,16</value>
+        </Parameters>
+        <SqlCommand>SELECT *
+	,planvyroba1 = CAST(planvyroba0 AS integer) 
+	,user_byznys_cislo = (SELECT Max(dba.nomenklatura.user_byznys_cislo) FROM dba.nomenklatura WHERE nomenklatura.cislo_nomenklatury = v_opvvyrza.nomenklatura)
+	,user_cislo_prog = (SELECT Max(dba.nomenklatura.user_cislo_prog) FROM dba.nomenklatura WHERE nomenklatura.cislo_nomenklatury = v_opvvyrza.nomenklatura)
+	,user_cislo_vykresu = (SELECT Max(dba.nomenklatura.user_cislo_vykresu) FROM dba.nomenklatura WHERE nomenklatura.cislo_nomenklatury = v_opvvyrza.nomenklatura)
+	,user_kat_oznaceni = (SELECT Max(dba.nomenklatura.user_kat_oznaceni) FROM dba.nomenklatura WHERE nomenklatura.cislo_nomenklatury = v_opvvyrza.nomenklatura)
+    ,odp_oso_tvd = (SELECT usr_users.id_uzivatele FROM dba.op_zahlavi usr_op_zahlavi, dba.users usr_users WHERE usr_op_zahlavi.doklad = v_opvvyrza.zakazka AND usr_users.id_uzivatele = usr_op_zahlavi.user_odpov_oso)  
+
+FROM dba.v_opvvyrza	
+WHERE opv = (@input_opv)
+
+
+</SqlCommand>
+      </dba_v_opvvyrza>
+      <dba_v_opvoper Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>dba.v_opvoper</Alias>
+        <Columns isList="true" count="156">
+          <value>opv,System.String</value>
+          <value>polozka,System.Int32</value>
+          <value>plneni_planu,System.Byte</value>
+          <value>planvyroba,System.Decimal</value>
+          <value>planvyrobax,System.String</value>
+          <value>vevyrobe,System.String</value>
+          <value>odvedeno,System.Decimal</value>
+          <value>zmetky_0,System.String</value>
+          <value>zmetky_v,System.Decimal</value>
+          <value>zmetky_c,System.Decimal</value>
+          <value>zmetky_x,System.String</value>
+          <value>zmetky_x_p,System.String</value>
+          <value>ps_mnozstvi,System.String</value>
+          <value>ps_oceneni,System.String</value>
+          <value>inv_plan_ne,System.String</value>
+          <value>inv_plan_pred,System.String</value>
+          <value>inv_plan_nasl,System.String</value>
+          <value>prevop_vydej,System.String</value>
+          <value>prevop_prijem,System.String</value>
+          <value>kor_plan_pred,System.String</value>
+          <value>kor_plan_nasl,System.String</value>
+          <value>kor0_pred,System.String</value>
+          <value>kor0_nasl,System.String</value>
+          <value>doc_odv_rozdil,System.String</value>
+          <value>doc_odv_nasl,System.String</value>
+          <value>typ_operace,System.Int16</value>
+          <value>operace,System.String</value>
+          <value>zdroj,System.String</value>
+          <value>postup,System.Char</value>
+          <value>poradi,System.Int32</value>
+          <value>postup_pol,System.Int32</value>
+          <value>index_vyr,System.Int16</value>
+          <value>opvrodic,System.String</value>
+          <value>opvfinal,System.String</value>
+          <value>xplan,System.String</value>
+          <value>terminzac,System.DateTime</value>
+          <value>terminkon,System.DateTime</value>
+          <value>kapacita,System.String</value>
+          <value>kapacita_obs,System.Decimal</value>
+          <value>hospdavka,System.String</value>
+          <value>kj,System.String</value>
+          <value>tap,System.String</value>
+          <value>tas,System.String</value>
+          <value>davka_a,System.String</value>
+          <value>trida_ta,System.String</value>
+          <value>tbp,System.String</value>
+          <value>tbs,System.String</value>
+          <value>davka_b,System.String</value>
+          <value>trida_tb,System.String</value>
+          <value>predop,System.String</value>
+          <value>predop_k,System.Byte</value>
+          <value>poop,System.String</value>
+          <value>poop_k,System.Byte</value>
+          <value>davka_trans,System.String</value>
+          <value>doba_trans,System.String</value>
+          <value>prerus_oper,System.Byte</value>
+          <value>kooperdoba,System.Int32</value>
+          <value>davka_koop,System.String</value>
+          <value>cena_koop_za,System.Byte</value>
+          <value>cena_koop,System.String</value>
+          <value>koop_vstup,System.Byte</value>
+          <value>koop_vstup_pol,System.Int32</value>
+          <value>navaznost,System.Byte</value>
+          <value>pol_vystupu,System.Int32</value>
+          <value>plan_oper,System.Byte</value>
+          <value>vyhledani,System.Byte</value>
+          <value>kapacita_zmena,System.Byte</value>
+          <value>priprava_nasl,System.Byte</value>
+          <value>nahr_pol,System.Int32</value>
+          <value>hodin_poz,System.String</value>
+          <value>minut_poz,System.String</value>
+          <value>hodin_poz_obs,System.String</value>
+          <value>minut_poz_obs,System.String</value>
+          <value>hodin_nor,System.Double</value>
+          <value>minut_nor,System.Decimal</value>
+          <value>hodin_nor_obs,System.String</value>
+          <value>minut_nor_obs,System.Decimal</value>
+          <value>hodin_nor_ta,System.String</value>
+          <value>minut_nor_ta,System.String</value>
+          <value>hodin_nor_obs_ta,System.String</value>
+          <value>minut_nor_obs_ta,System.Decimal</value>
+          <value>hodin_nor_tb,System.String</value>
+          <value>minut_nor_tb,System.Decimal</value>
+          <value>hodin_nor_obs_tb,System.String</value>
+          <value>minut_nor_obs_tb,System.Decimal</value>
+          <value>naklady,System.String</value>
+          <value>nakl_stn,System.String</value>
+          <value>user_lpst,System.DateTime</value>
+          <value>nakl_mzd,System.Decimal</value>
+          <value>nakl_r1,System.String</value>
+          <value>nakl_r2,System.String</value>
+          <value>nakl_r3,System.String</value>
+          <value>nakl_r4,System.String</value>
+          <value>nakl_r5,System.String</value>
+          <value>nakl_r6,System.String</value>
+          <value>nakl_r7,System.String</value>
+          <value>nakl_r8,System.String</value>
+          <value>nakl_r9,System.String</value>
+          <value>nakl_r0,System.String</value>
+          <value>kod_ts,System.String</value>
+          <value>vazba_vc,System.Byte</value>
+          <value>nevykazane_operace,System.Byte</value>
+          <value>prub_doba_do_oper,System.Int32</value>
+          <value>operace_odm,System.Byte</value>
+          <value>zarazeno_odm,System.String</value>
+          <value>stav_odm,System.Byte</value>
+          <value>user_planvyroba,System.String</value>
+          <value>user_vevyrobe,System.String</value>
+          <value>user_odvedeno,System.String</value>
+          <value>neplan_trans,System.Byte</value>
+          <value>odkud_tarif,System.Byte</value>
+          <value>odkud_sazba,System.Byte</value>
+          <value>user_avgqueuetime,System.String</value>
+          <value>user_minqueuetime,System.String</value>
+          <value>user_stat_rozklad,System.Byte</value>
+          <value>user_por_st_rozk,System.Int32</value>
+          <value>user_pooperacni,System.String</value>
+          <value>user_fpcaupriority,System.String</value>
+          <value>user_fpcaopriority,System.String</value>
+          <value>user_pocet_paral_ope,System.Int32</value>
+          <value>user_vykres_operace,System.String</value>
+          <value>typpol,System.String</value>
+          <value>fiskalni_rok,System.String</value>
+          <value>odvstred,System.String</value>
+          <value>zamenitelnost,System.String</value>
+          <value>datumvykr,System.DateTime</value>
+          <value>datumnast,System.DateTime</value>
+          <value>vyrizeno_kl,System.Byte</value>
+          <value>datum_vyrizeno_kl,System.DateTime</value>
+          <value>autor,System.String</value>
+          <value>ts,System.DateTime</value>
+          <value>xcmd,System.String</value>
+          <value>xpravo,System.String</value>
+          <value>xattach,System.Byte</value>
+          <value>user_d_ter_zdroj,System.String</value>
+          <value>user_d_ter_osoba,System.String</value>
+          <value>user_d_ter_datum,System.DateTime</value>
+          <value>user_nasledujici_ope,System.String</value>
+          <value>poznamka,System.String</value>
+          <value>klic,System.String</value>
+          <value>popis,System.String</value>
+          <value>odm_doklad,System.String</value>
+          <value>id_poz,System.String</value>
+          <value>tarif,System.Decimal</value>
+          <value>kod_vazby,System.String</value>
+          <value>user_popis_kratky,System.String</value>
+          <value>nazev_nas_zdr,System.String</value>
+          <value>usr_nazev_zdr,System.String</value>
+          <value>usr_pracoviste,System.String</value>
+          <value>nas_pracoviste,System.String</value>
+          <value>usr_objednavka,System.String</value>
+          <value>nasl_operace,System.String</value>
+          <value>par_zkr_nazev,System.String</value>
+          <value>opv_objednavka,System.String</value>
+          <value>zdr_vazby_popis,System.String</value>
+          <value>user_text2,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>dba.v_opvoper</Name>
+        <NameInSource>serverSQL</NameInSource>
+        <Parameters isList="true" count="1">
+          <value>input_opv,pr_opv,22,16</value>
+        </Parameters>
+        <SqlCommand>SELECT * 
+	,odm_doklad = (SELECT MAX(v_odm_poz_pol.doklad) FROM dba.v_odm_poz_pol v_odm_poz_pol,dba.v_odm_poz_dkl v_odm_poz_dkl WHERE v_odm_poz_pol.opv=v_opvoper.opv AND v_odm_poz_pol.doklad&lt;&gt;'' AND v_odm_poz_pol.storno=0 AND v_odm_poz_dkl.doklad=v_odm_poz_pol.doklad AND v_odm_poz_dkl.storno=0)
+	,id_poz = (SELECT RIGHT('0000000000000000' + CAST (zp.id_poz AS varchar),16) FROM dba.zdr_poz zp WHERE zp.xplan=v_opvoper.xplan AND zp.doklad=v_opvoper.opv AND zp.polozka=v_opvoper.polozka)
+	,tarif = (SELECT zt.tarif FROM dba.zdr_tar zt WHERE zt.xplan=v_opvoper.xplan AND zt.trida=v_opvoper.trida_ta)
+	,kod_vazby = (SELECT zo.kod_vazby FROM dba.zdr_ope zo WHERE zo.xplan=(v_opvoper.xplan) AND  zo.operace=(v_opvoper.operace))
+	,user_popis_kratky = (SELECT zo.user_popis_kratky FROM dba.zdr_ope zo WHERE zo.xplan=(v_opvoper.xplan) AND  zo.operace=(v_opvoper.operace))
+	,nazev_nas_zdr = (SELECT dba.CMP_pruvodka_zdroj_prac((v_opvoper.opv), (v_opvoper.polozka), 'N'))
+    ,usr_nazev_zdr = (SELECT z.nazev FROM dba.zdr_zdr z WHERE z.xplan=(v_opvoper.xplan) AND z.zdroj=(v_opvoper.zdroj))
+    ,usr_pracoviste = (SELECT z.pracoviste FROM dba.zdr_zdr z WHERE z.xplan=(v_opvoper.xplan) AND z.zdroj=(v_opvoper.zdroj))
+	,nas_pracoviste = (SELECT dba.CMP_pruvodka_zdroj_prac((v_opvoper.opv), (v_opvoper.polozka), 'P'))
+	,usr_objednavka = (SELECT opz.objednavka FROM dba.op_zahlavi opz,dba.v_opv v_opv WHERE opz.doklad = v_opv.objednavka AND v_opv.opv = v_opvoper.opvfinal)
+	,nasl_operace = (SELECT dba.CMP_pruvodka_zdroj_prac((v_opvoper.opv),(v_opvoper.polozka), 'Z'))
+	,par_zkr_nazev = (SELECT parcis.zkraceny_nazev FROM dba.parcis parcis,dba.v_opv v_opv WHERE parcis.id_partnera = v_opv.id_partnera AND v_opv.opv = v_opvoper.opvfinal)
+	,opv_objednavka = (SELECT vo.objednavka FROM dba.v_opv vo WHERE vo.opv=v_opvoper.opvfinal)
+	,zdr_vazby_popis = (SELECT o.popis FROM dba.zdr_vazby_mzdy o WHERE o.xplan = (v_opvoper.xplan) AND o.kod_vazby = (SELECT zo.kod_vazby FROM dba.zdr_ope zo WHERE zo.xplan=v_opvoper.xplan AND  zo.operace=v_opvoper.operace))
+    ,user_text2 = (SELECT vop.user_text2 FROM dba.v_operace vop WHERE v_opvoper.postup=vop.postup AND v_opvoper.poradi=vop.poradi AND v_opvoper.polozka=vop.polozka)
+
+FROM dba.v_opvoper 
+WHERE opv = (@input_opv)
+</SqlCommand>
+      </dba_v_opvoper>
+      <dba_v_opvdil Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>dba.v_opvdil</Alias>
+        <Columns isList="true" count="64">
+          <value>id_nomen,System.String</value>
+          <value>opvrodic,System.String</value>
+          <value>opvfinal,System.String</value>
+          <value>opvdil,System.String</value>
+          <value>postup,System.String</value>
+          <value>poradi,System.Int32</value>
+          <value>index_vyr,System.Int16</value>
+          <value>postup_pol,System.Int32</value>
+          <value>xplan,System.String</value>
+          <value>predani,System.Byte</value>
+          <value>auto_sklad_v,System.Byte</value>
+          <value>nevydane_matpol,System.Byte</value>
+          <value>nepredane_pol,System.Byte</value>
+          <value>vazba_vc,System.Byte</value>
+          <value>autor,System.String</value>
+          <value>ts,System.DateTime</value>
+          <value>opv,System.String</value>
+          <value>polozka,System.Int32</value>
+          <value>dooper,System.Int32</value>
+          <value>planvyrobax,System.String</value>
+          <value>planvyroba0,System.String</value>
+          <value>planvyroba,System.Decimal</value>
+          <value>mezisklad,System.String</value>
+          <value>prevodem,System.String</value>
+          <value>korekce,System.String</value>
+          <value>doklad_zmt,System.String</value>
+          <value>postupdil,System.String</value>
+          <value>poradidil,System.Int32</value>
+          <value>index2_dil,System.Int16</value>
+          <value>polozka2_dil,System.Int32</value>
+          <value>sklad,System.String</value>
+          <value>nomenklatura,System.String</value>
+          <value>popis,System.String</value>
+          <value>kj,System.String</value>
+          <value>mnozstvi,System.Decimal</value>
+          <value>konst,System.Byte</value>
+          <value>konst_ks,System.String</value>
+          <value>nahr_pol,System.Int32</value>
+          <value>norminuty,System.String</value>
+          <value>rezminuty,System.String</value>
+          <value>norminuty_obs,System.String</value>
+          <value>rezminuty_obs,System.String</value>
+          <value>kooper,System.String</value>
+          <value>material,System.String</value>
+          <value>jedn_mzda,System.String</value>
+          <value>rez_mzda,System.String</value>
+          <value>strnakl,System.String</value>
+          <value>rn1,System.String</value>
+          <value>rn2,System.String</value>
+          <value>rn3,System.String</value>
+          <value>rn4,System.String</value>
+          <value>rn5,System.String</value>
+          <value>rn6,System.String</value>
+          <value>rn7,System.String</value>
+          <value>rn8,System.String</value>
+          <value>rn9,System.String</value>
+          <value>rn0,System.String</value>
+          <value>cena,System.String</value>
+          <value>user_mezisklad,System.String</value>
+          <value>poznamka,System.String</value>
+          <value>xcmd,System.String</value>
+          <value>xpravo,System.String</value>
+          <value>xattach,System.Byte</value>
+          <value>klic,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>dba.v_opvdil</Name>
+        <NameInSource>serverSQL</NameInSource>
+        <Parameters isList="true" count="1">
+          <value>input_opv,pr_opv,22,16</value>
+        </Parameters>
+        <SqlCommand>select * from dba.v_opvdil
+WHERE opv = (@input_opv)</SqlCommand>
+      </dba_v_opvdil>
+      <dba_v_opvmat Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>dba.v_opvmat</Alias>
+        <Columns isList="true" count="166">
+          <value>spotrhm_evid,System.Decimal</value>
+          <value>mj_evid,System.String</value>
+          <value>koefmjop,System.String</value>
+          <value>koefmjcen,System.String</value>
+          <value>operace_odm,System.Byte</value>
+          <value>typpol,System.String</value>
+          <value>rucni_cena_mat,System.String</value>
+          <value>opv,System.String</value>
+          <value>polozka,System.Int32</value>
+          <value>dooper,System.Int32</value>
+          <value>sklad,System.String</value>
+          <value>nomenklatura,System.String</value>
+          <value>atribut_1,System.String</value>
+          <value>atribut_2,System.String</value>
+          <value>atribut_3,System.String</value>
+          <value>baleni,System.String</value>
+          <value>popis,System.String</value>
+          <value>mj,System.String</value>
+          <value>planvyroba,System.String</value>
+          <value>zmetky_0,System.String</value>
+          <value>spotrhm,System.Decimal</value>
+          <value>hrubahm,System.String</value>
+          <value>cistahm,System.String</value>
+          <value>tnz,System.String</value>
+          <value>konst,System.Byte</value>
+          <value>konst_ks,System.String</value>
+          <value>cena,System.String</value>
+          <value>mjmtz,System.String</value>
+          <value>koefmj,System.String</value>
+          <value>nahr_pol,System.Int32</value>
+          <value>by_produkt,System.Byte</value>
+          <value>by_ponizit,System.Byte</value>
+          <value>auto_sklad,System.Int32</value>
+          <value>nevydane_matpol,System.Byte</value>
+          <value>vazba_vc,System.Byte</value>
+          <value>autor,System.String</value>
+          <value>ts,System.DateTime</value>
+          <value>tridaod,System.Int16</value>
+          <value>attr_pln_1,System.Byte</value>
+          <value>attr_pln_2,System.Byte</value>
+          <value>attr_pln_3,System.Byte</value>
+          <value>opvfinal,System.String</value>
+          <value>opvrodic,System.String</value>
+          <value>postup,System.String</value>
+          <value>poradi,System.Int32</value>
+          <value>index_vyr,System.Int16</value>
+          <value>postup_pol,System.Int32</value>
+          <value>naklady,System.String</value>
+          <value>nakl_mat,System.String</value>
+          <value>nakl_r1,System.String</value>
+          <value>nakl_r2,System.String</value>
+          <value>nakl_r3,System.String</value>
+          <value>nakl_r4,System.String</value>
+          <value>nakl_r5,System.String</value>
+          <value>nakl_r6,System.String</value>
+          <value>nakl_r7,System.String</value>
+          <value>nakl_r8,System.String</value>
+          <value>nakl_r9,System.String</value>
+          <value>nakl_r0,System.String</value>
+          <value>pozadovano,System.String</value>
+          <value>vydano,System.String</value>
+          <value>xplan,System.String</value>
+          <value>id_nomen,System.String</value>
+          <value>klic,System.String</value>
+          <value>xcmd,System.String</value>
+          <value>xpravo,System.String</value>
+          <value>xattach,System.Byte</value>
+          <value>poznamka,System.String</value>
+          <value>jaknorma,System.String</value>
+          <value>roznorma,System.String</value>
+          <value>id_karty,System.String</value>
+          <value>karta,System.String</value>
+          <value>typ,System.Byte</value>
+          <value>nazev,System.String</value>
+          <value>skupina_karet,System.String</value>
+          <value>sestava,System.Byte</value>
+          <value>pohyb_s,System.Byte</value>
+          <value>stav_ev,System.Decimal</value>
+          <value>stav_rt,System.Decimal</value>
+          <value>disp_stav,System.Decimal</value>
+          <value>min_stav,System.Decimal</value>
+          <value>max_stav,System.Decimal</value>
+          <value>nerez_stav,System.Decimal</value>
+          <value>min_stav_a,System.Decimal</value>
+          <value>max_stav_a,System.Decimal</value>
+          <value>prum_cena,System.Decimal</value>
+          <value>pevna_cena,System.Decimal</value>
+          <value>posl_cena,System.Decimal</value>
+          <value>id_meny,System.String</value>
+          <value>lze_minus,System.Byte</value>
+          <value>lze_minus_rt,System.Byte</value>
+          <value>typ_atributu,System.String</value>
+          <value>attr_lze_minus,System.Byte</value>
+          <value>attr_lze_minus_rt,System.Byte</value>
+          <value>id_mj_evid,System.String</value>
+          <value>id_mj_p,System.String</value>
+          <value>id_mj_v,System.String</value>
+          <value>id_mj_op,System.String</value>
+          <value>id_mj_ov,System.String</value>
+          <value>id_mj_vyr,System.String</value>
+          <value>id_mj_exp,System.String</value>
+          <value>lze_naklady,System.Byte</value>
+          <value>zahrnout_do_sn,System.Byte</value>
+          <value>cena_por_celkem,System.Decimal</value>
+          <value>fifo_konec,System.Int32</value>
+          <value>platnost,System.Byte</value>
+          <value>lze_prijem,System.Byte</value>
+          <value>lze_vydej,System.Byte</value>
+          <value>slevnit,System.Byte</value>
+          <value>stav_rt2,System.Decimal</value>
+          <value>id_mj_evid2,System.String</value>
+          <value>doklad_inv,System.String</value>
+          <value>datum_inv,System.DateTime</value>
+          <value>stratne,System.Decimal</value>
+          <value>zpusob_kontroly,System.Byte</value>
+          <value>max_odchylka,System.Decimal</value>
+          <value>umisteni,System.String</value>
+          <value>umisteni_nahr,System.String</value>
+          <value>vypocet_vyskl,System.Byte</value>
+          <value>zaruka_v,System.Byte</value>
+          <value>zaruka,System.Byte</value>
+          <value>lhuta_vyskl,System.Byte</value>
+          <value>dat_prijem,System.Byte</value>
+          <value>id_dodavatele,System.String</value>
+          <value>id_dodavatele_ext,System.String</value>
+          <value>delka_dodani,System.Int16</value>
+          <value>sn,System.Decimal</value>
+          <value>objednano_n,System.Decimal</value>
+          <value>objednano_b,System.Decimal</value>
+          <value>objednano,System.Decimal</value>
+          <value>blokace,System.Decimal</value>
+          <value>rezervace,System.Decimal</value>
+          <value>objednano_v,System.Decimal</value>
+          <value>objednano_v_n,System.Decimal</value>
+          <value>vpr_sum,System.Decimal</value>
+          <value>vpr_sum_rez,System.Decimal</value>
+          <value>obj_p_skl,System.Decimal</value>
+          <value>obj_p_vpr,System.Decimal</value>
+          <value>obj_p_ov,System.Decimal</value>
+          <value>obj_p_nev,System.Decimal</value>
+          <value>vkladat_nulove_dily,System.Byte</value>
+          <value>typ_skladu,System.Byte</value>
+          <value>virt_sklad,System.String</value>
+          <value>pozadavky,System.Byte</value>
+          <value>plan_mat,System.Byte</value>
+          <value>rozliseni,System.String</value>
+          <value>kombinace_atr,System.Byte</value>
+          <value>user_kat_oznaceni,System.String</value>
+          <value>user_navys_fak_hod,System.Decimal</value>
+          <value>min_mnozstvi_op,System.Decimal</value>
+          <value>min_mnozstvi_ov,System.Decimal</value>
+          <value>ocen_vratky,System.Byte</value>
+          <value>posl_cena_datum,System.DateTime</value>
+          <value>posl_cena_id_modulu,System.String</value>
+          <value>posl_cena_agenda,System.String</value>
+          <value>posl_cena_doklad,System.String</value>
+          <value>posl_cena_polozka,System.Int32</value>
+          <value>user_procurementtime,System.Decimal</value>
+          <value>datum_uzav_inv,System.DateTime</value>
+          <value>user_pref_odber,System.Byte</value>
+          <value>user_odberatel,System.String</value>
+          <value>user_znaceni_kanban,System.String</value>
+          <value>user_mjbal_dod,System.Decimal</value>
+          <value>user_klt_box,System.Byte</value>
+          <value>user_kategorie,System.Byte</value>
+          <value>user_lokace,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>dba.v_opvmat</Name>
+        <NameInSource>serverSQL</NameInSource>
+        <Parameters isList="true" count="1">
+          <value>input_opv,pr_opv,22,16</value>
+        </Parameters>
+        <SqlCommand>SELECT * 
+FROM dba.v_opvmat,dba.karty
+WHERE opv = (@input_opv)
+AND karty.id_karty=v_opvmat.id_nomen
+AND karty.sklad=v_opvmat.sklad</SqlCommand>
+      </dba_v_opvmat>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="1">
+      <value>,pr_opv,pr_opv,,System.String,,False,False,True,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV1</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="11">
+        <HeaderBand1 Ref="8" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4,200.1,58</ClientRectangle>
+          <Components isList="true" count="61">
+            <Text22 Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1,1,68,6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,15.2,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>PRŮVODNÍ LIST VÝROBKU</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text22>
+            <h_addtext_2 Ref="10" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.6,28.99,20.21,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>f2e4a5646d324790a1acfd89cb0aec04</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Postup TPV:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_2>
+            <h_addtext_8 Ref="11" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>2.13,14.63,19.68,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>c0f073b3584649c686a55960c336a11a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_8</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Č. výkresu:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_8>
+            <h_addtext_9 Ref="12" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>2.13,9.04,19.68,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>65e002c950d64320ab12d5ee031c1a6a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_9</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Zak. postup:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_9>
+            <h_addtext_3 Ref="13" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>2.13,19.41,19.68,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>bc3d1053efe844e9ba671de043593366</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Č.programu:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_3>
+            <h_byznys_cislo_sel_t Ref="14" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.53,24.02,21.28,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>ce65cc88563c40f48aee818890ba1b41</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_byznys_cislo_sel_t</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Byznys číslo:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_byznys_cislo_sel_t>
+            <h_planvyroba0_v_opvvyrza_0_1 Ref="15" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>117.29,9.04,29.5,5.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10.45,Bold</Font>
+              <Guid>1b90919117b946f2bded0346ce44d291</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_planvyroba0_v_opvvyrza_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Plán požadovaný:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_planvyroba0_v_opvvyrza_0_1>
+            <h_addtext_7 Ref="16" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>114.63,0,26.86,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>ada0e70104784e0bb525af82e363809a</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_7</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Datum/čas tisku:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_7>
+            <h_addtext_10 Ref="17" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>117.29,20,21.54,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>4b5ce4e513374259b16c2cf9e66fe03a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_10</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Doklad OP:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_addtext_10>
+            <h_planvyroba_v_opvvyrza_0_2 Ref="18" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>117.29,16,21.54,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>0e3933a33b0847ef8a4c72924f721038</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_planvyroba_v_opvvyrza_0_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Dodací místo:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_planvyroba_v_opvvyrza_0_2>
+            <h_planvyroba_v_opvvyrza_0_3 Ref="19" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>115.43,24,23.4,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>a66fe16011d748ce8d0ca0d2a81441a0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_planvyroba_v_opvvyrza_0_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Obj.zákazníka:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </h_planvyroba_v_opvvyrza_0_3>
+            <h_planvyroba_v_opvvyrza_0_4 Ref="20" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>117.29,30,21.54,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>6bc768b22f31425b87adfd23517fdf60</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_planvyroba_v_opvvyrza_0_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Šarže plechu:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_planvyroba_v_opvvyrza_0_4>
+            <h_addtext_15 Ref="21" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>184.31,8.78,6.12,6.12</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,13.3,Bold</Font>
+              <Guid>37eabd4701634b779177da002c7b5f75</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_15</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Ks</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_15>
+            <h_addtext_14 Ref="22" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>114.63,4,14.43,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>89e3eb0f8dea46368505267bf74928c7</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_14</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Vytiskl/a:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_14>
+            <h_addtext_11 Ref="23" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.6,39.63,23.14,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>3ed3709c5300472f8ee26220a51e9538</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_11</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Kat. označení:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_11>
+            <h_addtext_4 Ref="24" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>73.14,39.63,20.21,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5</Font>
+              <Guid>e46e02014f7f434e88192673e34c4b8b</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Atribut barva:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+            </h_addtext_4>
+            <h_typ_operace_v_operace_0_1 Ref="25" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.33,49.47,22.07,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>33bab2ebd4584f66a02a2799b6e52b38</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_typ_operace_v_operace_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Název operace</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_typ_operace_v_operace_0_1>
+            <h_operace_v_operace_0_1 Ref="26" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.33,53.46,12.23,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>d2dab8362bfc49b09b475c40f5880b0f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_operace_v_operace_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Operace</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_operace_v_operace_0_1>
+            <h_zdroj_v_operace_0_2 Ref="27" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>14.63,45.21,22.07,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>5046dcb1606142da9474eb39bbddd140</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_zdroj_v_operace_0_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Popis</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_zdroj_v_operace_0_2>
+            <h_addtext_6 Ref="28" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.33,45.21,5.32,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>a4f34cf7696a4fb2b91770501b1cf1bd</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Pol.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_6>
+            <h_zdroj_v_operace_0_3 Ref="29" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>50,53.46,19.15,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>82e2fae57a5d4d84b7200808ab1bc670</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_zdroj_v_operace_0_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Nasled. zdroj</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_zdroj_v_operace_0_3>
+            <h_zdroj_v_operace_0_5 Ref="30" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>17.55,49.47,27.66,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>d39267b5543c42adad64c599a4796437</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_zdroj_v_operace_0_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Pracoviště</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_zdroj_v_operace_0_5>
+            <h_zdroj_v_operace_0_1 Ref="31" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>51.06,49.47,18.09,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>bb7d83f7200d468abb3bf0d1343c87f8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_zdroj_v_operace_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Zdroj</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_zdroj_v_operace_0_1>
+            <h_kapacita_v_operace_0_1 Ref="32" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>149.47,45.21,18.09,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>1706231bb8714fc9a29a24870eca6dfe</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_v_operace_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Minuty/ks</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_v_operace_0_1>
+            <h_kapacita_obs_v_operace_0_1 Ref="33" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>149.73,49.2,17.82,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>b170acda4fef4c67bd3f6876378d081f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_obs_v_operace_0_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Čas(hod)</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_obs_v_operace_0_1>
+            <h_addtext_5 Ref="34" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>168.62,45.21,21.81,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>cfe2e4b8a3164ad18c3b3565406ae0f1</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Třída</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_5>
+            <h_addtext_13 Ref="35" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>147.07,53.46,21.81,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>3fccd3f0b6294df5a874af7facae0c3e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_13</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Druh mzdy</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_13>
+            <h_kapacita_v_operace_0_2 Ref="36" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>127.13,53.46,18.09,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>c0a61a3b73ca4bd1b40ea70f07d88702</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_v_operace_0_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Počet obsl.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_v_operace_0_2>
+            <h_kapacita_v_operace_0_3 Ref="37" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>124.2,45.21,23.67,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>e5b49b1a14da40f8bdd1f86f7614d620</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_v_operace_0_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Norma/ks (min.)</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_v_operace_0_3>
+            <h_kapacita_obs_v_operace_0_2 Ref="38" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>124.2,49.2,23.67,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>9e6ff574f8014874b37e31b059897224</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_obs_v_operace_0_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Příprava (min.)</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_obs_v_operace_0_2>
+            <h_kapacita_obs_v_operace_0_3 Ref="39" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>168.62,53.46,21.81,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>c73dab78f290451d83a1d8cd2c82689a</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kapacita_obs_v_operace_0_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Sazba*plán (Kč)</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_kapacita_obs_v_operace_0_3>
+            <Text23 Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>23.94,8.67,38.56,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.opv}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="41" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>21.62,14.63,90.38,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.user_cislo_vykresu}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text28 Ref="42" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>23.94,28.99,38.56,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.postup}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text28>
+            <Text30 Ref="43" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>186,0,6,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{PageNumber + "/" + TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text30>
+            <Text31 Ref="44" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>76.33,2,36,6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,13,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.sklad}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="45" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>72.63,34.57,42.08,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>Karta:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text32>
+            <Text33 Ref="46" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>94,34.57,22,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.nomenklatura}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text33>
+            <Text34 Ref="47" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>94.68,39.63,40.96,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.atribut_1}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text34>
+            <Text18 Ref="48" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>174,0,12,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>Strana:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text18>
+            <h_cislo_programu_sel Ref="49" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>23.94,19.41,38.56,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>b5fc87343bfa4572af8884a30be8d50f</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_cislo_programu_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvvyrza.user_cislo_prog}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </h_cislo_programu_sel>
+            <h_byznys_cislo_sel Ref="50" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>23.94,24.02,38.56,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>f619c942c2ba400bbbbecbb02a12cb7c</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_byznys_cislo_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvvyrza.user_byznys_cislo}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>DataColumn</Type>
+            </h_byznys_cislo_sel>
+            <h_objednavka_sel Ref="51" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>139.1,20,51.76,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>53705d7548164b7d841f0e09bb2d28ab</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_objednavka_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvoper.opv_objednavka}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </h_objednavka_sel>
+            <h_par_zkr_nazev_sel Ref="52" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>139.1,16,54.52,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>9a2730c15044446f99dc546e9ff0c114</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_par_zkr_nazev_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvoper.par_zkr_nazev}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </h_par_zkr_nazev_sel>
+            <h_objed_odb_sel Ref="53" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>139.1,24,51.76,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>4abb5412ec5c469480dacdc98051771c</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_objed_odb_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvoper.usr_objednavka}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </h_objed_odb_sel>
+            <h_kat_oznaceni_sel Ref="54" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>25.53,39.63,46.54,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>4719b38f26e44e4dad0a9fc98101c34c</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_kat_oznaceni_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvvyrza.user_kat_oznaceni}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+            </h_kat_oznaceni_sel>
+            <h_addcompc_7 Ref="55" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="56" type="Stimulsoft.Report.BarCodes.StiCode39BarCodeType" isKey="true">
+                <CheckSum>No</CheckSum>
+                <Module>10</Module>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>1.35,34.32,70.79,4.52</ClientRectangle>
+              <Code>{dba_v_opvvyrza.nomenklatura}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>5fc0ef2088024b82ba2066441714e6b0</Guid>
+              <Name>h_addcompc_7</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </h_addcompc_7>
+            <Text1 Ref="57" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>115.96,34.57,74.47,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.popis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <h_addcompc_6 Ref="58" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>129.59,4,23.2,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>58ba01915b414b8cbf2bdd89b82a015b</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addcompc_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{"Operator"  }</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+            </h_addcompc_6>
+            <Text2 Ref="59" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>148,9.04,12,6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,11,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.planvyroba0}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="60" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <h_addcompc_5 Ref="61" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="62" type="Stimulsoft.Report.BarCodes.StiEAN128AutoBarCodeType" isKey="true">
+                <Height>0.5</Height>
+                <Module>10</Module>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>37.16,28.74,79.77,4.52</ClientRectangle>
+              <Code>{dba_v_opvvyrza.postup}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.75,Bold,Point,False,238</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>58cabde7f6af449fbbe16dc7ed12b78e</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Name>h_addcompc_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </h_addcompc_5>
+            <h_addcompc_10 Ref="63" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="64" type="Stimulsoft.Report.BarCodes.StiCode128AutoBarCodeType" isKey="true">
+                <Module>10</Module>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>136.05,39.38,55.04,4.26</ClientRectangle>
+              <Code>{dba_v_opvvyrza.atribut_1}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>4c9f0aa3734c4c328e3122877327f68f</Guid>
+              <Name>h_addcompc_10</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </h_addcompc_10>
+            <Text8 Ref="65" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>168.62,49.47,21.81,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>Sazba / ks (Kč)</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text8>
+            <Text9 Ref="66" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.55,53.46,27.66,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>Násled. pracovište</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text9>
+            <Text10 Ref="67" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>142.55,0,30,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{Today}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text10>
+            <Text7 Ref="68" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>154,4,12,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>Odp.os.:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text7>
+            <Text11 Ref="69" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>170,4,22,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Text>{dba_v_opvvyrza.odp_oso_tvd}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text11>
+            <BarCode2 Ref="70" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="71" type="Stimulsoft.Report.BarCodes.StiEAN128AutoBarCodeType" isKey="true">
+                <Height>0.5</Height>
+                <Module>10</Module>
+              </BarCodeType>
+              <ClientRectangle>52.05,9.04,64.75,4.52</ClientRectangle>
+              <Code>{dba_v_opvvyrza.opv}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,6,Regular,Point,False,238</Font>
+              <ForeColor>Black</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Name>BarCode2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </BarCode2>
+            <BarCode3 Ref="72" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="73" type="Stimulsoft.Report.BarCodes.StiCode128cBarCodeType" isKey="true">
+                <Height>0.5</Height>
+                <Module>9.84</Module>
+              </BarCodeType>
+              <ClientRectangle>154,8,28,8</ClientRectangle>
+              <Code>{dba_v_opvvyrza.planvyroba1}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Name>BarCode3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </BarCode3>
+            <EndPointPrimitive1 Ref="74" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>70,8,0,0</ClientRectangle>
+              <Name>EndPointPrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>aa85974f6f0c49c088e80ece9e956f5b</ReferenceToGuid>
+            </EndPointPrimitive1>
+            <StartPointPrimitive1 Ref="75" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0,0,0</ClientRectangle>
+              <Name>StartPointPrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>aa85974f6f0c49c088e80ece9e956f5b</ReferenceToGuid>
+            </StartPointPrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </HeaderBand1>
+        <DataBand1 Ref="76" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,70,200.1,53</ClientRectangle>
+          <Components isList="true" count="52">
+            <addbox_4 Ref="77" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.27,28.99,46.81,6.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>d025bcdb43cd474f91927f5be5cffda2</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_4>
+            <addbox_5 Ref="78" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>47.34,28.99,46.81,6.85</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>7c30813d4edd4e0a8ce09a97fc777f24</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_5>
+            <addbox_6 Ref="79" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>94.41,28.99,95.74,6.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>e008e8d342bf48b58cd86637ca7a1157</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_6>
+            <addbox_1 Ref="80" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.27,35.9,46.81,6.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>1754167428da49a586c72de9fb680250</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_1>
+            <addbox_2 Ref="81" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>47.34,35.9,46.81,6.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>20fc4d973ce148f79a8844d93e0786c8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_2>
+            <addbox_3 Ref="82" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>94.41,35.9,95.74,6.65</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>7a3341c5e98e48af8568237c8414118f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addbox_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addbox_3>
+            <addtext_1 Ref="83" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.06,30.32,29.79,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>43e5aec1a73f4487ba0d05a9c32f5944</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Datum:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_1>
+            <addtext_2 Ref="84" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.06,36.97,29.79,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>7fc1e4556b5545deaac017acbc287f0b</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Skladové místo:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_2>
+            <addtext_3 Ref="85" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>48.14,30.32,29.79,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>ee55e9de8aa748c3ab3e00450561a9f6</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Os.číslo:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_3>
+            <addtext_4 Ref="86" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>48.14,36.97,29.79,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>cbdf423ac2fb4f47b6d109189d261348</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Kontrola:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_4>
+            <addcompn_2 Ref="87" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>105.85,29.26,13.3,5.85</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,11,Bold</Font>
+              <Guid>3f3d3962dc734ce9b1b25dc479ea6e6b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addcompn_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.planvyroba}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="88" type="CustomFormat" isKey="true">
+                <StringFormat>###,###</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </addcompn_2>
+            <addtext_5 Ref="89" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>95.48,30.32,8.24,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>32843e290001415eaf15ce515040a318</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Plán:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_5>
+            <addtext_6 Ref="90" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>95.48,36.97,18.09,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>501bc0f316e84525a364da252914d436</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Počet zmetků:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_6>
+            <addtext_7 Ref="91" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>132.98,30.32,32.45,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>19cead98176148dbaf7fde08459e4765</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_7</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>/ Hotovo:                        /</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_7>
+            <addtext_8 Ref="92" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.27,47.61,190.69,5.05</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,19</Font>
+              <Guid>b852695034884da4a5c4e8c981ac0441</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_8</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>* * * * *</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </addtext_8>
+            <odvedeno_v_opvoper_0 Ref="93" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>147.07,30.32,13.3,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>d1aed2a3e22b4c19ac20e89de902c38f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>odvedeno_v_opvoper_0</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.odvedeno}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="94" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </odvedeno_v_opvoper_0>
+            <addcompn_4 Ref="95" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>114.89,36.97,29.79,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>1404e39df86645a1b59898ce23c65df6</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addcompn_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.zmetky_v  + dba_v_opvoper.zmetky_c   }</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="96" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </addcompn_4>
+            <addtext_9 Ref="97" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.27,43.35,56.12,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>f2a07609af1a42c999101c36fb907a46</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_9</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Čárový kód zdroje pro skupinové odvádění:</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_9>
+            <Text35 Ref="98" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.33,0.8,15.16,4.52</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.polozka}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text35>
+            <Text36 Ref="99" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.63,0.8,105.59,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.popis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text36>
+            <Text37 Ref="100" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>125,1.06,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.minut_nor_obs_ta}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="101" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="102" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>147.07,1.06,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.minut_nor_obs}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="103" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text39 Ref="104" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>169.15,1.06,20.48,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.trida_ta}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text40 Ref="105" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>124.73,5.59,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.minut_nor_obs_tb * dba_v_opvoper.planvyroba}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="106" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 Ref="107" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>147.07,5.59,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.planvyroba * dba_v_opvoper.minut_nor_tb}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="108" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="109" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>124.73,9.84,20.48,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.kapacita_obs}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="110" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="111" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>46.54,5.59,22.61,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.zdroj}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text44 Ref="112" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.33,9.84,15.16,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.operace}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="113" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.27,14.36,192.55,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <Text>{dba_v_opvoper.poznamka}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text45>
+            <text2_sel Ref="114" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.29,19.12,192.55,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>1481e22c95574e57b90090883021a295</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>text2_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.user_text2}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </text2_sel>
+            <user_popis_kratky_sel Ref="115" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>1.33,5.59,23,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>20da1327ecd3423b819b6a3805c7f777</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>user_popis_kratky_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvoper.user_popis_kratky}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </user_popis_kratky_sel>
+            <pracoviste_sel Ref="116" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>31.38,5.59,13.83,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>b2f84c31b1314f0eb6e3651de9bc2ec1</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>pracoviste_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.usr_pracoviste}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </pracoviste_sel>
+            <nas_pracoviste_sel Ref="117" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>23.94,9.84,21.28,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>92d9f59306a04010af0a0349ee5ae80e</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>nas_pracoviste_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.nas_pracoviste}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </nas_pracoviste_sel>
+            <nasl_oper_sel Ref="118" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>46.54,9.84,22.61,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>12d127da9d7440179b137bfbe151e8f7</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>nasl_oper_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.nasl_operace}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </nasl_oper_sel>
+            <nazev_zdr_sel Ref="119" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>70.78,5.59,52.39,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>95c2cfbac1e84ce487380c79d8187db7</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>nazev_zdr_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.usr_nazev_zdr}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </nazev_zdr_sel>
+            <nazev_nas_zdr_sel Ref="120" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>70.48,9.84,52.13,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>9c143d2614fd41b8841c61ec7311e2e8</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>nazev_nas_zdr_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{dba_v_opvoper.nazev_nas_zdr}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </nazev_nas_zdr_sel>
+            <popis_mzda_sel Ref="121" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>146.81,9.84,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>92e7480c99ef468e828295e7cba4bcff</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>popis_mzda_sel</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{dba_v_opvoper.zdr_vazby_popis}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </popis_mzda_sel>
+            <addcompn_6 Ref="122" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>169.15,5.59,20.48,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>837d1a41b451465abe02f4d5d03df073</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addcompn_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{(dba_v_opvoper.kod_vazby == "120"   || dba_v_opvoper.kod_vazby  == "120P"    )          
+? (0m  ) : 
+(
+
+(dba_v_opvoper.kod_vazby  == "140"   || dba_v_opvoper.kod_vazby  == "140P"    )         
+? (((dba_v_opvoper.minut_nor / 60m ) * dba_v_opvoper.tarif ) *  dba_v_opvoper.kapacita_obs    ) 
+: (dba_v_opvoper.nakl_mzd *  dba_v_opvoper.kapacita_obs)
+)    }</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="123" type="CustomFormat" isKey="true">
+                <StringFormat>###,###,###,##0.00</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </addcompn_6>
+            <addcompn_3 Ref="124" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>169.41,9.84,20.48,3.46</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>dc395864afda469fa377626a830575ef</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addcompn_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>None</ShiftMode>
+              <Text>{(dba_v_opvoper.kod_vazby  == "140"   || dba_v_opvoper.kod_vazby == "140P"    ) ? (((dba_v_opvoper.minut_nor / 60m   )   * dba_v_opvoper.tarif) * dba_v_opvoper.kapacita_obs * dba_v_opvoper.planvyroba  ) : (0m  )     }</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="125" type="CustomFormat" isKey="true">
+                <StringFormat>###,###,###,##0.00</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </addcompn_3>
+            <addcompc_3 Ref="126" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.53,22.87,30.59,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>e54f7ece1555416b86eadeb6364d9692</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addcompc_3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>{(((dba_v_opvoper.operace_odm  == 0m   || (dba_v_opvoper.operace_odm   == 1m    &amp;&amp; dba_v_opvoper.odm_doklad == ""     )     )   ) ? ("1"  + dba_v_opvoper.id_poz) : (" "  ))  }</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </addcompc_3>
+            <addcompc_1 Ref="127" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="128" type="Stimulsoft.Report.BarCodes.StiEAN128cBarCodeType" isKey="true">
+                <Module>10</Module>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>32,22,94,6</ClientRectangle>
+              <Code>{(((dba_v_opvoper.operace_odm  == 0m   || (dba_v_opvoper.operace_odm   == 1m    &amp;&amp; dba_v_opvoper.odm_doklad == ""     )     )   ) ? ("1"  + dba_v_opvoper.id_poz) : (" "  ))  }</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>6101e5481cb044c2903213c487164764</Guid>
+              <Name>addcompc_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </addcompc_1>
+            <addtext_10 Ref="129" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>125,22.32,21.54,5.85</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,6.65</Font>
+              <Guid>3853630748864642ab1309d8818fa2aa</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>addtext_10</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <Text>Čárový kód
+ umístění</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </addtext_10>
+            <addcompc_6 Ref="130" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="131" type="Stimulsoft.Report.BarCodes.StiCode128cBarCodeType" isKey="true">
+                <Module>10</Module>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>130.04,22.08,60.22,5.85</ClientRectangle>
+              <Code>{"1" + dba_v_opvoper.id_poz}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>afa311650031456d95d8ea1041b902e8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Name>addcompc_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </addcompc_6>
+            <addcompc_4 Ref="132" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="133" type="Stimulsoft.Report.BarCodes.StiCode39BarCodeType" isKey="true">
+                <CheckSum>No</CheckSum>
+              </BarCodeType>
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <ClientRectangle>57.02,43.35,78.14,3.99</ClientRectangle>
+              <Code>{dba_v_opvoper.zdroj}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>f6b5e02da11a42c78801c9711b351ea7</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Name>addcompc_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ShiftMode>IncreasingSize, DecreasingSize</ShiftMode>
+              <ShowLabelText>False</ShowLabelText>
+              <ShowQuietZones>False</ShowQuietZones>
+            </addcompc_4>
+            <StartPointPrimitive2 Ref="134" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0.27,0,0,0</ClientRectangle>
+              <Name>StartPointPrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>efce60f282ce427ca8f407768889a883</ReferenceToGuid>
+            </StartPointPrimitive2>
+            <EndPointPrimitive2 Ref="135" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>190.96,13.83,0,0</ClientRectangle>
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>efce60f282ce427ca8f407768889a883</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <StartPointPrimitive3 Ref="136" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>123.4,0,0,0</ClientRectangle>
+              <Name>StartPointPrimitive3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>002fcc89b2fe4407a659707f6e2e3332</ReferenceToGuid>
+            </StartPointPrimitive3>
+            <EndPointPrimitive3 Ref="137" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>123.4,13.83,0,0</ClientRectangle>
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>002fcc89b2fe4407a659707f6e2e3332</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <StartPointPrimitive4 Ref="138" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>145.74,0,0,0</ClientRectangle>
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>0ae1841467bd4f7d87744caa96719642</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <EndPointPrimitive4 Ref="139" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>145.74,13.83,0,0</ClientRectangle>
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>0ae1841467bd4f7d87744caa96719642</ReferenceToGuid>
+            </EndPointPrimitive4>
+            <StartPointPrimitive5 Ref="140" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>167.82,0,0,0</ClientRectangle>
+              <Name>StartPointPrimitive5</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>bd20d7f4432041f2b3e7b6483f4c0393</ReferenceToGuid>
+            </StartPointPrimitive5>
+            <EndPointPrimitive5 Ref="141" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>167.82,13.83,0,0</ClientRectangle>
+              <Name>EndPointPrimitive5</Name>
+              <Page isRef="7" />
+              <Parent isRef="76" />
+              <ReferenceToGuid>bd20d7f4432041f2b3e7b6483f4c0393</ReferenceToGuid>
+            </EndPointPrimitive5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>dba.v_opvoper</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <HeaderBand2 Ref="142" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,131,200.1,9</ClientRectangle>
+          <Components isList="true" count="9">
+            <h1_addtext_5 Ref="143" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.53,0,21.8,4.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9.5,Bold</Font>
+              <Guid>de519d5d62c046a38b8ced31a986b6b8</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_5</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Polotovary</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_5>
+            <h1_addtext_7 Ref="144" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>160.68,4.26,11.28,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>47776ac777284bb985755a734bc4ff2a</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_7</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Sklad</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_7>
+            <h1_addtext_8 Ref="145" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>105.69,4.26,36.39,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>980ae4a0ea5748f0a3af4288bb1413d5</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_8</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Název polotovaru</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_8>
+            <h1_addtext_9 Ref="146" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>7.98,4.26,30.82,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>dc8fb3f18ce64354afedda32f9708aa3</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_9</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Nomenklatura</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_9>
+            <h1_addtext_1 Ref="147" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>172.95,4.55,12.23,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>5daa97d24021422887d63a41f1aee17e</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>k Výdeji</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_1>
+            <h1_addtext_2 Ref="148" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.33,4.26,5.85,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>0603c945da48477da5c2c061ba4acc2f</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_2</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Op.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_2>
+            <h1_addtext_4 Ref="149" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>143.4,4.26,16.01,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>f4b87d1aa40d4cbda22d8289e1cc766d</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_4</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Množ.jednic.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_4>
+            <h1_addtext_6 Ref="150" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>186.7,4.26,4.52,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>32ca578a55024613975a5992605b7708</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h1_addtext_6</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <ShiftMode>None</ShiftMode>
+              <Text>MJ</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h1_addtext_6>
+            <HorizontalLinePrimitive2 Ref="151" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.53,8.24,190.43,0.254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="152" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="142" />
+              <Size>2</Size>
+              <StartCap Ref="153" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </HeaderBand2>
+        <DataBand2 Ref="154" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,148,200.1,6</ClientRectangle>
+          <Components isList="true" count="8">
+            <Text13 Ref="155" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.33,0,5.85,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.dooper}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text13>
+            <Text12 Ref="156" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.24,0,30.68,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.nomenklatura}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text12>
+            <Text14 Ref="157" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>105.69,0.27,36.75,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.popis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text14>
+            <Text16 Ref="158" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>143.38,0.29,15.9,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.mnozstvi}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="159" type="CustomFormat" isKey="true">
+                <StringFormat>###,###,###,##0.00</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text16>
+            <Text17 Ref="160" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>160.37,0.27,11.7,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.sklad}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text17>
+            <Text19 Ref="161" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>186.7,0.27,8.38,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.kj}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text19>
+            <Text54 Ref="162" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>173.24,0.27,12.23,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <Text>{dba_v_opvdil.mnozstvi * dba_v_opvdil.planvyroba}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="163" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text54>
+            <HorizontalLinePrimitive1 Ref="164" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.53,4.52,190.43,0.254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="165" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="154" />
+              <StartCap Ref="166" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>dba.v_opvdil</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <HeaderBand3 Ref="167" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,162,200.1,9</ClientRectangle>
+          <Components isList="true" count="10">
+            <Text15 Ref="168" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>136.97,4.26,18.35,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>fa038070f05746e79872cf89dacc35fc</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Množ.jendic.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text15>
+            <Text20 Ref="169" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>0.8,0,16.76,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8.55,Bold</Font>
+              <Guid>7725ede127e844c88bee0d3da50f451f</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>MATERIÁL</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text20>
+            <Text21 Ref="170" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>157.45,4.26,11.7,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>b2788b49f0b94c59a2ad6bd3d7f6bd6a</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Sklad</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text21>
+            <Text25 Ref="171" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>44.68,4.26,52.66,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>fda370d2ba9449d2b6ebd33cbe10cdce</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Název materiálu</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text25>
+            <Text26 Ref="172" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>8.51,4.26,21.81,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>3e7d70d6a4bd4b4da59842a0ca07655e</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Nomenklatura</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text26>
+            <h_addline_1 Ref="173" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:0:0]</Brush>
+              <ClientRectangle>0,7.71,190.43,0.53</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Guid>e7d4bf43a7014af3a3404386c982a6c4</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addline_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addline_1>
+            <Text27 Ref="174" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>1.6,4.26,5.85,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>b0b506cdbbbf4c49a393727e5d652f3a</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Op.</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text27>
+            <h_addtext_1 Ref="175" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>102.66,4.26,33.51,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>638e27cceea64737b8d84e98e7dd7f05</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>h_addtext_1</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>Rozměr</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </h_addtext_1>
+            <Text29 Ref="176" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>172.07,4.26,12.23,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>e142d4be89a042938ead468adaeea2cb</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>k Výdeji</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text29>
+            <Text46 Ref="177" type="Text" isKey="true">
+              <Border>None;Transparent;0;Solid;False;0;Transparent</Border>
+              <Brush>[0:255:255:255]</Brush>
+              <ClientRectangle>186.7,4.26,4.52,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6,Bold</Font>
+              <Guid>5bce6384823f45f8a3633dd0826c6860</Guid>
+              <Margins>-1,-1,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="7" />
+              <Parent isRef="167" />
+              <ShiftMode>None</ShiftMode>
+              <Text>MJ</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text46>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </HeaderBand3>
+        <DataBand3 Ref="178" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,179,200.1,10</ClientRectangle>
+          <Components isList="true" count="12">
+            <Text47 Ref="179" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.6,0,5.85,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.dooper}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text47>
+            <Text48 Ref="180" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.24,0,34.31,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.nomenklatura}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text48>
+            <Text49 Ref="181" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>44.68,0,57.18,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.popis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text49>
+            <BarCode1 Ref="182" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="183" type="Stimulsoft.Report.BarCodes.StiEAN128AutoBarCodeType" isKey="true" />
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <ClientRectangle>8.24,3.99,93.64,3.72</ClientRectangle>
+              <Code>{dba_v_opvmat.nomenklatura}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Name>BarCode1</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+            </BarCode1>
+            <Text50 Ref="184" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>102.86,0,33.51,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.atribut_1}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text50>
+            <Text51 Ref="185" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>136.97,0,18.09,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.spotrhm}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text51>
+            <Text52 Ref="186" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>157.45,0,11.7,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.sklad}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text52>
+            <Text53 Ref="187" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>186.7,0,5.05,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{dba_v_opvmat.mjmtz}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text53>
+            <Text55 Ref="188" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>169.68,0,14.63,3.99</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{(dba_v_opvmat.sklad  != "S420120") ? (dba_v_opvmat.spotrhm * dba_v_opvvyrza.planvyroba) : (dba_v_opvmat.spotrhm_evid * dba_v_opvvyrza.planvyroba)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="189" type="NumberFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Text55>
+            <Text56 Ref="190" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>103,4,52,4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text56</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{(dba_v_opvmat.user_znaceni_kanban !="")?("Supermarket: " + dba_v_opvmat.user_znaceni_kanban):("")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text56>
+            <Text57 Ref="191" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>157.45,3.99,34.31,3.72</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7.6</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <Text>{Switch(dba_v_opvmat.auto_sklad == 0, "Podle nastavení skladu", dba_v_opvmat.auto_sklad == 1, "Ano", dba_v_opvmat.auto_sklad == 2, "Ne")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text57>
+            <HorizontalLinePrimitive3 Ref="192" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.53,8.52,190.43,0.254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="193" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive3</Name>
+              <Page isRef="7" />
+              <Parent isRef="178" />
+              <StartCap Ref="194" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>dba.v_opvmat</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <RectanglePrimitive1 Ref="195" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0,4,70,8</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>aa85974f6f0c49c088e80ece9e956f5b</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </RectanglePrimitive1>
+        <RectanglePrimitive2 Ref="196" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.27,70,190.69,13.83</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>efce60f282ce427ca8f407768889a883</Guid>
+          <Name>RectanglePrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Size>2</Size>
+        </RectanglePrimitive2>
+        <VerticalLinePrimitive1 Ref="197" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>123.4,70,0.254,13.83</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="198" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>002fcc89b2fe4407a659707f6e2e3332</Guid>
+          <Name>VerticalLinePrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Size>2</Size>
+          <StartCap Ref="199" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive1>
+        <VerticalLinePrimitive2 Ref="200" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>145.74,70,0.254,13.83</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="201" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>0ae1841467bd4f7d87744caa96719642</Guid>
+          <Name>VerticalLinePrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Size>2</Size>
+          <StartCap Ref="202" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive2>
+        <VerticalLinePrimitive3 Ref="203" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>167.82,70,0.254,13.83</ClientRectangle>
+          <Color>Black</Color>
+          <EndCap Ref="204" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>bd20d7f4432041f2b3e7b6483f4c0393</Guid>
+          <Name>VerticalLinePrimitive3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Size>2</Size>
+          <StartCap Ref="205" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>a54987b8d9aa4b4abc777764f8b2e382</Guid>
+      <Margins>4.95,4.95,4.95,4.95</Margins>
+      <Name>Page1</Name>
+      <PageHeight>297</PageHeight>
+      <PageWidth>210</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="206" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Angle>0</Angle>
+        <Font>Arial,72,Regular,Point,False,238</Font>
+        <ImageAlignment>TopCenter</ImageAlignment>
+        <ImageTransparency>10</ImageTransparency>
+        <Text>KOPIE</Text>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>268435455</PreviewSettings>
+  <PrinterSettings Ref="207" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>10/24/2016 10:22:51 AM</ReportChanged>
+  <ReportCreated>9/19/2016 2:20:30 PM</ReportCreated>
+  <ReportFile>C:\Users\lsvoboda\Desktop\zp_kopie.mrt</ReportFile>
+  <ReportGuid>ae5b490245374f13b3e1e960c8153506</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Millimeters</ReportUnit>
+  <ReportVersion>2016.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

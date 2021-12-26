@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrystalDecisions.Windows.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:CrystalDecisions.Windows.Forms.CrystalReportViewer">
+            <summary>
+            Provides properties, methods, and events that give control over how the viewer appears and functions.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.ICrystalReportViewer.Zoom(System.Int32)">
+            <summary>
+            Changes the magnification level of the CrystalReportViewer control.
+            </summary>
+            <param name="ZoomLevel">Indicates the percentage at which to magnify the CrystalReportViewer.</param>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowFirstPage">
+            <summary>
+            Shows the first page of the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowNextPage">
+            <summary>
+            Shows the next page of the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowPreviousPage">
+            <summary>
+            Shows the previous page of the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowLastPage">
+            <summary>
+            Shows the last page of the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowNthPage(System.Int32)">
+            <summary>
+            Shows the specified page of the report.
+            </summary>
+            <param name="PageNumber">Indicates the page number to show in the CrystalReportViewer control. </param>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowGroupTree">
+            <summary>
+            Shows the group tree in the viewer.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.CloseView(System.Object)">
+            <summary>
+            Closes a view tab in the viewer.
+            </summary>
+            <param name="viewURI">Indicates a string value that contains the name of the view tab. </param>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.PrintReport">
+            <summary>
+            Prints the report displayed in the viewer.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.RefreshReport">
+            <summary>
+            Refreshes the report displayed in the viewer.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.ExportReport">
+            <summary>
+            Exports the report displayed in the viewer.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.SearchForText(System.String)">
+            <summary>
+            Searches the report for the given text.
+            </summary>
+            <param name="text">Represents the string to search for. </param>
+            <returns>Returns true if the text was found, or false if the text was not found. </returns>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.Zoom(System.Int32)">
+            <summary>
+            Changes the magnification level of the viewer.
+            </summary>
+            <param name="ZoomLevel">Indicates the percentage at which to magnify the CrystalReportViewer. </param>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.GetCurrentPageNumber">
+            <summary>
+            Gets the current page number of the report.
+            </summary>
+            <returns>Returns the page number that is currently displayed in the CrystalReportViewer.</returns>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CrystalReportViewer.DrillDownOnGroup(CrystalDecisions.Shared.TotallerNodeID)">
+            <summary>
+            Drills down on a group.
+            </summary>
+            <param name="groupInfo">The group to drill down on. </param>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ReportSourceClassFactoryName">
+            <summary>
+            Gets or sets the information needed to create an internal Reportsource object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.EnterpriseLogon">
+            <summary>
+            Gets or sets the logon information for an enterprise report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ParameterFieldInfo">
+            <summary>
+            Gets or sets the parameter fields collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.LogOnInfo">
+            <summary>
+            Gets or sets the TableLogOnInfos collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.SelectionFormula">
+            <summary>
+            Gets or sets the record selection formula of the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ViewTimeSelectionFormula">
+            <summary>
+            String. Gets or sets the record selection formula to filter the data that are currently used in the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.RightToLeft">
+            <summary>
+            Gets or sets whether the text appears from right to left, such as when using Hebrew or Arabic fonts.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.BackColor">
+            <summary>
+            Gets or sets the background color for the control.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.BackgroundImage">
+            <summary>
+            Gets or sets the background image displayed in the control.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.BackgroundImageLayout">
+            <summary>
+            Gets or sets the background image layout as defined in the System.Windows.Forms.ImageLayout enumeration.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowPageNavigateButtons">
+            <summary>
+            Boolean. Gets or sets whether the CrystalReportViewer control toolbar has the buttons for page navigation. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowGotoPageButton">
+            <summary>
+            Gets or sets whether the viewer toolbar has the button for specifying page number.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowCloseButton">
+            <summary>
+            Gets or sets whether the viewer toolbar has the button for closing a report page.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowPrintButton">
+            <summary>
+            Gets or sets whether the print button on the toolbar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowRefreshButton">
+            <summary>
+            Gets or sets whether the refresh button on the toolbar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowExportButton">
+            <summary>
+            Gets or sets whether the viewer toolbar has the button for exporting.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowGroupTreeButton">
+            <summary>
+            Gets whether the viewer toolbar has the button for showing or hiding the group tree.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowZoomButton">
+            <summary>
+            Gets or sets whether the zoom factor list on the toolbar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.EnableDrillDown">
+            <summary>
+            Gets or sets whether the user can drill down into the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ShowTextSearchButton">
+            <summary>
+            Gets or sets whether the search button on the toolbar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.DisplayGroupTree">
+            <summary>
+            Gets or sets whether the tree view is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.DisplayToolbar">
+            <summary>
+            Gets or sets whether the toolbar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ReportSource">
+            <summary>
+            Gets or sets the report to bind to the viewer. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.DisplayBackgroundEdge">
+            <summary>
+            Determines whether the report is offset from the edge of its view window.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.EnableToolTips">
+            <summary>
+            Boolean. Gets or Sets whether tool tips are displayed in the report viewer.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.DisplayStatusBar">
+            <summary>
+            Boolean. Gets or set whether the status bar is visible or hidden.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ActiveViewIndex">
+            <summary>
+            Gets or sets the index of the active view in the viewer.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CrystalReportViewer.ViewCount">
+            <summary>
+            Gets the number of views in the viewer.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.Search">
+            <summary>
+            Event fires when text is searched for in the report.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.ViewZoom">
+            <summary>
+            Event fires when zoom level of the CrystalReportViewer control changes.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.ReportRefresh">
+            <summary>
+            Event fires when the data in the report is refreshed.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.Navigate">
+            <summary>
+            Event fires when the user navigates through a report.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.Drill">
+            <summary>
+            Event fires when a report is drilled down on.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.DrillDownSubreport">
+            <summary>
+            Event fires when the user drills down on a subreport.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.Windows.Forms.CrystalReportViewer.HandleException">
+            <summary>
+            Event fires when an exception occurs in the CrystalReportViewer control.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.ViewerEventArgs">
+            <summary>
+            Provides data for the Viewer events.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ViewerEventArgs.Handled">
+            <summary>
+            Gets or sets whether the event was handled. Set to true if you do not want the default action to occur.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.NavigateEventArgs">
+            <summary>
+            Provides Data for the Navigate event.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.NavigateEventArgs.CurrentPageNumber">
+            <summary>
+            Gets the current page number.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.NavigateEventArgs.NewPageNumber">
+            <summary>
+            Get the page that is being navigated to.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.SearchEventArgs">
+            <summary>
+            Provides data for the Search event.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.SearchEventArgs.TextToSearch">
+            <summary>
+            Gets or sets the text to search for in the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.SearchEventArgs.PageNumberToBeginSearch">
+            <summary>
+            Gets or sets the page number to start searching at.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.SearchEventArgs.Direction">
+            <summary>
+            Gets or sets the direction in which to search. This can be either Backward or Forward.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.ZoomEventArgs">
+            <summary>
+            Provides data for the ViewZoom event.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ZoomEventArgs.NewZoomFactor">
+            <summary>
+            Gets the new magnification factor of the viewer.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ZoomEventArgs.CurrentZoomFactor">
+            <summary>
+            Gets current the magnification factor of the viewer.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs">
+            <summary>
+            Provides Data for the DrillDownSubreport event.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.NewSubreportName">
+            <summary>
+            Gets the subreport name that is being drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.NewSubreportPosition">
+            <summary>
+            Gets the location in the viewer to drill into the subreport is.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.NewSubreportPageNumber">
+            <summary>
+            Gets the page number to drill into the subreport.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.CurrentSubreportName">
+            <summary>
+            Gets the subreport name that was drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.CurrentSubreportPosition">
+            <summary>
+            Gets the location in the viewer where the subreport is.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillSubreportEventArgs.CurrentSubreportPageNumber">
+            <summary>
+            Gets the page number that the subreport is on.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.DrillEventArgs">
+            <summary>
+            Provides Data for the Drill event.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.DrillEventArgs.IsDrillDown">
+            <summary>
+            Returns whether the event has actually moved into a deeper level.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.NewGroupLevel">
+            <summary>
+            Gets the new group level that is being drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.NewGroupName">
+            <summary>
+            Gets the new group name that is being drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.NewGroupPath">
+            <summary>
+            Gets the group number and group level that is being drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.NewGroupNamePath">
+            <summary>
+            For future use.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.CurrentGroupLevel">
+            <summary>
+            Gets the group level that was drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.CurrentGroupName">
+            <summary>
+            Gets the group name that was drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.CurrentGroupPath">
+            <summary>
+            Gets the group number and the current group level that was drilled into.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.DrillEventArgs.CurrentGroupNamePath">
+            <summary>
+            For future use.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.ExceptionEventArgs">
+            <summary>
+            Provides Data for the HandleException event.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ExceptionEventArgs.Exception">
+            <summary>
+            Gets exception data.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ExceptionEventArgs.UserData">
+            <summary>
+            Gets or sets any type of data that can be used to over-ride what is done in the handling of an exception
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CRViewerSysDisplayNameAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CRViewerSysDisplayNameAttribute.DisplayName">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CRViewerSysCategoryAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CRViewerSysCategoryAttribute.GetLocalizedString(System.String)">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.CRViewerSysDescriptionAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.CRViewerSysDescriptionAttribute.Description">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.CRViewerSys">
+             <summary>
+                AutoGenerated resource class. Usage:
+            
+                    string s = CRViewerSys.GetString(CRViewerSys.MyIdenfitier);
+             </summary>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.ViewerSysDescriptionAttribute">
+            <summary>
+                DescriptionAttribute marks a property, event, or extender with a
+                description. Visual designers can display this description when referencing
+                the member.
+            </summary>
+            <seealso cref="!:MemberAttribute"/>
+            <seealso cref="T:System.ComponentModel.PropertyDescriptor"/>
+            <seealso cref="T:System.ComponentModel.EventDescriptor"/>
+            <seealso cref="T:System.ComponentModel.PropertyDescriptor"/>
+        </member>
+        <member name="M:CrystalDecisions.Windows.Forms.ViewerSysDescriptionAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ViewerSysDescriptionAttribute.Description">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="T:CrystalDecisions.Windows.Forms.ViewerNumberEdit">
+                Provides an edit control that only accepts numbers with addition
+                restrictions such as whether negatives and decimals are allowed.
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ViewerNumberEdit.AllowDecimal">
+                Controls whether the edit control allows decimal values
+        </member>
+        <member name="P:CrystalDecisions.Windows.Forms.ViewerNumberEdit.AllowNegative">
+                Controls whether the edit control allows negative values
+        </member>
+    </members>
+</doc>

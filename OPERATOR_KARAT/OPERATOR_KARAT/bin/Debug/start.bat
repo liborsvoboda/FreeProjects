@@ -1,0 +1,1 @@
+run_as_admin_console.exe 'TERMINAL_STUDIO.exe'

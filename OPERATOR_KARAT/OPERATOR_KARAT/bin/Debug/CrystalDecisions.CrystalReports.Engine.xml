@@ -1,0 +1,3190 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrystalDecisions.CrystalReports.Engine</name>
+    </assembly>
+    <members>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Area">
+            <summary>
+            Summary description for Area.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.EngineObjectBase">
+            <summary>
+            Summary description for EngineObjectBase.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Area.AreaFormat">
+            <summary>
+            Gets the AreaFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Area.Kind">
+            <summary>
+            Gets the kind of area or section.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Area.Name">
+            <summary>
+            Gets the area name.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Area.Sections">
+            <summary>
+            Gets a Collection of all the sections in the area.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.AreaFormat">
+            <summary>
+            Summary description for AreaFormat.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.AreaFormat.Modify(CrystalDecisions.ReportAppServer.ReportDefModel.ISCRAreaFormat)">
+            <summary>
+            Modifies the owner report area and updates the EROM peer
+            to the new EROM peer.
+            </summary>
+            <param name="newObject">
+            A copy of the format object with new values.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.RasArea">
+            <summary>
+            Gets or sets the owner report area of this format object.
+            </summary>
+            <exception cref="T:System.NotSupportedException">
+            This format object is already associated with a different
+            report area.
+            </exception>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableHideForDrillDown">
+            <summary>
+            Gets or sets hide for drill down option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableKeepTogether">
+            <summary>
+            Gets or sets the keep area together option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableNewPageAfter">
+            <summary>
+            Gets or sets the new page after option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableNewPageBefore">
+            <summary>
+            Gets or sets the new page before option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnablePrintAtBottomOfPage">
+            <summary>
+            Gets or sets the print at bottom of page option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableResetPageNumberAfter">
+            <summary>
+            Gets or sets the reset page number after option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.AreaFormat.EnableSuppress">
+            <summary>
+            Gets or sets the area visibility.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Areas">
+            <summary>
+            Summary description for Areas.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SCRCollection">
+            <summary>
+            Summary description for SCRCollection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Areas.Count">
+            <summary>
+            Gets the number of Area objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.BlobFieldObject">
+            <summary>
+            Summary description for BlobFieldObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportObject">
+            <summary>
+            Summary description for ReportObject.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Border">
+            <summary>
+            Gets the Border object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Height">
+            <summary>
+            Gets or sets the object height, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Kind">
+            <summary>
+            Gets kind of report object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Left">
+            <summary>
+            Gets or sets the object upper left position, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Name">
+            <summary>
+            Gets the object name.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.ObjectFormat">
+            <summary>
+            Gets the ObjectFormat object. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Top">
+            <summary>
+            Gets or sets the object upper top position, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObject.Width">
+            <summary>
+            Gets or sets the object width, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.BlobFieldObject.DataSource">
+            <summary>
+            Gets the FieldDefinition object. Use the FieldDefinition object to get and set format information specific to the kind of field.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat">
+            <summary>
+            Summary description for BooleanFieldFormat.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportObjectProperty">
+            <summary>
+            This type is for internal use by Crystal Decisions. You
+            do not need to use it directly.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportObjectProperty.Modify(CrystalDecisions.ReportAppServer.ReportDefModel.ISCRReportObject)">
+            <summary>
+            Modifies the owner report object and updates the EROM peer
+            to the new EROM peer.
+            </summary>
+            <param name="newObject">
+            A copy of the report object with new property values.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjectProperty.RasReportObject">
+            <summary>
+            Gets or sets the owner report object of this property.
+            </summary>
+            <exception cref="T:System.NotSupportedException">
+            This property is already associated with a different
+            report object.
+            </exception>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjectProperty.RasProperty">
+            <summary>
+            Gets the property of the owner report object. 
+            It may be different from the EROM peer of this object if 
+            the report object has changed.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.BooleanFieldFormat.OutputType">
+            <summary>
+            Gets or sets the Boolean output type.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Border">
+            <summary>
+            Summary description for Border.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.BackgroundColor">
+            <summary>
+            Gets or sets the background color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.BorderColor">
+            <summary>
+            Gets or sets the border color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.BottomLineStyle">
+            <summary>
+            Gets or sets the line style for the bottom line of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.HasDropShadow">
+            <summary>
+            Gets or sets the border drop shadow option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.LeftLineStyle">
+            <summary>
+            Gets or sets the line style for the left line of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.RightLineStyle">
+            <summary>
+            Gets or sets the line style for the right line of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Border.TopLineStyle">
+            <summary>
+            Gets or sets the line style for the top line of the object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.BoxObject">
+            <summary>
+            Summary description for BoxObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DrawingObject">
+            <summary>
+            Summary description for DrawingObject.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.EnableExtendToBottomOfSection">
+            <summary>
+            Gets or sets the extend to bottom of section option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.EndSectionName">
+            <summary>
+            Gets the name of the section at the bottom of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineColor">
+            <summary>
+            Gets or sets the line color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineStyle">
+            <summary>
+            Gets or sets the line style for the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.LineThickness">
+            <summary>
+            Gets or sets the thickness of the line in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.Right">
+            <summary>
+            Integer. Gets or sets the object's right coordinate, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DrawingObject.Bottom">
+            <summary>
+            Integer. Gets or sets the object's bottom coordinate, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.BoxObject.FillColor">
+            <summary>
+            Gets or sets the fill color of the object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ChartObject">
+            <summary>
+            Summary description for ChartObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat">
+            <summary>
+            Summary description for CommonFieldFormat.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat.EnableSuppressIfDuplicated">
+            <summary>
+            Gets or sets the suppress if duplicate option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.CommonFieldFormat.EnableUseSystemDefaults">
+            <summary>
+            Gets or sets the use system defaults formatting option.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.CrossTabObject">
+            <summary>
+            Summary description for CrossTabObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.CRPE">
+            <summary>
+            Summary description for CRPE.
+            </summary>
+        </member>
+        <member name="F:CrystalDecisions.CrystalReports.Engine.CRPE.CR_REGKEY">
+            <summary>
+            Registry key and value name from which to load the path of exporting DLLs.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.CRPE.GetDLLPath">
+            <summary>
+            Gets the path to the exporting DLLs.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Database">
+            <summary>
+            Summary description for Database.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Database.Links">
+            <summary>
+            Gets the TableLinks collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Database.Tables">
+            <summary>
+            Gets the Tables collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinition">
+            <summary>
+            Summary description for DatabaseFieldDefinition.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FieldDefinition">
+            <summary>
+            Summary description for FieldDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.FormulaName">
+            <summary>
+            Gets the field definition unique formula name in Crystal Report formula syntax.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.Kind">
+            <summary>
+            Gets the kind of field.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.Name">
+            <summary>
+            Gets the object name.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.NumberOfBytes">
+            <summary>
+            Gets the number of bytes required to store the field data in memory.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.UseCount">
+            <summary>
+            Integer. Gets the number of times a field is used in a report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldDefinition.ValueType">
+            <summary>
+            Gets the type of field value.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinition.TableName">
+            <summary>
+            Gets the name of the parent table.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseFieldDefinitions">
+            <summary>
+            Summary description for DatabaseFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FieldDefinitions">
+            <summary>
+            Summary description for FieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseTableFieldDefinitions">
+            <summary>
+            Summary description for DatabaseTableFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DatabaseTableLinkFieldDefinitions">
+            <summary>
+            Summary description for DatabaseTableLinkFieldDefinition.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DataDefinition">
+            <summary>
+            Summary description for DataDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.FormulaFields">
+            <summary>
+            Gets the FormulaFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.GroupNameFields">
+            <summary>
+            Gets the GroupNameFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.Groups">
+            <summary>
+            Gets the Groups collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.GroupSelectionFormula">
+            <summary>
+            Gets or sets the group selection formula.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.ParameterFields">
+            <summary>
+            Gets the ParameterFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.RecordSelectionFormula">
+            <summary>
+            Gets or sets the record selection formula.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.RunningTotalFields">
+            <summary>
+            Gets the RunningTotalFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SortFields">
+            <summary>
+            Gets the SortFields collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SQLExpressionFields">
+            <summary>
+            Gets the SQLExpressionFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DataDefinition.SummaryFields">
+            <summary>
+            Gets the SummaryFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DateFieldFormat">
+            <summary>
+            Summary description for DateFieldFormat.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.DayFormat">
+            <summary>
+            Gets or sets the day format.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.MonthFormat">
+            <summary>
+            Gets or sets the month format.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateFieldFormat.YearFormat">
+            <summary>
+            Gets or sets the year format.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat">
+            <summary>
+            Summary description for DateTimeFieldFormat.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.GetFieldFormatEngineObject(System.Type,System.Object)">
+            <summary>
+            Gets the child field format for the given EROM peer. It also
+            sets the owner report object of the child field format to the same owner 
+            object of this object.
+            </summary>
+            <param name="type">The type of child field format.</param>
+            <param name="rasFormat">The EROM peer.</param>
+            <returns>The child field format.</returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.DateFormat">
+            <summary>
+            Gets the DateFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.DateTimeSeparator">
+            <summary>
+            Gets or sets the date time separator.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeFieldFormat.TimeFormat">
+            <summary>
+            Gets the TimeFieldFormat object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions">
+            <summary>
+            Summary description for DateTimeGroupOptions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.GroupOptions">
+            <summary>
+            Summary description for GroupOptions.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.GroupOptions.Condition">
+            <summary>
+            This generic group options condition is not documented.  RAS also
+            does not support getting and setting this value generically.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions.Condition">
+            <summary>
+            Integer. Gets or sets the numeric value for the date time condition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.DateTimeGroupOptions.DateTimeCondition">
+            <summary>
+            Gets or sets the enumerated value for the date time condition.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.EPFPageOptions">
+            <summary>
+            Summary description for EPFPageOptions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ExchangeMessage">
+            <summary>
+            Summary description for ExchangeMessage.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Message">
+            <summary>
+            Abstract base class of messaging classes used for exporting.
+            </summary>
+        </member>
+        <member name="F:CrystalDecisions.CrystalReports.Engine.Message.CR_REGKEY">
+            <summary>
+            Registry key and value name from which to load the path of exporting DLLs.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.AddAttachment(System.String,System.String)">
+            <summary>
+            Adds an attachment to this message.
+            </summary>
+            <param name="path">The path of the attachment.</param>
+            <param name="name">The suggested filename.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.CreateDestinationOptions">
+            <summary>
+            Creates a destination options.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.CreateFormatInfo">
+            <summary>
+            Creates an UXDFormatInfo for this message.
+            </summary>
+            <returns>An UXDFormatInfo.</returns>
+            <remarks>
+            This method allocates native heap memory which needs to be released 
+            by a call to DestroyFormatInfo.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.DestroyFormatInfo(CrystalDecisions.CrystalReports.Engine.UXDFormatInfo)">
+            <summary>
+            Destroys an UXDFormatInfo object created by CreateFormatInfo.
+            </summary>
+            <param name="formatInfo">UXDFormatInfo object to be destroyed</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.CreateJobInfo">
+            <summary>
+            Creates an UXDJobInfo object for this message.
+            </summary>
+            <returns>An UXDJobInfo object</returns>
+            <remarks>
+            This method allocates native heap memory which needs to be released 
+            by a call to DestroyJobInfo. 
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.DestroyJobInfo(CrystalDecisions.CrystalReports.Engine.UXDJobInfo)">
+            <summary>
+            Destroys an UXDJobInfo object created by CreateJobInfo.
+            </summary>
+            <param name="jobInfo">UXDJobInfo object to be destroyed.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.Send">
+            <summary>
+            Sends this message to the receipients stored in this message.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.GetDLLPath">
+            <summary>
+            Gets the path to the exporting DLLs.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.IntPtrArrayToIntPtr(System.IntPtr[])">
+            <summary>
+            Marshals an managed array of IntPtrs to a IntPtr to a C-style 
+            array of IntPtrs.
+            </summary>
+            <param name="array">Array of IntPtrs.</param>
+            <returns>IntPtr to a C-style array of IntPtrs.</returns>
+            <remarks>
+            This method allocates native heap memory which needs to be released 
+            by a call to FreeIntPtrArray.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Message.FreeIntPtrArray(System.IntPtr,System.Int32)">
+            <summary>
+            Frees native heap memory allocated by IntPtrArrayToIntPtr.
+            </summary>
+            <param name="array">IntPtr to a C-style array of IntPtrs.</param>
+            <param name="len">Length of the C-style array.</param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Message.Attachments">
+            <summary>
+            Gets the local paths of the attachment files.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Message.AttachmentNames">
+            <summary>
+            Gets the suggested file names seen by the message receipients.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Message.UXError">
+            <summary>
+            Return value from UXDxxx.dll functions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ExceptionFormatter">
+            <summary>
+            Summary description for ExceptionFormatter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ExceptionThrower">
+            <summary>
+            Summary description for ExceptionThrower.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FieldFormat">
+            <summary>
+            Summary description for FieldFormat.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.FieldFormat.GetFieldFormatEngineObject(System.Type,System.Object)">
+            <summary>
+            Gets the child field format for the given EROM peer. It also
+            sets the owner report object of the child field format to the same owner 
+            object of this object.
+            </summary>
+            <param name="type">The type of child field format.</param>
+            <param name="rasFormat">The EROM peer.</param>
+            <returns>The child field format.</returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.BooleanFormat">
+            <summary>
+            Gets the BooleanFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.CommonFormat">
+            <summary>
+            Gets the CommonFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.DateFormat">
+            <summary>
+            Gets the DateFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.DateTimeFormat">
+            <summary>
+            Gets the DateTimeFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.NumericFormat">
+            <summary>
+            Gets the NumericFieldFormat object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldFormat.TimeFormat">
+            <summary>
+            Gets the TimeFieldFormat object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FieldHeadingObject">
+            <summary>
+            FieldHeadingObject is a specialized TextObject that is linked to a FieldObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.TextObject">
+            <summary>
+            Summary description for TextObject.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.TextObject.ApplyFont(System.Drawing.Font)">
+            <summary>
+            Applies changes made to the System.Drawing.Font object.
+            </summary>
+            <param name="font">Contains the font settings for the TextObject. </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Color">
+            <summary>
+            Gets or sets the color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Font">
+            <summary>
+            Gets the Font object. Use the ApplyFont method to apply the changes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TextObject.Text">
+            <summary>
+            Gets or sets the text within the text object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldHeadingObject.FieldObjectName">
+            <summary>
+            The name of the FieldObject that is linked to this object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FieldObject">
+            <summary>
+            Summary description for FieldObject.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.FieldObject.ApplyFont(System.Drawing.Font)">
+            <summary>
+            Applies changes made to the System.Drawing.Font object.
+            </summary>
+            <param name="font">Contains the font settings for the FieldObject. </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.Color">
+            <summary>
+            Gets or sets the color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.DataSource">
+            <summary>
+            Gets the FieldDefinition object. Use the FieldDefinition object to get and set format information specific to the kind of field.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.FieldFormat">
+            <summary>
+            Gets the FieldFormat object. Use the FieldFormat object to get and set format information specific to the type of field.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FieldObject.Font">
+            <summary>
+            Gets the Font object. Use the ApplyFont method to apply the changes.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.FormatEngine.PrintPageEventHandler(System.Object,System.Drawing.Printing.PrintPageEventArgs)">
+            <summary>
+            PrintPageEventHandler prints the page specified by 
+            m_CurrentPrintingPage from the report.  If ReportSource.GetPage 
+            fails, cancels the whole print job.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <remarks>
+            Assumes FromPage and ToPage in PrintPageEventArgs have already been 
+            validated by PrintToPrinter.
+            </remarks>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition">
+            <summary>
+            Summary description for FormulaFieldDefinition.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition.Check(System.String@)">
+            <summary>
+            Checks the formula. If there is a syntax error it returns an error string and false.
+            </summary>
+            <param name="errString">If there is a syntax error then errstring contains the error, otherwise errstring is empty. </param>
+            <returns>A Boolean value, indicating if the formula syntax is correct. </returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinition.Text">
+            <summary>
+            Gets or sets the text of the formula.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.FormulaFieldDefinitions">
+            <summary>
+            Summary description for FormulaFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.GraphicObject">
+            <summary>
+            Summary description for GraphicObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Group">
+            <summary>
+            Summary description for Group.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Group.ConditionField">
+            <summary>
+            Gets the FieldDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Group.GroupOptions">
+            <summary>
+            Gets the GroupOptions object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition">
+            <summary>
+            Summary description for GroupNameFieldDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.Group">
+            <summary>
+            Gets the Group object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinition.GroupNameFieldName">
+            <summary>
+            Gets the group name field name.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions">
+            <summary>
+            Summary description for GroupNameFieldDefinitions.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.GroupNameFieldDefinitions.Count">
+            <summary>
+            	Integer. Gets the number of GroupNameFieldDefinition objects in the collection
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Groups">
+            <summary>
+            Summary description for Groups.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Groups.Count">
+            <summary>
+            	Integer. Gets the number of Group objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.LineObject">
+            <summary>
+            Summary description for LineObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.MAPIMessage">
+            <summary>
+            Summary description for MAPIMessage.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.MapObject">
+            <summary>
+            Summary description for MapObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat">
+            <summary>
+            Summary description for NumericFieldFormat.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.CurrencySymbolFormat">
+            <summary>
+            Gets or sets the currency symbol type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.DecimalPlaces">
+            <summary>
+            Gets or sets the number of decimal places.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.EnableUseLeadingZero">
+            <summary>
+            Gets or sets the option to use a leading zero for decimal values. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.NegativeFormat">
+            <summary>
+            Gets or sets the negative format type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.NumericFieldFormat.RoundingFormat">
+            <summary>
+            Gets or sets the rounding format type.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ObjectFormat">
+            <summary>
+            Summary description for ObjectFormat.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.CssClass">
+            <summary>
+            Gets or sets the name of the cascading style sheet (CSS) for the object. The CSS class is set through the SetCSSClass method. For more information on formatting reports over the Web see Formatting Reports using HTML Classes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableCanGrow">
+            <summary>
+            Gets or sets the option for the object to grow to accommodate field input. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableCloseAtPageBreak">
+            <summary>
+            Gets or sets the close border on page break option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableKeepTogether">
+            <summary>
+            Gets or sets the keep object together option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.EnableSuppress">
+            <summary>
+            Gets or sets the object visibility.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ObjectFormat.HorizontalAlignment">
+            <summary>
+            Gets or sets the alignment type.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.OlapGridObject">
+            <summary>
+            Summary description for OlapGridObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition">
+            <summary>
+            Summary description for ParameterFieldDefinition.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyCurrentValues(CrystalDecisions.Shared.ParameterValues)">
+            <summary>
+            Applies the current values to the specified parameter field of a report.
+            </summary>
+            <param name="currentValues">Contains the current values set for the parameter. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyCurrentValues(CrystalDecisions.Shared.IParameterValues)">
+            <summary>
+            Applies the current values to the specified parameter field of a report.
+            </summary>
+            <param name="currentValues">Contains the current values set for the parameter. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyDefaultValues(CrystalDecisions.Shared.ParameterValues)">
+            <summary>
+            Applies values to the group of default values for a specified parameter in a report.
+            </summary>
+            <param name="defaultValue">Contains the default values set for the parameter. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyDefaultValues(CrystalDecisions.Shared.IParameterValues)">
+            <summary>
+            Applies values to the group of default values for a specified parameter in a report.
+            </summary>
+            <param name="defaultValue">Contains the default values set for the parameter. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ApplyMinMaxValues(System.Object,System.Object)">
+            <summary>
+            Applies the maximum and minimum values to a specified parameter in a report.
+            </summary>
+            <param name="minValue">Indicates the minimum allowable value for the parameter. </param>
+            <param name="maxValue">Indicates the maximum allowable value for the parameter. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.IsLinked">
+            <summary>
+            A linked parameter is used in the subreport as part of record selection.  It has 
+            the linked value from the main report.  There is no correspondence in the main report.
+            While normal subreport parameters are included in the list of main report,
+            this linked parameter is not.  Therefore, the parameters visible to users are never linked.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.CurrentValues">
+            <summary>
+            Gets the current values through the ParameterValues object. Use the ApplyCurrentValues method to apply the changes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValues">
+            <summary>
+            Gets the default values through the ParameterValues object. Use the ApplyDefaultValues method to apply the changes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValueSortMethod">
+            <summary>
+            Gets or sets the method in which the default values are sorted.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DefaultValueSortOrder">
+            <summary>
+            Gets or sets the order in which the default values are sorted.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.DiscreteOrRangeKind">
+            <summary>
+            Gets or sets whether or not the parameter field contains discreet values, range values, or both.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterFieldUsage">
+            <summary>
+            Gets the property that describes how the parameter is used within the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EditMask">
+            <summary>
+            Gets or sets edit mask that restricts what may be entered for string parameters.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableAllowEditingDefaultValue">
+            <summary>
+            Gets or sets if the default values can be edited.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableAllowMultipleValue">
+            <summary>
+            Gets or sets the allow multiple values option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.EnableNullValue">
+            <summary>
+            Gets the allow null value option for stored procedure parameters.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.HasCurrentValue">
+            <summary>
+            Gets whether the parameter has a current value.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.MaximumValue">
+            <summary>
+            Gets the maximum value. Use the ApplyMinMaxValues method to change the maximum value.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.MinimumValue">
+            <summary>
+            Gets the minimum value. Use the ApplyMinMaxValues method to change the minimum value.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterFieldName">
+            <summary>
+            Gets the name of the parameter field.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterType">
+            <summary>
+            Gets the parameter type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ParameterValueKind">
+            <summary>
+            Gets the type of the parameter value.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.PromptText">
+            <summary>
+            Gets or sets the parameter field prompting string.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinition.ReportName">
+            <summary>
+            Gets the report name the parameter field is in. If it is a main report, the report name is empty.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions">
+            <summary>
+            Summary description for ParameterFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.PictureObject">
+            <summary>
+            Summary description for PictureObject.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.PrintEditor">
+            <summary>
+            Summary description for PrintEditor.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.PrintingConverter">
+            <summary>
+            Summary description for PrintingConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.PrintOptions">
+            <summary>
+            Summary description for PrintOptions.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.ApplyPageMargins(CrystalDecisions.Shared.PageMargins)">
+            <summary>
+            Applies the page margin settings to the report.
+            </summary>
+            <param name="margin">Contains the page margins settings for the report. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.CopyFrom(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings)">
+            <summary>
+            Copies the values of PrinterSettings and PageSettings into this PrintOptions.
+            </summary>
+            <param name="printer"></param>
+            <param name="page"></param>
+            <remarks>
+            If the PaperSource property of the PageSettings is Custom, then the PaperSource
+            of this PrintOptions will be set to Auto.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.CopyTo(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings)">
+            <summary>
+            Copies the values of this PrintOptions into PrinterSettings and PageSettings.
+            </summary>
+            <param name="printer"></param>
+            <param name="page"></param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.FindPaperSize(System.Drawing.Printing.PrinterSettings,CrystalDecisions.Shared.PaperSize)">
+            <summary>
+            Finds the PaperSize object from the PaperSizes collection of the given printer
+            </summary>
+            <param name="printer"></param>
+            <param name="size"></param>
+            <returns>
+            The PaperSize object for the given paper size kind; null if the paper size is of unknown kind or is not supported by the printer.
+            </returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.PrintOptions.FindPaperSource(System.Drawing.Printing.PrinterSettings,CrystalDecisions.Shared.PaperSource)">
+            <summary>
+            Finds the PaperSource object from the PaperSources collection of the given printer.
+            </summary>
+            <param name="printer">The printer setting to search the paper source</param>
+            <param name="source">The paper source for which to be searched</param>
+            <returns>
+            The PaperSource object for the given paper source kind; null if the paper source is of unknown kind or is not supported by the printer.
+            </returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageContentHeight">
+            <summary>
+            Gets the height of the pages content.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageContentWidth">
+            <summary>
+            Gets the width of the pages content.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PageMargins">
+            <summary>
+            Gets the reports page margins. Use the ApplyPageMargins method to apply the changes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperOrientation">
+            <summary>
+            Gets or sets the current printer paper orientation. For the default printer, DefaultPaperOrientation is returned.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperSize">
+            <summary>
+            Gets or sets the current printer paper size. For the default printer, DefaultPaperSize is returned.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PaperSource">
+            <summary>
+            Gets or sets the current printer paper source.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.CustomPaperSource">
+            <summary>
+            System.Drawing.Printing.PaperSource. Gets or sets the current printer paper source.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PrinterDuplex">
+            <summary>
+            Gets or sets the current printer duplex option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.PrintOptions.PrinterName">
+            <summary>
+            Gets or sets the printer name used by the report. Gets an empty string if the default printer is used. Once set the report can be printed by clicking the Printer button on the Windows Forms Viewer or through code using the PrintToPrinter method.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportClass">
+            <summary>
+            Summary description for ReportClass.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Represents a report and contains properties and methods to define, format, load, export, and print the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConcurrentUsage">
+            <summary>
+            Returns the number of concurrent jobs opened allowing developers to build license monitoring into their applications.
+            </summary>
+            <returns>The number of concurrent jobs opened. </returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Close">
+            <summary>
+            Closes the report.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)">
+            <summary>
+            Enables the event log for the print engine. By default the log is not enabled.
+            </summary>
+            <param name="elLevel">Indicates whether to enable the event log. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)">
+            <summary>
+            Exports a report to the response object in the specified format.
+            </summary>
+            <param name="options">The options for the export of the report.</param>
+            <param name="response">The response object of the page.</param>
+            <param name="asAttachment">Indicates whether or not the report will be exported as an attachment of the response.</param>
+            <param name="attachmentName">The file name to export the report.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)">
+            <summary>
+            Exports a report to the response object in the specified format.
+            </summary>
+            <param name="formatType">The format type to export the report. </param>
+            <param name="response">The response object of the page.</param>
+            <param name="asAttachment">Indicates whether or not the report will be exported as an attachment of the response.</param>
+            <param name="attachmentName">The file name to export the report.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Export">
+            <summary>
+            Exports a report to a format and destination specified within the ExportOptions Object.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)">
+            <summary>
+            Exports a report to a format and destination specified within the ExportOptions Object.
+            </summary>
+            <param name="options">The format and destination to export the report.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)">
+            <summary>
+            Exports a report to a file in the specified format.
+            </summary>
+            <param name="formatType">The format type to export the report.</param>
+            <param name="fileName">The file name to export the report.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)">
+            <summary>
+            Exports a report to a stream in the specified format. 
+            </summary>
+            <param name="formatType">The format type to export the report. </param>
+            <returns>A stream that contains the exported report as a sequence of bytes.</returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)">
+            <summary>
+            Loads a new report and sets the OpenReportMethod. If a report is already loaded, then it is closed and a new one is opened.
+            </summary>
+            <param name="filename">Indicates the path and filename of the report. </param>
+            <param name="openMethod">Indicates if the report is to be opened as a temporary copy or by default. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)">
+            <summary>
+            Loads a new report. If a report is already loaded, then it is closed and a new one is opened. By default, the report is opened as a temporary copy.
+            </summary>
+            <param name="filename">Indicates the path and filename of the report. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)">
+            <summary>
+            Opens a subreport contained in the report and returns a ReportDocument Object corresponding to the named subreport.
+            </summary>
+            <param name="subreportName">Indicates the name of the subreport to open. </param>
+            <returns>Returns a separate ReportDocument that represents the subreport. </returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            Prints the specified pages of the report to the printer selected using the PrintOptions.PrinterName property. If no printer is selected, the default printer specified in the report will be used.
+            </summary>
+            <param name="nCopies">Indicates the number of copies to print. </param>
+            <param name="collated">Indicates whether to collate the pages. </param>
+            <param name="startPageN">Indicates the first page to print. </param>
+            <param name="endPageN">Indicates the last page to print. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh">
+            <summary>
+            Reloads and displays the report from its original source.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)">
+            <summary>
+            Saves the report into the specified file with specified ReportFileFormat.
+            </summary>
+            <param name="filename">Indicates the path and filename of the report. </param>
+            <param name="saveDataWithReport">Indicates whether the data is saved with the report. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)">
+            <summary>
+            Saves the report into the specified file.
+            </summary>
+            <param name="filename">Indicates the path and filename of the report.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)">
+            <summary>
+            Sets the cascading style sheet (CSS) for various sections and report objects. The style class can be used to override the object and section formats contained in the report. For more information on formatting reports over the Web see Formatting Reports using HTML Classes.
+            </summary>
+            <param name="objectScope">Indicates the section or sections of the report that the style class will apply to. For example, set the style for the whole report, or set the style for the Report Header section. </param>
+            <param name="cssClass">The name of the style class as defined in the style sheet. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetTableLogon(CrystalDecisions.CrystalReports.Engine.Tables,System.String,System.String)">
+            <summary>
+            Sets the user name and password of all tables.
+            </summary>
+            <param name="tables">A collection of tables.</param>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetTableLogon(CrystalDecisions.CrystalReports.Engine.Tables,System.String,System.String,System.String,System.String)">
+            <summary>
+            Sets the user name and password of selected tables from 
+            a specified server and database.
+            </summary>
+            <param name="tables">A collection of tables.</param>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+            <param name="server">The name of the server.</param>
+            <param name="database">The name of the database.</param>
+            <remarks>
+            This method performs a case-insensitive comparison of the database names. 
+            Server name is not case-sensitive.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetTableLogon(CrystalDecisions.CrystalReports.Engine.Tables,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Sets the user name and password of selected tables from 
+            a specified server and database, with specified case-sensitivity.
+            </summary>
+            <param name="tables">A collection of tables.</param>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+            <param name="server">The name of the server.</param>
+            <param name="database">The name of the database.</param>
+            <param name="ignoreCase">A Boolean indicating a case-sensitive or insensitive comparison of database name. (true indicates a case-insensitive comparison.)</param>
+            <remarks>
+            Server name is not case-sensitive.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)">
+            <summary>
+            Sets the user name and password used for all database connections.
+            </summary>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)">
+            <summary>
+            Sets the user name and password used for selected database connections.
+            </summary>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+            <param name="server">The name of the server.</param>
+            <param name="database">The name of the database.</param>
+            <remarks>
+            This method performs a case-insensitive comparison of the database names.
+            Server name is not case-sensitive.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Sets the user name and password used for selected database connections, with specified case-sensitivity.
+            </summary>
+            <param name="user">User name.</param>
+            <param name="password">Password.</param>
+            <param name="server">The name of the server.</param>
+            <param name="database">The name of the database.</param>
+            <param name="ignoreCase">A Boolean indicating a case-sensitive or insensitive comparison of database name. (true indicates a case-insensitive comparison.)</param>
+            <remarks>
+            Server name is not case-sensitive.
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)">
+            <summary>
+            Passes a Recordset or Dataset to the report engine when using a 'Push Model'. For more information on Push and Pull models, see Data Access.
+            </summary>
+            <param name="dataSet">Represents a valid dataset object. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)">
+            <summary>
+            Sets the current value of the parameter field. 
+            </summary>
+            <param name="index">The name of the parameter field.</param>
+            <param name="val">Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)">
+            <summary>
+            Sets the current value of a parameter field.
+            </summary>
+            <param name="name">The name of the parameter field.</param>
+            <param name="val">Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)">
+            <summary>
+            Sets the current value of a parameter field. 
+            </summary>
+            <param name="name">The name of the parameter field.</param>
+            <param name="val">Represents a valid parameter value. It can be a primitive, ParameterValue, an array of either type, or a ParameterValues collection.</param>
+            <param name="subreport">The name of the subreport to which the parameter field belong.</param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase">
+            <summary>
+            Checks whether the database connection is active for the report that is loaded by the ReportDocument object.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetAttributes">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetAttributes&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of member attributes for the given object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetClassName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetClassName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the class name for this object.  If null is returned,
+            the type name is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetComponentName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetComponentName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the name for this object.  If null is returned,
+            the default is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetConverter">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetConverter&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the type converter for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetDefaultEvent">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultEvent&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default event.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetDefaultProperty">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultProperty&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default property.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetEditor(System.Type)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEditor&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the an editor for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetEvents">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetEvents(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.  The returned array of events will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetProperties">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetProperties(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.  The returned array of properties will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportDocument.System#ComponentModel#ICustomTypeDescriptor#GetPropertyOwner(System.ComponentModel.PropertyDescriptor)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetPropertyOwner&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the object that directly depends on this value being edited.  This is
+            generally the object that is required for the PropertyDescriptor's GetValue and SetValue
+            methods.  If 'null' is passed for the PropertyDescriptor, the ICustomComponent
+            descripotor implemementation should return the default object, that is the main
+            object that exposes the properties and attributes,
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports">
+            <summary>
+            Subreports. Gets the Subreports object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Database">
+            <summary>
+            Gets the Database object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition">
+            <summary>
+            Gets the DataDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportOptions">
+            <summary>
+            Gets the ExportOptions object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.FilePath">
+            <summary>
+            Gets the file path and name of the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData">
+            <summary>
+            Gets whether the report has data saved in memory.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded">
+            <summary>
+            Gets whether the report has been loaded using the Load method.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport">
+            <summary>
+            Gets whether the report is a subreport.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Name">
+            <summary>
+            Gets the report name. For the main report, the report name is empty.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions">
+            <summary>
+            Gets the PrintOptions object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula">
+            <summary>
+            Gets or sets record selection formula.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition">
+            <summary>
+            ReportDefinition. Gets the ReportDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions">
+            <summary>
+            Gets the ReportOptions object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo">
+            <summary>
+            Gets the SummaryInfo object.
+            </summary>
+        </member>
+        <member name="E:CrystalDecisions.CrystalReports.Engine.ReportDocument.InitReport">
+            <summary>
+            Event fired when a report is loaded successfully.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections">
+            <summary>
+            Gets a collection of unique data source connections used in this report.
+            </summary>
+            <remarks>
+            If the ReportDocument object is a main report, the collection does not include 
+            the connections of its subreports.  However, if a connection is shared by
+            both the main report and a subreport, the connection will be in both collections.
+            </remarks>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields">
+            <summary>
+            Gets the parameter fields.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument">
+            <summary>
+            Returns an instance of the ReportClientDocument class. The ReportClientDocument class is an entry point to the underlying Report Application Server API. If ReportDocument.ReportAppServer does not point to a Report Application Server, this property will throw an exception.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName">
+            <summary>
+            Specifies the name of the report file. If protocol or drive letter is specified, a "ras://" default is assumed.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer">
+            <summary>
+            String. Gets or sets the name of the Report Application Server (also know as the RAS Server).
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnterpriseSession">
+            <summary>
+            Gets or sets the reference to the EnterpriseSession object when the RAS server is managed by BusinessObjects Enterprise.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Rows">
+            <summary>
+            Gets a collection of row data for the top level of the report
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportDefinition">
+            <summary>
+            Summary description for ReportDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.Areas">
+            <summary>
+            Gets the Areas collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.ReportObjects">
+            <summary>
+            Gets the ReportObjects collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportDefinition.Sections">
+            <summary>
+            Gets the Sections collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportObjects">
+            <summary>
+            Summary description for ReportObjects.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportObjects.Count">
+            <summary>
+            	Integer. Gets the number of ReportObject objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.ReportOptions">
+            <summary>
+            Summary description for ReportOptions.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.ReportOptions.Modify(CrystalDecisions.ReportAppServer.ReportDefModel.ReportOptions)">
+            <summary>
+            Modifies the owner report document and updates the EROM peer
+            to the new EROM peer.
+            </summary>
+            <param name="newObject">
+            A copy of the report options object with new values.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSaveDataWithReport">
+            <summary>
+            Gets or sets the option to automatically save database data with a report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSavePreviewPicture">
+            <summary>
+            Gets or sets the option to save a thumbnail picture of a report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableSaveSummariesWithReport">
+            <summary>
+            Gets or sets the option to save the data summaries you create with the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.EnableUseDummyData">
+            <summary>
+            Gets or sets the option to use dummy data when viewing the report at design time. Dummy data is used when there is no data saved with the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.InitialDataContext">
+            <summary>
+            String. Gets or sets the specific record or records that will become the initial data displayed in the Crystal Report Parts Viewer.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.ReportOptions.InitialReportPartName">
+            <summary>
+            String. Gets or sets the name of the report part that will be displayed in the Crystal Report Parts Viewer by default.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition">
+            <summary>
+            Summary description for RunningTotalFieldDefinition.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition">
+            <summary>
+            Summary description for SummaryFieldDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.Group">
+            <summary>
+            Gets the Group object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.Operation">
+            <summary>
+            Gets the summary operation type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.OperationParameter">
+            <summary>
+            Gets the operation parameter based on the SummaryOperation type. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.SecondarySummarizedField">
+            <summary>
+            Gets the main summarized field's FieldDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinition.SummarizedField">
+            <summary>
+            Gets the secondary summarized field's FieldDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.EvaluationCondition">
+            <summary>
+            Gets the evalutaion condition object for this RunningTotalFieldDefinition.
+            </summary>
+            <remarks>
+            NoCondition: null
+            OnChangeOfField: FieldDefinition
+            OnChangeOfGroup: Group
+            OnFormula: string
+            </remarks>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.Name">
+            <summary>
+            Gets the running total field name.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.Operation">
+            <summary>
+            Gets the summary operation type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.OperationParameter">
+            <summary>
+            Gets the operation parameter based on the SummaryOperation type. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.ResetCondition">
+            <summary>
+            Gets the reset condition object for this RunningTotalFieldDefinition.
+            </summary>
+            <remarks>
+            NoCondition: null
+            OnChangeOfField: FieldDefinition
+            OnChangeOfGroup: Group
+            OnFormula: string
+            </remarks>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.SecondarySummarizedField">
+            <summary>
+            Integer. Gets the number of times a field is used in a report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinition.SummarizedField">
+            <summary>
+            FieldDefinition. Gets the main summarized field's FieldDefinition object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.RunningTotalFieldDefinitions">
+            <summary>
+            Summary description for RunningTotalFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Section">
+            <summary>
+            Summary description for Section.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Section.Height">
+            <summary>
+            Gets or sets the object height, in twips.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Section.Kind">
+            <summary>
+            Gets the kind of area or section.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Section.Name">
+            <summary>
+            Gets the section name.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Section.ReportObjects">
+            <summary>
+            Gets the ReportObjects collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Section.SectionFormat">
+            <summary>
+            Gets the SectionFormat object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SectionFormat">
+            <summary>
+            Summary description for SectionFormat.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.SectionFormat.Modify(CrystalDecisions.ReportAppServer.ReportDefModel.ISCRSectionFormat)">
+            <summary>
+            Modifies the owner report section and updates the EROM peer
+            to the new EROM peer.
+            </summary>
+            <param name="newObject">
+            A copy of the format object with new values.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.RasSection">
+            <summary>
+            Gets or sets the owner report section of this format object.
+            </summary>
+            <exception cref="T:System.NotSupportedException">
+            This format object is already associated with a different
+            report section.
+            </exception>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.BackgroundColor">
+            <summary>
+            Gets or sets the background color of the object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.CssClass">
+            <summary>
+            Gets or sets the name of the cascading style sheet (CSS) for the object. The CSS class is set through the SetCSSClass method. For more information on formatting reports over the Web see Formatting Reports using HTML Classes.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableKeepTogether">
+            <summary>
+            Gets or sets the option that indicates whether to keep the entire section on the same page if it is split into two pages.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableNewPageAfter">
+            <summary>
+            Gets or sets the new page after options.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableNewPageBefore">
+            <summary>
+            Gets or sets the new page before option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnablePrintAtBottomOfPage">
+            <summary>
+            Gets or sets the print at bottom of page option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableResetPageNumberAfter">
+            <summary>
+            Gets or sets the reset page number after option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableSuppress">
+            <summary>
+            Gets or sets the area visibility.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableSuppressIfBlank">
+            <summary>
+            Gets or sets the option that indicates whether to suppress the current section if it is blank.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SectionFormat.EnableUnderlaySection">
+            <summary>
+            Gets or sets the underlay following section option.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Sections">
+            <summary>
+            Summary description for Sections.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Sections.Count">
+            <summary>
+            	Integer. Gets the number of Section objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SortField">
+            <summary>
+            Summary description for SortField.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SortField.Field">
+            <summary>
+            Gets or sets the sort field's FieldDefinition object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SortField.SortDirection">
+            <summary>
+            Gets or sets the sort direction.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SortField.SortType">
+            <summary>
+            Gets the sort field type.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SortFields">
+            <summary>
+            Summary description for SortFields.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SortFields.Count">
+            <summary>
+            	Integer. Gets the number of SortField objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SpecialVarFieldDefinition">
+            <summary>
+            Summary description for SpecialVarFieldDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SpecialVarFieldDefinition.SpecialVarType">
+            <summary>
+            Gets the type of special field.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition">
+            <summary>
+            Summary description for SQLExpressionFieldDefinition.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinition.Text">
+            <summary>
+            Gets the SQL expression text.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SQLExpressionFieldDefinitions">
+            <summary>
+            Summary description for SQLExpressionFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.STACaller">
+            This utility class handles calling a method from a single-threaded
+            apartment model thread.
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SubreportObject">
+            <summary>
+            Summary description for SubreportObject.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.SubreportObject.OpenSubreport(System.String)">
+            <summary>
+            The OpenSubreport method opens a subreport contained in the report and returns a ReportDocument Object corresponding to the named subreport.
+            </summary>
+            <param name="subReportName">Indicates the name of the subreport to open. </param>
+            <returns>Returns a separate ReportDocument that represents the subreport. </returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SubreportObject.EnableOnDemand">
+            <summary>
+            Gets or sets the real-time subreport option.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SubreportObject.SubreportName">
+            <summary>
+            Gets the name of the subreport.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Subreports">
+            <summary>
+            Contains the ReportDocument objects for every subreport in the report.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SummaryFieldDefinitions">
+            <summary>
+            Summary description for SummaryFieldDefinitions.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.SummaryInfo">
+            <summary>
+            Summary description for SummaryInfo.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.SummaryInfo.Modify(CrystalDecisions.ReportAppServer.DataDefModel.SummaryInfo)">
+            <summary>
+            Modifies the owner report document and updates the EROM peer
+            to the new EROM peer.
+            </summary>
+            <param name="newObject">
+            A copy of the summary info object with new values.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.KeywordsInReport">
+            <summary>
+            Gets or sets the keywords in the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportAuthor">
+            <summary>
+            Gets or sets the report author.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportComments">
+            <summary>
+            Gets or sets the report comments.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportSubject">
+            <summary>
+            Gets or sets the report subject.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.ReportTitle">
+            <summary>
+            Gets or sets the report title.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.SummaryInfo.EnableSavePreviewPicture">
+            <summary>
+            Gets or sets the flag for saving preview thumbnail picture.
+            </summary>
+            <remarks>
+            This property is exposed for ReportOptions. In EROM, this flag is a 
+            memeber of SummaryInfo. We need to update the EROM peer of this
+            object if the flag is updated in ReportOptions.
+            </remarks>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Table">
+            <summary>
+            Summary description for Table.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Table.ApplyLogOnInfo(CrystalDecisions.Shared.TableLogOnInfo)">
+            <summary>
+            Applies the logon information set in the TableLogonInfo object.
+            </summary>
+            <param name="logonInfo">Contains the logon information. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Table.SetDataSource(System.Object)">
+            <summary>
+            Passes a Recordset or Dataset to the specified table in the report when using a 'Push Model'. For more information on Push and Pull models, see Data Access.
+            </summary>
+            <param name="val">Represents a valid dataset object. </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.Table.TestConnectivity">
+            <summary>
+            Tests to see if the database can be logged on to with the current information and if the database table can be accessed by the report.
+            </summary>
+            <returns>True if the database session, log on, and location information is correct. False if the connection fails or an error occurs</returns>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Table.Fields">
+            <summary>
+            Gets the DatabaseFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Table.Location">
+            <summary>
+            Gets or sets the location of the database table.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Table.LogOnInfo">
+            <summary>
+            TableLogonInfo. Gets the TableLogonInfo object. Use the ApplyLogOnInfo method to apply any changes made through the TableLogonInfo object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Table.Name">
+            <summary>
+            Gets the alias name for the database table used in the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.DestinationFields">
+            <summary>
+            Gets reference to table link destination DatabaseFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.DestinationTable">
+            <summary>
+            Gets reference to the table link destination Table object.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.JoinType">
+            <summary>
+            Gets a summary of the linking used by the table.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.SourceFields">
+            <summary>
+            Gets reference to table link source DatabaseFieldDefinitions collection.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLink.SourceTable">
+            <summary>
+            Gets reference to the table link source Table object.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.TableLinks">
+            <summary>
+            Summary description for TableLinks.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TableLinks.Count">
+            <summary>
+            	Integer. Gets the number of TableLink objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Tables">
+            <summary>
+            Summary description for Tables.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.Tables.Count">
+            <summary>
+            	Integer. Gets the number of Table objects in the collection.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat">
+            <summary>
+            Summary description for TimeFieldFormat.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.AMPMFormat">
+            <summary>
+            Gets or sets the AM/PM type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.AMString">
+            <summary>
+            Gets or sets the AM string.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.HourFormat">
+            <summary>
+            Gets or sets the hour type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.HourMinuteSeparator">
+            <summary>
+            Gets or sets the hour minute separator.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.MinuteFormat">
+            <summary>
+            Gets or sets the minute type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.MinuteSecondSeparator">
+            <summary>
+            Gets or sets minute second separator.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.PMString">
+            <summary>
+            Gets or sets the PM string.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.SecondFormat">
+            <summary>
+            Gets or sets the seconds type.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TimeFieldFormat.TimeBase">
+            <summary>
+            Gets or sets the time base.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField">
+            <summary>
+            Summary description for TopBottomNSortField.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.EnableDiscardOtherGroups">
+            <summary>
+            Gets or sets the discard other groups option. 
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.NotInTopBottomNName">
+            <summary>
+            Gets or sets the group heading for the groups that are not in the TopBottomNSortFields specified in the report.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.NumberOfTopOrBottomNGroups">
+            <summary>
+            Gets or sets the number of groups to display in a top or bottom sort.
+            </summary>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.TopBottomNSortField.SortType">
+            <summary>
+            Gets the sort field type.
+            </summary>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.CREngineResDisplayNameAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.CREngineResDisplayNameAttribute.DisplayName">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.CREngineResCategoryAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.CREngineResCategoryAttribute.GetLocalizedString(System.String)">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="M:CrystalDecisions.CrystalReports.Engine.CREngineResDescriptionAttribute.#ctor(System.String)">
+            <summary>
+                Constructs a new sys description.
+            </summary>
+            <param name='description'>
+                description text.
+            </param>
+        </member>
+        <member name="P:CrystalDecisions.CrystalReports.Engine.CREngineResDescriptionAttribute.Description">
+            <summary>
+                Retrieves the description text.
+            </summary>
+            <returns>
+                description
+            </returns>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.CREngineRes">
+             <summary>
+                AutoGenerated resource class. Usage:
+            
+                    string s = CREngineRes.GetString(CREngineRes.MyIdenfitier);
+             </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.AreaConverter">
+            <summary>
+            Summary description for AreaConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.ConnectionConverter">
+            <summary>
+            Summary description for ConnectionConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.FieldConverter">
+            <summary>
+            Summary description for FieldConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.FormatConverter">
+            <summary>
+            Summary description for FormatConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.GroupOptionsConverter">
+            <summary>
+            Summary description for GroupOptionsConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.ObjectConverter">
+            <summary>
+            Summary description for ObjectConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.PrintOptionsConverter">
+            <summary>
+            Summary description for PrintOptionsConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.ReportSourceConverter">
+            <summary>
+            Summary description for ConnectionConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.SortConverter">
+            <summary>
+            Summary description for SortConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.SummaryConverter">
+            <summary>
+            Summary description for SummaryConverter.
+            </summary>
+        </member>
+        <member name="T:CrystalDecisions.CrystalReports.Engine.Migration.TypeConverter">
+            <summary>
+            Summary description for TypeConverter.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:CrystalDecisions.ReportSource.CePropertyID" -->
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_CHILDREN">
+            <p>
+            Specifies the number of children an object has. The <code>SI_CHILDREN</code> property is a numeric
+            value specifying how many children a particular object has. In the case of a folder, this
+            may be subfolders, reports, or other objects. If the object is a report, this number will
+            represent the number of instances the report owns. Note that this value only represents the
+            number of direct children: it does not, for instance, indicate how many grandchildren an
+            object may have.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_FLAGS">
+            <!-- ? -->
+            <p>
+            Indicates the nature of an InfoObject. Each object can have more than one flag.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_ID">
+            <p>
+            A number that uniquely identifies an object in the Crystal Enterprise system. This property
+            is used to uniquely identify an object. The number is assigned at creation time, and is
+            never changed until the object is destroyed. You should never hard-code this number, however,
+            since if the object is destroyed the number may be assigned to another object. No two objects
+            have the same ID, even if they are different types of objects; that is, you will never find a
+            report that has the same ID as a folder.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_OBTYPE">
+            <!-- ? -->
+            <p>
+            Identifies the type of the InfoObject.Deprecated.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_OWNER">
+            <p>
+            The name of the user who owns a particular object. This property can be used, for example,
+            to list all the reports, and folders, for a particular user. Like the <code>SI_ID</code> property,
+            this value is unique.
+            </p>
+            <p>
+            This example selects all reports, and report instances that belong to a particular user.
+            <code>Select SI_NAME From CI_INFOOBJECTS Where SI_OWNER='Crystal'
+            And SI_PROGID='CrystalEnterprise.Report'</code>
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_OWNERID">
+            <p>
+            The <code>SI_OWNERID</code> Property is a number that uniquely identifies the user who owns a
+            particular object. This property can be used, for example, to list all the reports
+            and folders for a particular user. This effectively limits some users to their own files.
+            Like the <code>SI_ID</code> property, this value is unique. See the example for
+            <code>SI_OWNER</code> Property.
+            </p>
+            <p>
+            For a scheduled report, this property is the same as <code>SI_SUBMITTERID</code> Property by
+            default. Use the ScheduleOnBehalfOf Property to change the owner ID if it is different from
+            the submitter ID. The owner name is automatically updated if you change the owner ID.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_PARENT_FOLDER">
+            <p>
+            Identifies the folder that the object belongs to. The <code>SI_PARENT_FOLDER</code> property
+            is a numeric <code>Long</code> value; it refers to the unique ID for a particular object's
+            parent folder. Top level objects have no parent folder: their parent folder ID is zero. Note
+            that this property is not equivalent to <code>SI_PARENTID</code>. To examine the differences
+            between the two, see <code>SI_PARENTID</code>.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_PARENTID">
+            <!-- ? -->
+            <p>
+            Identifies an object's parent. The <code>SI_PARENTID</code> property is a numeric
+            <code>Long</code> value; it refers to the unique ID for a particular object's parent.
+            It can be used to locate all the children for a particular object. This is mainly used to
+            find the all the instances of a Report. In this case the parent object is the Report and its
+            children are the various instances of the report that have been run or scheduled.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_INSTANCE">
+            <p>
+            A <code>boolean</code> value specifying whether or not the Crystal Enterprise object is a
+            report instance. This property can be used to find all instances of a particular report.
+            When a report is scheduled to run on a recurring basis (for example, hourly), two instances
+            are created: a runnable instance, which is able to run and create another instance, and an
+            instance object, which is the result of a job that has already run. Use the
+            <code>SI_RUNNABLE_OBJECT</code> Property to retrieve only those instances that are runnable,
+            and use the <code>SI_INSTANCE_OBJECT</code> Property to retrieve only those instances that
+            have already been run.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_TARGETID">
+            <!-- ? -->
+            <p>
+            This is a Long value specifying the ID of a recurring instance's parent object. Deprecated.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_UPDATE_TS">
+            <p>
+            Indicates the last time the object was modified. This is a time stamp property which stores
+            the last time the object was modified. An object is modified when any one of its properties
+            change. Note that although the date is returned in the format MM/DD/YYYY HH:MM:SS AM/PM, the
+            format of the date in the query string must be yyyy.mm.dd.hh.mm.ss, where you can omit
+            anything starting from the right, and the separator can be any separator character. The time
+            part must be in local time and it must use the 24 hour clock.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_VERSIONS">
+            <!-- ? -->
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_OBJECT_IS_CONTAINER">
+            <!-- ? -->
+            <p>
+            A boolean value specifying whether or not the object is a container: it may be either
+            True or False. Deprecated.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_CREATION_TIME">
+            <p>
+            Stores the date and time of the object's creation. The SI_CREATION_TIME property stores both
+            the date and the time at which the object was created. You can easily query for a certain
+            date using the method below. The format of the date in the query string must be
+            yyyy.mm.dd.hh.mm.ss, where you can omit anything starting from the right, and the separator
+            can be any separator character. The time part must be in UTC time (GMT with no daylight
+            savings) and it must use the 24 hour clock.
+            </p>
+            <p>
+            The format of the returned date is defined by your default locale. This format may be examined
+            using the Regional Settings in the control panel.
+            </p>
+        </member>
+        <member name="F:CrystalDecisions.ReportSource.CePropertyID.SI_LAST_RUN_TIME">
+            <p>
+            This property stores the date and time when the report was last run. The SI_LAST_RUN_TIME
+            property stores both the date and the time, at which the report was last run. You can easily
+            query for a certain date using the method below. The format of the date in the query string
+            must be yyyy.mm.dd.hh.mm.ss, where you can omit anything starting from the right, and the
+            separator can be any separator character. The time part must be in UTC time (GMT with no
+            daylight savings) and it must use the 24 hour clock.
+            </p>
+            <p>
+            The format of the returned date is defined by your default locale. This may be examined
+            using the Regional Settings in the control panel.
+            </p>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:CrystalDecisions.ReportSource.CePropertyID.SI_LAST_SUCCESSFUL_INSTANCE_ID" -->
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\FileNameEditor.uex" path="docs/doc[@for=&quot;FileNameEditor.EditValue&quot;]/*"/>
+            <devdoc>
+                 Edits the given object value using the editor style provided by
+                 GetEditorStyle.  A service provider is provided so that any
+                 required editing services can be obtained.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\FileNameEditor.uex" path="docs/doc[@for=&quot;FileNameEditor.GetEditStyle&quot;]/*"/>
+            <devdoc>
+               <para>Gets the editing style of the Edit method. If the method
+                  is not supported, this will return None.</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriEditor.InitializeDialog(CrystalDecisions.Shared.Interop.CrystalOpenFileDialog)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\FileNameEditor.uex" path="docs/doc[@for=&quot;FileNameEditor.InitializeDialog&quot;]/*"/>
+            <devdoc>
+                 Initializes the open file dialog when it is created.  This gives you
+                 an opportunity to configure the dialog as you please.  The default
+                 implementation provides a generic file filter and title.
+            </devdoc>
+        </member>
+        <member name="T:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.Equals(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.Equals&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.GetHashCode">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.GetHashCode&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.ResetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.ResetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.SetValue(System.Object,System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.SetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.ShouldSerializeValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.ShouldSerializeValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.DefaultPropDesc">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.Column&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.DocumentUriPropertyDescriptor.ComponentType">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DocumentUriPropertyDescriptor.uex" path="docs/doc[@for=&quot;DocumentUriPropertyDescriptor.ComponentType&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetAttributes">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetAttributes&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of member attributes for the given object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetClassName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetClassName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the class name for this object.  If null is returned,
+            the type name is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetComponentName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetComponentName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the name for this object.  If null is returned,
+            the default is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetConverter">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetConverter&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the type converter for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetDefaultEvent">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultEvent&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default event.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetDefaultProperty">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultProperty&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default property.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetEditor(System.Type)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEditor&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the an editor for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetEvents">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetEvents(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.  The returned array of events will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetProperties">
+            <!-- Failed to insert some or all of included XML --><include file="doc\EnterpriseReportDocument.uex" path="docs/doc[@for=&quot;EnterpriseReportDocument.ICustomTypeDescriptor.GetProperties&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetProperties(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\EnterpriseReportDocument.uex" path="docs/doc[@for=&quot;EnterpriseReportDocument.ICustomTypeDescriptor.GetProperties1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.  The returned array of properties will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.System#ComponentModel#ICustomTypeDescriptor#GetPropertyOwner(System.ComponentModel.PropertyDescriptor)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\EnterpriseReportDocument.uex" path="docs/doc[@for=&quot;EnterpriseReportDocument.ICustomTypeDescriptor.GetPropertyOwner&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the object that directly depends on this value being edited.  This is
+            generally the object that is required for the PropertyDescriptor's GetValue and SetValue
+            methods.  If 'null' is passed for the PropertyDescriptor, the ICustomComponent
+            descripotor implemementation should return the default object, that is the main
+            object that exposes the properties and attributes,
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetAttributes">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetAttributes&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of member attributes for the given object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetClassName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetClassName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the class name for this object.  If null is returned,
+            the type name is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetComponentName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetComponentName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the name for this object.  If null is returned,
+            the default is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetConverter">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetConverter&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the type converter for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetDefaultEvent">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultEvent&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default event.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetDefaultProperty">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultProperty&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default property.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetEditor(System.Type)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEditor&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the an editor for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetEvents">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetEvents(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.  The returned array of events will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetProperties">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetProperties(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.  The returned array of properties will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportID.System#ComponentModel#ICustomTypeDescriptor#GetPropertyOwner(System.ComponentModel.PropertyDescriptor)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetPropertyOwner&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the object that directly depends on this value being edited.  This is
+            generally the object that is required for the PropertyDescriptor's GetValue and SetValue
+            methods.  If 'null' is passed for the PropertyDescriptor, the ICustomComponent
+            descripotor implemementation should return the default object, that is the main
+            object that exposes the properties and attributes,
+            </devdoc>
+        </member>
+        <member name="T:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.Equals(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.Equals&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.GetHashCode">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.GetHashCode&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.CanResetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.CanResetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.GetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.GetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.ResetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.ResetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.SetValue(System.Object,System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.SetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.ShouldSerializeValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.ShouldSerializeValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.Column">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.Column&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.ComponentType">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.ComponentType&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.IsReadOnly">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.IsReadOnly&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.PropertyType">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.PropertyType&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataColumnPropertyDescriptor.IsBrowsable">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewColumnDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewColumnDescriptor.IsBrowsable&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="T:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>    
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.Equals(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.Equals&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.GetHashCode">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.GetHashCode&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.CanResetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.CanResetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.GetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.GetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.ResetValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.ResetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.SetValue(System.Object,System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.SetValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.ShouldSerializeValue(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.ShouldSerializeValue&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.Relation">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.Relation&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.ComponentType">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.ComponentType&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.IsReadOnly">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.IsReadOnly&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.ReportDataRelationPropertyDescriptor.PropertyType">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowViewRelationDescriptor.uex" path="docs/doc[@for=&quot;DataRowViewRelationDescriptor.PropertyType&quot;]/*"/>
+            <devdoc>
+               <para>[To be supplied.]</para>
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetAttributes">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetAttributes&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of member attributes for the given object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetClassName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetClassName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the class name for this object.  If null is returned,
+            the type name is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetComponentName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetComponentName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the name for this object.  If null is returned,
+            the default is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetConverter">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetConverter&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the type converter for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetDefaultEvent">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetDefaultEvent&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default event.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetDefaultProperty">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetDefaultProperty&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default property.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetEditor(System.Type)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetEditor&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the an editor for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetEvents">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetEvents&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetEvents(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetEvents1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.  The returned array of events will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetProperties">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetProperties&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetProperties(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetProperties1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.  The returned array of properties will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.System#ComponentModel#ICustomTypeDescriptor#GetPropertyOwner(System.ComponentModel.PropertyDescriptor)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataRowView.uex" path="docs/doc[@for=&quot;DataRowView.ICustomTypeDescriptor.GetPropertyOwner&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the object that directly depends on this value being edited.  This is
+            generally the object that is required for the PropertyDescriptor's GetValue and SetValue
+            methods.  If 'null' is passed for the PropertyDescriptor, the ICustomComponent
+            descripotor implemementation should return the default object, that is the main
+            object that exposes the properties and attributes,
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataRowView.Rows">
+            <summary>
+            Gets a collection of row data for the top level of the report
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Add(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.Add&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Clear">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.Clear&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Contains(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.Contains&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#IndexOf(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.IndexOf&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Insert(System.Int32,System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.Insert&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Remove(System.Object)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.Remove&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#RemoveAt(System.Int32)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.RemoveAt&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetAttributes">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetAttributes&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of member attributes for the given object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetClassName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetClassName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the class name for this object.  If null is returned,
+            the type name is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetComponentName">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetComponentName&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the name for this object.  If null is returned,
+            the default is used.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetConverter">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetConverter&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the type converter for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetDefaultEvent">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultEvent&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default event.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetDefaultProperty">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetDefaultProperty&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the default property.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetEditor(System.Type)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEditor&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the an editor for this object.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetEvents">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetEvents(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetEvents1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of events that the given component instance
+            provides.  This may differ from the set of events the class
+            provides.  If the component is sited, the site may add or remove
+            additional events.  The returned array of events will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetProperties">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetProperties(System.Attribute[])">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetProperties1&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves an array of properties that the given component instance
+            provides.  This may differ from the set of properties the class
+            provides.  If the component is sited, the site may add or remove
+            additional properties.  The returned array of properties will be
+            filtered by the given set of attributes.
+            </devdoc>
+        </member>
+        <member name="M:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#ComponentModel#ICustomTypeDescriptor#GetPropertyOwner(System.ComponentModel.PropertyDescriptor)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\ReportID.uex" path="docs/doc[@for=&quot;ReportID.ICustomTypeDescriptor.GetPropertyOwner&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            Retrieves the object that directly depends on this value being edited.  This is
+            generally the object that is required for the PropertyDescriptor's GetValue and SetValue
+            methods.  If 'null' is passed for the PropertyDescriptor, the ICustomComponent
+            descripotor implemementation should return the default object, that is the main
+            object that exposes the properties and attributes,
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#Item(System.Int32)">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.this&quot;]/*"/>
+            <internalonly/>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#IsReadOnly">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.IsReadOnly&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            private implementation.
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#IList#IsFixedSize">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.IList.IsFixedSize&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            private implementation.
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#ICollection#IsSynchronized">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.ICollection.IsSynchronized&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            private implementation.
+            </devdoc>
+        </member>
+        <member name="P:CrystalDecisions.ReportAppServer.CrystalReportDataView.System#Collections#ICollection#SyncRoot">
+            <!-- Failed to insert some or all of included XML --><include file="doc\DataView.uex" path="docs/doc[@for=&quot;DataView.ICollection.SyncRoot&quot;]/*"/>
+            <internalonly/>
+            <devdoc>
+            private implementation.
+            </devdoc>
+        </member>
+    </members>
+</doc>

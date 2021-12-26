@@ -1,0 +1,7 @@
+XLODBC
+1
+DRIVER={MySQL ODBC 5.2 Unicode Driver};UID=root;PWD=heslo;SERVER=1.1.1.1;DATABASE=ip_report;PORT=3306;
+SELECT data_table_0.IP, data_table_0.usr_name, data_table_0.date, data_table_0.time, data_table_0.sent_Mbps, data_table_0.receive_Mbps, data_table_0.default_unit  FROM ip_report.data_table data_table_0  ORDER BY data_table_0.IP, data_table_0.date, data_table_0.time
+
+
+IP	usr_name	date	time	sent_Mbps	receive_Mbps	default_unit

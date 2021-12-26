@@ -1,0 +1,11 @@
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Main_Form.resources
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\Skrinka.vbproj.GenerateResource.Cache
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\OLD_NTB\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsApplication1\WindowsApplication1\bin\Debug\vydej_klicu.exe.config

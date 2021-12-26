@@ -1,0 +1,176 @@
+body {
+    margin:0px;
+    background-color: darkgrey;
+    width:1024px;
+    height:100%;
+    padding:0px;
+    overflow: auto;
+    overflow-y: hidden;
+    color:blue;
+}
+
+
+
+
+/* section */
+
+  #banner{
+  width:1024px;
+  height:10%;
+  top:0px;
+}
+
+  #full_data{
+  width:1024px;
+  height:80%;
+  top:0px;
+  background:red;
+}
+
+  #links{
+  width:10%;
+  background:green;
+  height:100%;
+}
+
+  #data{
+  width:75%;
+  overflow: auto;
+  vertical-align:top;
+}
+
+  #reklama{
+  width:15%;
+  background:black;
+}
+
+  #photogallery{
+  width:1024px;
+  height:10%;
+  bottom:15px;
+}
+
+  #webservice{
+  filter: alpha(opacity=50);
+  position: absolute;
+  width:15px;
+  height:100%;
+  top:0px;
+  margin:0px;
+  padding:0px;
+  left:0px;
+  background:black;
+  vertical-align:center;
+  font-family: tahoma;
+  font-size: 8pt;
+  font-weight:bold;
+  color:gold;
+  writing-mode: tb-rl;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+
+
+
+
+/* objects */
+
+  #mailto {
+  color:green;
+}
+
+  .picture {
+  position:relative;
+  width: 100px;
+  height:100px;
+  left: 0px;
+  border: 1px solid #666666;
+  left:0px;
+}
+
+  #search {
+  position:fixed;
+  right: 5px;
+  width: 80px;
+  text-align: right;
+}
+
+  #left_arrow {
+  background:url(./images/left-arrow.png) no-repeat left center;
+  background-size: round auto;
+  width:5%;
+  height:100%;
+  cursor:pointer;
+}
+
+  #right_arrow {
+  background:url(./images/left-arrow.png) no-repeat left center;
+  background-size: contain;
+  background-size: 70px, auto, cover;
+  width:5%;
+  height:100%;
+  cursor:pointer;
+}
+
+  #photos {
+  width:90%;
+  height:100%;
+  overflow:hidden;
+  padding:0px;
+  text-align:left;
+}
+
+
+
+
+/* menu items */
+
+  .link_on_item{
+    width:100%;
+    cursor:pointer;
+    height: 25px;
+    border: 1px inset;
+    vertical-align:middle;
+    background-color: #E3BBF2;
+    margin: 0 5 0 5px;
+    font-weight: bolder;
+}
+
+  .link_out_item{
+    width:100%;
+    cursor:pointer;
+    height: 25px;
+    border: 1px outset;
+    vertical-align:middle;
+    background-color: darkgrey;
+    margin: 0 5 0 5px;
+    font-weight: normal;
+}
+
+   .on_menu {
+    padding:3px;
+    position:relative;
+    top:-2px;
+    right:0px;
+    cursor:pointer;
+    height: 25px;
+    border: 1px inset;
+    vertical-align:middle;
+    background-color: #E3BBF2;
+    margin: 0 5 0 5px;
+    font-weight: bolder;
+}
+
+  .out_menu {
+    padding:3px;
+    position:relative;
+    top:-2px;
+    right:0px;
+    cursor:pointer;
+    height: 25px;
+    border: 1px dashed;
+    vertical-align:middle;
+    margin: 0 5 0 5px;
+}

@@ -1,0 +1,230 @@
+body {
+    margin:0 0 0 0;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+#app_name {
+  position: absolute;
+  right:10px;
+  text-align: right;    
+  font-weight: bolder;
+  font-family: tahoma;
+  font-size: 15pt;
+}
+
+#openned_app {
+  position: absolute;
+  left:45%;
+  text-align: center;    
+  font-weight: bolder;
+  font-family: tahoma;
+  font-size: 15pt;
+  color: #E3211C;
+}
+
+#main_window_table {
+ width: 100%;
+ height: 100%;
+ margin : 0px;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ border:0px solid grey;
+}
+
+#empty_table {
+ margin : 0px;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ border:0px;
+ cellspacing:0px;
+ cellpadding:0px;
+ border-collapse:collapse;
+}
+
+
+ #options {
+  background-color: silver;   
+  height: 30px ;   
+  width: 100%; 
+  vertical-align: bottom;  
+ }
+
+ #selections {
+  background-color: silver;   
+  height: 100%;
+  width : 15%; 
+ }
+
+ #program {
+  background-color: grey;   
+  height: 100%;
+  width: 85%;
+ scrolling:hidden;
+ overflow-y: hidden;
+ overflow-x: hidden;
+ 
+ }
+ 
+ #program_frame{
+ text-align: center;
+ width:100%;
+ height:100%;
+ z-index:50;
+ align: middle;
+ frameborder:0;
+ scrolling:hidden;
+ overflow-y: hidden;
+ overflow-x: hidden;
+ noresize:noresize;
+ }
+ 
+ #footer {
+  background-color: silver;   
+  height: 30px ;   
+  width: 100%;
+  text-align:right;
+  vertical-align: middle;   
+ }
+ 
+ #selectmenu {
+  background-color: white;   
+  height: 100%;
+  width : 100%;
+  border: 3px ridge gray;
+  overflow: auto ;
+ }
+
+ #mainmenu_desc {
+  background-color: #E0E0E0;   
+  height: 100%;
+  width : 100%;
+  text-align: center; 
+  height: 26px ;   
+  vertical-align: middle;
+  font-family: tahoma;
+  font-size: 16pt;
+  font-weight: bolder;
+  margin-bottom: 3px;
+ }
+
+ .units_menu1on {
+  background-color: C0C0FF;
+  color: red;   
+  width : 100%; 
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  font-family: tahoma;
+  font-size: 11pt;
+ }
+
+ .units_menu1out {
+  background-color: white;   
+  width : 100%; 
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  font-family: tahoma;
+  font-size: 11pt;
+ }
+
+ .outbutton {
+  vertical-align:middle;
+  display: inline-block;
+  color: #585858; 
+  font-family: tahoma;
+  font-size: 10pt;
+  background-color: silver;   
+  height: 100% ;   
+  width: 100px;
+  cursor: pointer;
+  border: 1px dotted;
+  text-align: center;
+  vertical-align: middle;
+  }
+  
+  .onbutton {
+  vertical-align:middle;
+  display: inline-block;
+  color: black;
+  font-family: tahoma;
+  font-size: 10pt;
+  background-color: #F0F0F0;   
+  height: 100% ;   
+  width: 100px;
+  cursor: pointer;
+  border: 1px dotted;
+  text-align: center;
+  vertical-align: middle;
+  }
+  
+  .outmbutton {
+  vertical-align:middle;
+  display: inline-block;
+  color: #585858; 
+  background-color: #F0F0F0;   
+  width: 100%;
+  cursor: pointer;
+  }
+  
+  .onmbutton {
+  vertical-align:middle;
+  display: inline-block;
+  color: black;
+  background-color: #C0C0FF;   
+  width: 98%;
+  cursor: pointer;
+  }
+  
+  #loading {
+    width:240px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin-left: -120px;
+    text-align: center;
+    border: 3px #A4A4A4 solid;
+}
+
+    #login {
+    width:300px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin-left: -150px;
+    text-align: center;
+    border: 5px #004171 solid;
+}
+
+
+  #help_frame {
+    padding: 0px;
+    width:600px;
+    height:400px;
+    background-color: #A7C0FC;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin-left: -300px;
+    text-align: center;
+    border: 3px #A4A4A4 double;
+}
+
+  #help_window {
+    padding: 0px;
+    width:100%;
+    height:100%;
+    background-color: #CDEDFC;
+    text-align: center;
+    border: 0px;
+    cursor: move;
+}

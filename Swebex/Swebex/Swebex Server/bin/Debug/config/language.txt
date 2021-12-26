@@ -1,0 +1,54 @@
+﻿System;Česky;English
+msg_cannot_load_dictionary_file;soubor slovníku nelze otevřít;cannot open dictionary file
+msg_yellow_fields_required;Žlutá pole jsou povinná; Yellow fields are required
+msg_cannot_save_log_file;Log nelze uložit;Cannot save Log file
+msg_port_must_be_number;Port musí být číslo;Port must be a number
+msg_server_is_running;Server již běží;The server is already running.
+msg_message_for;Zpráva pro:;Message For:
+msg_really_close_app;Chcete skutečně ukončit aplikaci?;Do you want to close application?
+msg_receiving_file;Příchozí soubor;Received File
+msg_sending_file;Odchozí soubor;Sending File
+mod_settings;Nastavení;Settings
+mod_chat_application;Chat;Chat
+msg_new_message;Nová Zpráva;New Message
+msg_new_file_message;Nová Zpráva s přílohou;New Message with Attachment
+app_dictionary;Systémový Slovník;System Dictionary
+app_settings;Hlavní Nastavení;Main Settings
+app_name;Swebex;Swebex
+app_chat_settings;Nastavení Chatu;Chat Settings
+btn_clear_form;Smazat Formulář;Clear Form
+btn_save;Uložit;Save
+btn_clear_history;Smazat Historii;Clear History
+btn_chat_send_to_All;Poslat Všem;Send to All
+btn_chat_disconnect_all;Odpojit Všechny;Disconnect All
+btn_open_log_file;Otevřít Log;Open Log File
+btn_show_chat_log;Chat Log;Chat Log
+btn_show_files;Zobrazit Soubory;Show Files
+lbl_modules;Moduly;Modules
+lbl_server_user;Serverový Uživatel;Server User
+lbl_ip_address;Ip Adresy;IP Addresses
+lbl_domain;Doména;Domain
+lbl_pc_name;Název PC;PC Name
+lbl_chat_port;Chat Port;Chat Port
+lbl_connected_clients;:Připojených Uživatelů;:Connected Clients
+lbl_default_lang;Jazyk Aplikace;Appl. Language
+lbl_word;Slovo;Word
+lbl_language;Jazyk;Language
+lbl_translate;Překlad;Translate
+lbl_status;Status;Status
+lbl_sessionid;ID Připojení;Session ID
+lbl_machineid;Jméno Klienta; Client Name
+lbl_log_line_limit;Limit Řádků. Logu |(0-bez Limitu);Log Lines Limit (0-No Limit)
+lbl_delay_notification;Čas zobrazení upoz.;Delay Notification
+chb_logging_chat_messages;Logovat Zprávy Chatu;Log Chat Messages
+tss_listen_running;Chat Běží;Chat Running
+tss_listen_stoped;Chat Neběží;Chat is Stopped
+tss_search_clients_run;Hledám Clienty;Search Clients
+tss_search_clients_sleep;Spím;Sleeping
+cms_send_text;Odeslat Zprávu;Send Message
+cms_send_file;Odeslat Soubor;Send File
+cms_disconnect_client;Odpojit Clienta;Disconnect Client
+ts_exit_app;Ukončit;Exit
+ts_about_app;O Aplikaci;About Application
+ts_show;Zobrazit;Show
+ts_hidden;Skrýt;Hidden

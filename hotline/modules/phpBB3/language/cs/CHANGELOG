@@ -1,0 +1,14 @@
+Verze 1.6:
+- Aktualizace překladu pro verzi 3.0.11
+Verze 1.5.2:
+- Oprava uvozovek v cs/common.php
+Verze 1.5.1:
+- Bugfix cs/common.php
+Verze 1.5:
+- Aktualizace překladu pro verzi 3.0.10 
+Verze 1.4.1:
+- Upraven popisek u vysvětlivky hesla (řetězec PASS_TYPE_ALPHA_EXPLAIN)
+Verze 1.4:
+- Vložen soubor CHANGELOG
+- Aktualizace souborů pro verzi 3.0.9
+- Odstraněny zbytečné řetezce v memberlist.php

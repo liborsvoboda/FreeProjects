@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Run_As_Admin.exe.config
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Run_As_Admin.exe
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Run_As_Admin.pdb
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Run_As_Admin.xml
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_As_Admin.Main_Form.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_As_Admin.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_AS_Admin.vbproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_As_Admin.exe
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_As_Admin.xml
+c:\users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Run_As_Admin.pdb
+C:\Users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\System.dll
+C:\Users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\System.Drawing.dll
+C:\Users\user\documents\visual studio 2012\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\System.Windows.Forms.dll

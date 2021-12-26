@@ -1,0 +1,12 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\bin\Debug\Kalkulacka.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.Kalkulacka.resources
+E:\TVD\last_bck\vb_projekty\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.exe
+E:\TVD\last_bck\vb_projekty\VB_PROJEKTY\VB2012_projects\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.pdb
+E:\Smažba\TVD\VS12\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.exe
+E:\Smažba\TVD\VS12\Kalkulacka\Kalkulacka\obj\Debug\Kalkulacka.pdb

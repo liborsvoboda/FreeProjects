@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Run_As_Admin
+</name>
+</assembly>
+<members>
+<member name="P:Run_As_Admin.My.Resources.Resources.ResourceManager">
+	<summary>
+  Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+</summary>
+</member><member name="P:Run_As_Admin.My.Resources.Resources.Culture">
+	<summary>
+  Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+  vyhledání prostředků pomocí třídy prostředků se silnými typy.
+</summary>
+</member><member name="T:Run_As_Admin.My.Resources.Resources">
+	<summary>
+  Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+</summary>
+</member>
+</members>
+</doc>

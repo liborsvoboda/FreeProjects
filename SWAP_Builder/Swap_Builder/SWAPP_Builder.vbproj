@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF26F341-453A-4844-95C6-BBA60ABB7757}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SWAPP_Builder.My.MyApplication</StartupObject>
+    <RootNamespace>SWAPP_Builder</RootNamespace>
+    <AssemblyName>SWAPP_Builder</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\tatka\AppData\Roaming\ICSharpCode/SharpDevelop4\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SWAPP_Builder.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SWAPP_Builder.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icons\terminal.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>False</Optimize>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSharpJExcel">
+      <HintPath>.\CSharpJExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\Classes.vb" />
+    <Compile Include="Forms\frm_filter.Designer.vb">
+      <DependentUpon>frm_filter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_filter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_form_list.Designer.vb">
+      <DependentUpon>frm_form_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_form_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_new_favorite_item.Designer.vb">
+      <DependentUpon>frm_new_favorite_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_new_favorite_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_new_file_item.Designer.vb">
+      <DependentUpon>frm_new_file_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_new_file_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_picture_preview.Designer.vb">
+      <DependentUpon>frm_picture_preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_picture_preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\Functions_substitution.vb" />
+    <Compile Include="Functions\Functions_user.vb" />
+    <Compile Include="Forms\frm_dev_input.Designer.vb">
+      <DependentUpon>frm_dev_input.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_dev_input.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_logon.Designer.vb">
+      <DependentUpon>frm_logon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_logon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_new_menu_item.Designer.vb">
+      <DependentUpon>frm_new_menu_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_new_menu_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_waiting.Designer.vb">
+      <DependentUpon>frm_waiting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_waiting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\Functions_arrays.vb" />
+    <Compile Include="Functions\Functions_dev_builder.vb" />
+    <Compile Include="Functions\Functions_export.vb" />
+    <Compile Include="Functions\Function_translate.vb" />
+    <Compile Include="Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.vb">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\Functions_SQL.vb" />
+    <Compile Include="Definitions.vb" />
+    <Compile Include="Functions\Functions_system.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service References\EET_service\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frm_filter.resx">
+      <DependentUpon>frm_filter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_dev_input.resx">
+      <DependentUpon>frm_dev_input.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_logon.resx">
+      <DependentUpon>frm_logon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_form_list.resx">
+      <DependentUpon>frm_form_list.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_new_favorite_item.resx">
+      <DependentUpon>frm_new_favorite_item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_new_file_item.resx">
+      <DependentUpon>frm_new_file_item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_new_menu_item.resx">
+      <DependentUpon>frm_new_menu_item.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_picture_preview.resx">
+      <DependentUpon>frm_picture_preview.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_waiting.resx">
+      <DependentUpon>frm_waiting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Service References\EET_service\EET1.wsdl" />
+    <None Include="Service References\EET_service\EETXMLSchema1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\EET_service\SWAPP_Builder.EET_service.OdpovedHlavickaType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EET_service\SWAPP_Builder.EET_service.OdpovedVarovaniType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EET_service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\EET_service\configuration.svcinfo" />
+    <None Include="Service References\EET_service\configuration91.svcinfo" />
+    <None Include="Resources\images\search.png" />
+    <None Include="Resources\images\app_builder.png" />
+    <None Include="Resources\images\eye.png" />
+    <None Include="Resources\images\add_to_favorite.png" />
+    <None Include="Resources\images\add_folder.png" />
+    <None Include="Resources\database\App_structure.mdf" />
+    <Content Include="App_structure.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_structure_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>App_structure.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\database\App_structure_log.ldf">
+      <DependentUpon>App_structure.mdf</DependentUpon>
+    </Content>
+    <None Include="bin\Debug\images\waiting3.gif" />
+    <None Include="Resources\images\arrow_down.png" />
+    <None Include="Resources\images\arrow_up.png" />
+    <None Include="Resources\images\logout.png" />
+    <None Include="Resources\images\login.png" />
+    <None Include="Resources\images\copy.png" />
+    <None Include="Resources\images\default_print.png" />
+    <None Include="Resources\images\folder_tree.png" />
+    <Content Include="Resources\images\attachment.png" />
+    <Content Include="Resources\images\button_cancel.png" />
+    <None Include="Resources\images\edit.png" />
+    <None Include="Resources\images\move.png" />
+    <None Include="Resources\images\key.png" />
+    <None Include="Resources\images\primary_key.png" />
+    <None Include="Resources\images\key_off.png" />
+    <None Include="Resources\images\reload.png" />
+    <None Include="Resources\images\db_commit.png" />
+    <None Include="Resources\images\db_commit_off.png" />
+    <None Include="Resources\images\db_commit_on.png" />
+    <None Include="Resources\images\exclamation.png" />
+    <None Include="Resources\icons\preview-icon.ico" />
+    <None Include="Resources\icons\report.ico" />
+    <None Include="Resources\images\filtered.png" />
+    <None Include="Resources\images\not_filtered.png" />
+    <None Include="Resources\images\plus.png" />
+    <None Include="Resources\images\sql.png" />
+    <None Include="Resources\images\hide.png" />
+    <None Include="Resources\images\show.png" />
+    <None Include="Resources\images\save.png" />
+    <Content Include="Resources\icons\terminal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\EET_service\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

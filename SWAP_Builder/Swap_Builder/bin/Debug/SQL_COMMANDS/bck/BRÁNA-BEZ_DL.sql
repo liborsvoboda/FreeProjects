@@ -1,0 +1,7 @@
+WINDOWNAME:Brána-Bez DL.Vèera:
+INPUT:BUTTON:USR_BTN:Naèíst:Submit/True:
+INPUT:XLS_EXPORT:USR_BTN:Export do XLS:Export/True:
+SQL:SELECT * FROM [DBNAME].[CMP_PORTER].[dbo].[yesterday_movement]
+NOAUTOSUM:True
+AUTOSUBMIT:60
+MULTISELECT:True

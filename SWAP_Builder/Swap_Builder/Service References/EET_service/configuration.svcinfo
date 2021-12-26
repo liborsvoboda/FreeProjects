@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;EETSOAP&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="EETSOAP" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;EETSOAP1&quot; /&gt;" bindingType="basicHttpBinding" name="EETSOAP1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://pg.eet.cz:443/eet/services/EETServiceSOAP/v3&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;EETSOAP&quot; contract=&quot;EET_service.EET&quot; name=&quot;EETServiceSOAP&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://pg.eet.cz:443/eet/services/EETServiceSOAP/v3&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;EETSOAP&quot; contract=&quot;EET_service.EET&quot; name=&quot;EETServiceSOAP&quot; /&gt;" contractName="EET_service.EET" name="EETServiceSOAP" />
+  </endpoints>
+</configurationSnapshot>

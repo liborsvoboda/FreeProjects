@@ -1,0 +1,31 @@
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\bin\Debug\SerialCom.exe
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\bin\Debug\SerialCom.pdb
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\bin\Debug\SerialCom.xml
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\SerialCom.Form1.resources
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\SerialCom.Resources.resources
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\SerialCom.exe
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\SerialCom.xml
+C:\Users\Kelvin\Documents\Visual Studio 2010\Projects\VB\SerialCom\SerialCom\obj\x86\Debug\SerialCom.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\SerialCom.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\SerialCom.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\bin\Debug\SerialCom.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.main_form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SerialCom\SerialCom\obj\x86\Debug\SerialCom.vbprojResolveAssemblyReference.cache
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\bin\Debug\RS232_Receiver.exe
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\bin\Debug\RS232_Receiver.pdb
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\bin\Debug\RS232_Receiver.xml
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\SerialCom.vbprojResolveAssemblyReference.cache
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.main_form.resources
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.Resources.resources
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\SerialCom.vbproj.GenerateResource.Cache
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.exe
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.xml
+E:\Smažba\TVD\VS12\SerialCom\SerialCom\obj\x86\Debug\RS232_Receiver.pdb

@@ -1,0 +1,295 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.Shared.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Web.Services.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_crystal_reports.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure.mdf
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure_log.ldf
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure.mdf
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure_log.ldf
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Web.Services.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_crystal_reports.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+E:\Smažba\Transfer\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Web.Services.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.xml
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\EntityFramework.SqlServer.xml
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_crystal_reports.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.Shared.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure.mdf
+C:\OLD_NTB\SWAPP_Builder\SWAPP_Builder\bin\Debug\App_structure_log.ldf
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\CSharpJExcel.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\itextsharp.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+C:\MY_PROJ\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\CSharpJExcel.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\itextsharp.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+C:\Visual_Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\CSharpJExcel.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\itextsharp.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+C:\Users\tatka\Desktop\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\CSharpJExcel.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\itextsharp.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Data.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Drawing.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Windows.Forms.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\System.Xml.Linq.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\bin\Debug\office.xml
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojResolveAssemblyReference.cache
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+E:\Projekty\SWAPP_Builder\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.Cache
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.cache
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.CoreCompileInputs.cache
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe.config
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\CSharpJExcel.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\itextsharp.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\office.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\stdole.dll
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\bin\Debug\office.xml
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbproj.CopyComplete
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAPP_Builder2017\SWAPP_Builder\obj\Debug\SWAPP_Builder.vbprojAssemblyReference.cache
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\SWAPP_Builder.exe.config
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\CSharpJExcel.dll
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\itextsharp.dll
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\stdole.dll
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.vbprojAssemblyReference.cache
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_filter.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_dev_input.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_logon.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_form_list.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_new_favorite_item.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_new_file_item.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_new_menu_item.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_picture_preview.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.frm_waiting.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.Main_Form.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.Resources.resources
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.vbproj.GenerateResource.cache
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.vbproj.CoreCompileInputs.cache
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.vbproj.CopyComplete
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.exe
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.xml
+E:\Projekty\SWAP_Builder\Swap_Builder\obj\Debug\SWAPP_Builder.pdb
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\App_structure.mdf
+E:\Projekty\SWAP_Builder\Swap_Builder\bin\Debug\App_structure_log.ldf

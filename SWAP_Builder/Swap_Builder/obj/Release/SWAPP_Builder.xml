@@ -1,0 +1,457 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SWAPP_Builder
+</name>
+</assembly>
+<members>
+<member name="T:SWAPP_Builder.My.Resources.Resources">
+<summary>
+  Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.ResourceManager">
+<summary>
+  Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.Culture">
+<summary>
+  Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+  vyhledání prostředků pomocí třídy prostředků se silnými typy.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.add_folder">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.add_to_favorite">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.app_builder">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.arrow_down">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.arrow_up">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.attachment">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.button_cancel">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.copy">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.db_commit_off">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.db_commit_on">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.default_print">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.edit">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.exclamation">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.eye">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.filtered">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.folder_tree">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.hide">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.key_off">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.key_on">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.login">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.logout">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.move">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.not_filtered">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.plus">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.preview_icon">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Icon podobný (Ikona).
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.reload">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.report">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Icon podobný (Ikona).
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.save">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.search">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.show">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.sql">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.terminal">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Icon podobný (Ikona).
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.waiting1">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.waiting2">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.waiting3">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.waiting4">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWAPP_Builder.My.Resources.Resources.waiting5">
+<summary>
+  Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SWAPP_Builder.EET_service.TrzbaHlavickaType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaHlavickaType.uuid_zpravy">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaHlavickaType.dat_odesl">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaHlavickaType.prvni_zaslani">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaHlavickaType.overeni">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaHlavickaType.overeniSpecified">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.OdpovedVarovaniType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedVarovaniType.kod_varov">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedVarovaniType.Text">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.OdpovedChybaType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedChybaType.kod">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedChybaType.test">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedChybaType.testSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedChybaType.Text">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.OdpovedPotvrzeniType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedPotvrzeniType.fik">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedPotvrzeniType.test">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedPotvrzeniType.testSpecified">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.OdpovedHlavickaType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.uuid_zpravy">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.bkp">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.dat_prij">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.dat_prijSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.dat_odmit">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.OdpovedHlavickaType.dat_odmitSpecified">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.BkpElementType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.BkpElementType.digest">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.BkpElementType.encoding">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.BkpElementType.Text">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.BkpDigestType">
+<remarks/>
+</member>
+<member name="F:SWAPP_Builder.EET_service.BkpDigestType.SHA1">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.BkpEncodingType">
+<remarks/>
+</member>
+<member name="F:SWAPP_Builder.EET_service.BkpEncodingType.base16">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.PkpElementType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.PkpElementType.digest">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.PkpElementType.cipher">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.PkpElementType.encoding">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.PkpElementType.Text">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.PkpDigestType">
+<remarks/>
+</member>
+<member name="F:SWAPP_Builder.EET_service.PkpDigestType.SHA256">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.PkpCipherType">
+<remarks/>
+</member>
+<member name="F:SWAPP_Builder.EET_service.PkpCipherType.RSA2048">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.PkpEncodingType">
+<remarks/>
+</member>
+<member name="F:SWAPP_Builder.EET_service.PkpEncodingType.base64">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.TrzbaKontrolniKodyType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaKontrolniKodyType.pkp">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaKontrolniKodyType.bkp">
+<remarks/>
+</member>
+<member name="T:SWAPP_Builder.EET_service.TrzbaDataType">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dic_popl">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dic_poverujiciho">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.id_provoz">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.id_pokl">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.porad_cis">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dat_trzby">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.celk_trzba">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_nepodl_dph">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_nepodl_dphSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan1">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan1Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan1">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan1Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan2">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan2Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan2">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan2Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan3">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.zakl_dan3Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan3">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.dan3Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.cest_sluz">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.cest_sluzSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz1">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz1Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz2">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz2Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz3">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.pouzit_zboz3Specified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.urceno_cerp_zuct">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.urceno_cerp_zuctSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.cerp_zuct">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.cerp_zuctSpecified">
+<remarks/>
+</member>
+<member name="P:SWAPP_Builder.EET_service.TrzbaDataType.rezim">
+<remarks/>
+</member>
+</members>
+</doc>

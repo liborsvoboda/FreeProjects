@@ -1,0 +1,4 @@
+karat_catalog_setting.js  nastaveni cesty ckFinder (/catalog/modules/ckeditor/ckfinder)
+
+config.php  $baseUrl = '/catalog/modules/userfiles/';
+

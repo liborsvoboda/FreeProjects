@@ -1,0 +1,10 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex Communicator.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex Communicator.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex Communicator.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex Communicator.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\SwebexCommunicator.main_form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\SwebexCommunicator.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\TCPIPCommunicator.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex Communicator.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex Communicator.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex Communicator.pdb

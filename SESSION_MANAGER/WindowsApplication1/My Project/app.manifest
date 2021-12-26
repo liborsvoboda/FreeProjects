@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity version="1.0.0.0" name="MyApplication.app" />
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Možnosti manifestu nástroje Řízení uživatelských účtů
+ Chcete-li změnit úroveň nástroje Řízení uživatelských účtů systému Windows, nahraďte 
+ uzel requestedExecutionLevel některým z následujících.
+
+ <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+ <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+ <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+            Zadáním uzlu  requestedExecutionLevel zakážete virtualizaci souborů a registru.
+            Chcete-li využít virtualizaci souborů a registru pro zpětnou 
+ kompatibilitu, odstraňte uzel requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+      <applicationRequestMinimum>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Seznam všech verzí systému Windows, pro které je tato aplikace navržena. 
+      Systém Windows automaticky vybere nejvíce kompatibilní prostředí.-->
+      <!-- Pokud je aplikace navržena pro práci se systémem Windows Vista, odkomentujte následující uzel supportedOS-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- Pokud je aplikace navržena pro práci se systémem Windows 7, odkomentujte následující uzel supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- Pokud je aplikace navržena pro práci se systémem Windows 8, odkomentujte následující uzel supportedOS-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+  <!-- Povolit motivy pro běžné ovládací prvky a dialogová okna systému Windows (Windows XP a novější) -->
+  <!-- <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*"
+        />
+    </dependentAssembly>
+  </dependency>-->
+</asmv1:assembly>

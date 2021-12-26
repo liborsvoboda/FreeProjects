@@ -1,0 +1,12 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\main_form.Form1.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\USB_Port_checker\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\USB_Port_checker\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\USB_Port_checker\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

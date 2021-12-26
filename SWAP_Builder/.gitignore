@@ -1,0 +1,8 @@
+﻿################################################################################
+# Tento soubor .gitignore byl automaticky vytvořen aplikací Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SWAPP_Builder/v15/Server/sqlite3/db.lock
+/.vs/SWAPP_Builder/v15/Server/sqlite3/storage.ide
+/.vs/SWAPP_Builder/v15/Server/sqlite3/storage.ide-shm
+/.vs/SWAPP_Builder/v15/Server/sqlite3/storage.ide-wal

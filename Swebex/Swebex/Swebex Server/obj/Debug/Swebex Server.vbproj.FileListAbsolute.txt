@@ -1,0 +1,62 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex Server.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex Server.vbprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\bin\Debug\Swebex.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex.main_form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\TCPIPCommunicator\TCPIPCommunicator\obj\Debug\Swebex.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\bin\Debug\Swebex_Server.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\bin\Debug\Swebex_Server.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\bin\Debug\Swebex_Server.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\bin\Debug\Swebex_Server.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex Server.vbprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex_Server.main_form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex_Server.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex Server.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex_Server.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex_Server.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex_Messenger\Swebex Server\obj\Debug\Swebex_Server.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.frmLatViewer.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.main_form.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex Server.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Data.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.DirectoryServices.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Drawing.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Net.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Windows.Forms.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Xml.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\bin\Debug\System.Xml.Linq.dll
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex Server.vbprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.pdb
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.exe.config
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.exe
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.xml
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.pdb
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.exe
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.pdb
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\Swebex_Server.xml
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Data.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.DirectoryServices.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Drawing.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Net.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Windows.Forms.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Xml.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\bin\Debug\System.Xml.Linq.dll
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex Server.vbprojResolveAssemblyReference.cache
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.frmLatViewer.resources
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.main_form.resources
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex_Server.Resources.resources
+E:\Smažba\TVD\VS12\Swebex\Swebex\Swebex Server\obj\Debug\Swebex Server.vbproj.GenerateResource.Cache

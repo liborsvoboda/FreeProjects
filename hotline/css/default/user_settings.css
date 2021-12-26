@@ -1,0 +1,464 @@
+body {
+    margin:0px;
+    background-color: silver;
+    width:100%;
+    height:100%;
+    padding:0px;
+    overflow: auto;
+}
+
+  #fullframetable {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    border:0px;
+    cellpadding:0px;
+    cellspacing:0px;
+    border-collapse:collapse;
+    overflow: hidden;
+}
+
+#ht_request{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:93%;
+    border:0px;
+    cellpadding:0px;
+    cellspacing:0px;
+    border-collapse:collapse;
+    overflow: hidden;
+}
+
+  .bookmarkin {
+    padding: 0 10 0 10px;
+    margin:0px;
+    height:30px;
+    background-color: #A5D163;
+    text-align: center;
+    border: 2px inset;
+    cursor:pointer;
+}
+
+  .bookmarkout {
+    padding: 0 10 0 10px;
+    margin:0px;
+    height:30px;
+    background-color: #E0E0E0;
+    text-align: center;
+    border: 2px outset;
+    cursor:pointer;
+}
+
+  .purplein {
+    padding: 5 5 5 5px;
+    margin:0px;
+    background-color: #E3BBF2;
+    text-align: center;
+    cursor:pointer;
+    height:30px;
+}
+
+  .purpleout {
+    padding: 5 5 5 5px;
+    margin:0px;
+    background-color: #E0E0E0;
+    text-align: center;
+    cursor:pointer;
+    height:30px;
+}
+
+  .wwwmainmenuin {
+    padding: 5 5 5 5px;
+    margin:1px;
+    background-color: #E3BBF2;
+    text-align: center;
+    cursor:pointer;
+    height:50px;
+    font-family: tahoma;
+    font-size: 10pt;
+    border:2px inset;
+    width:100%;
+ }
+
+  .wwwmainmenuout {
+    padding: 5 5 5 5px;
+    margin:1px;
+    background-color: #F8C688;
+    text-align: center;
+    cursor:pointer;
+    height:50px;
+    font-family: tahoma;
+    font-size: 10pt;
+    border:2px outset;
+    width: 100%;
+ }
+
+  .wwwsubmenuin {
+    padding: 5 5 5 5px;
+    margin:1px;
+    background-color: #E3BBF2;
+    text-align: center;
+    cursor:pointer;
+    height:50px;
+    font-family: tahoma;
+    font-size: 10pt;
+    border:2px inset;
+    width:100%;
+ }
+
+  .wwwsubmenuout {
+    padding: 5 5 5 5px;
+    margin:1px;
+    background-color: #C0D9FE;
+    text-align: center;
+    cursor:pointer;
+    height:50px;
+    font-family: tahoma;
+    font-size: 10pt;
+    border:2px outset;
+    width: 100%;
+ }
+
+   .wwwphotogalleryin {
+    padding: 5px;
+    padding-top: 15px;
+    margin:1px;
+    background-color: #E3BBF2;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 12pt;
+    border:2px inset;
+ }
+
+  .wwwphotogalleryout {
+    padding: 5px;
+    padding-top: 15px;
+    margin:1px;
+    background-color: #E0E0E0;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 12pt;
+    border:2px outset;
+ }
+
+  .purpleslrin {
+    padding: 5 5 5 5px;
+    margin:0px;
+    background-color: #E3BBF2;
+    text-align: left;
+    cursor:pointer;
+    font-weight: bold;
+    width:180px;
+}
+
+  .purpleslrout {
+    padding: 5 5 5 5px;
+    margin:0px;
+    background-color: silver;
+    text-align: left;
+    cursor:pointer;
+    width:180px;
+}
+
+  #bookmark {
+    padding: 25 20 20 20px;
+    margin:0px;
+    width:100%;
+    height: 100%;
+    height-max: 100%;
+    background-color: #E0E0E0;
+    text-align: center;
+    border: 2px outset;
+    overflow: auto;
+    text-align: left;
+}
+
+  #desktop {
+    padding: 5 5 5 5px;
+    margin:0px;
+    width:100%;
+    height: 100%;
+    height-max: 100%;
+    background-color: #E0E0E0;
+    text-align: center;
+    border: 2px outset;
+    overflow: auto;
+    text-align: left;
+}
+
+  #ram {
+    border: 3px double black;
+    width: 100%;
+    margin: 3px;
+    height:100%;
+    cursor:default;
+}
+#ram_single {
+    border: 3px solid black;
+    width: 100%;
+    margin: 3px;
+    height:100%;
+    cursor:default;
+}
+  #ram_big {
+    border: 3px double black;
+    width: 100%;
+    margin: 3px;
+    height:100%;
+}
+
+  #ram_legenda {
+    margin: 6px;
+    font-weight: bold;
+    cursor:default;
+}
+
+
+
+  .confirmMessage {
+   width: 20px;
+   aling:center;
+   text-align: center;
+  }
+
+  #data_table {
+    padding:0px;
+    margin:0px;
+    border:0px;
+    cellpadding:0px;
+    cellspacing:0px;
+    border-collapse:collapse;
+}
+
+  .input_form {
+    position:absolute;
+    width:550px;
+    left:50%;
+    top:25%;
+    background:silver;
+    border:3px;
+    padding-top:13px;
+    border-style:outset;
+    z-index:100;
+}
+
+  .history_form {
+    position:absolute;
+    width:80%;
+    height:50px;
+    left:50%;
+    top:25%;
+    background:silver;
+    border-style:outset;
+    z-index:100;
+    padding-top:13px;
+}
+
+  .move_ledge {
+    position:absolute;
+    background-color:#99CCFF;
+    width:100%;
+    top:0px;
+    right:0px;
+    margin:0px;
+    border:0px;
+    cellpading:0px;
+    cellspacing:0px;
+    padding:0px;    
+}
+
+
+  #form_table {
+    border:0px;
+    cellpading:0px;
+    cellspacing:0px;
+    cursor:default;
+    color: #000080;    
+}
+
+  #view_table {
+    padding:0px;
+    margin:0px;
+    border: 1px inset;
+    cellpadding:0px;
+    cellspacing:0px;
+    border-collapse:collapse;
+    bordercolor:#000000;
+    width:100%;
+    text-align:center;
+    vertical-align:MIDDLE;
+  }
+
+   #table_desc {
+    padding:5px;
+    margin:0px;
+    border: 1px outset;
+    cellpadding:5px;
+    cellspacing:5px;
+    border-collapse:collapse;
+    bordercolor:#000000;
+    text-align:center;
+    vertical-align:MIDDLE;
+  }
+
+    .itemname {
+  background-color: #E0E0E0;
+  height: 26px ;
+  vertical-align: middle;
+  font-family: tahoma;
+  font-size: 16pt;
+  font-weight: bolder;
+  margin: 0px;
+  width:100%;
+  text-align:center;
+ }
+
+   .langmenu {
+  position:absolute;
+  right:30px;
+  top:50px;
+  background-color: #E0E0E0;
+  height: 26px ;
+  vertical-align: middle;
+  font-family: tahoma;
+  font-size: 12pt;
+  font-weight: bolder;
+  margin: 0px;
+  text-align:center;
+ }
+
+ #checkvalue {
+ position: absolute;
+ width: 200px;
+ left: 50%;
+ top: 35%;
+ margin-left: -100px;
+ background: silver;
+ border: 3px;
+ padding: 5px;
+ border-style: outset;
+ z-index: 1000;
+ }
+
+   .inico {
+    position:relative;
+    top:-5px;
+    right:0px;
+    cursor:pointer;
+    width:25px;
+    height: 25px;
+    border: 1px outset;
+    vertical-align:middle;
+    background-color: #E3BBF2;
+    margin: 0 5 0 5px;
+}
+
+  .outico {
+    position:relative;
+    top:0px;
+    right:5px;
+    cursor:pointer;
+    width:20px;
+    height: 20px;
+    border:0;
+    vertical-align:middle;
+}
+
+   .initems {
+    padding:3px;
+    position:relative;
+    top:-2px;
+    right:0px;
+    cursor:pointer;
+    height: 25px;
+    border: 1px inset;
+    vertical-align:middle;
+    background-color: #E3BBF2;
+    margin: 0 5 0 5px;
+    font-weight: bolder;
+}
+
+  .outitems {
+    padding:3px;
+    position:relative;
+    top:-2px;
+    right:0px;
+    cursor:pointer;
+    height: 25px;
+    border: 1px dashed;
+    vertical-align:middle;
+    margin: 0 5 0 5px;
+}
+
+ tr.menuon  {background-color:#F1BEED;cursor:pointer;}
+ tr.menuoff {background-color:#E0E0E0;}
+
+ tr.viewon  {background-color:#F1BEED;}
+ tr.viewoff {background-color:#E0E0E0;}
+
+tr.view_dataon  {background-color:#F1BEED;height:20px;cursor:pointer;}
+ tr.view_dataoff {background-color:#E0E0E0;height:20px;cursor:pointer;}
+
+ tr.recordon  {background-color:#CFF1D5;}
+ tr.recordoff {background-color:silver;}
+
+  .desktop_icon {
+    position:absolute;
+    width:60px;
+    left:50%;
+    top:25%;
+    background:#D5EFFB;
+    border:1px;
+    padding:0px;
+    border-style:outset;
+    z-index:100;
+    cursor:pointer;
+    text-align:center;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 13px;
+    
+}
+
+  .icon_panel {
+    position:absolute;
+    background-color:#99CCFF;
+    width:100%;
+    top:0px;
+    right:0px;
+    margin:0px;
+    border:0px;
+    padding:0px;
+    font-size:8px;    
+}
+
+  .desktop_no_out {
+    background-color:#F1A56E;
+    width:35px;
+    height: 25px;
+    margin:0px; 
+    padding:5px;
+    border:2px #000000;
+    text-align:center;
+    font-size:20px;
+    font-weight: bold;
+    border-style:solid;
+    border-color:#000000;
+    cursor:pointer;
+}
+
+  .desktop_no_in {
+    background-color:#76C4FF;
+    width:35px;
+    height: 25px;
+    margin:0px; 
+    padding:5px;
+    border:2px #000000;
+    text-align:center;
+    font-size:20px;
+    font-weight: bold;
+    border-style:solid;
+    border-color:#000000;
+    cursor:pointer;
+}

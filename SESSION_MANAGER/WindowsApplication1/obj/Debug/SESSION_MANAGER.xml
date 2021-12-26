@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SESSION_MANAGER
+</name>
+</assembly>
+<members>
+<member name="P:SESSION_MANAGER.My.Resources.Resources.ResourceManager">
+	<summary>
+  Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+</summary>
+</member><member name="P:SESSION_MANAGER.My.Resources.Resources.Culture">
+	<summary>
+  Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+  vyhledání prostředků pomocí třídy prostředků se silnými typy.
+</summary>
+</member><member name="T:SESSION_MANAGER.My.Resources.Resources">
+	<summary>
+  Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+</summary>
+</member>
+</members>
+</doc>
