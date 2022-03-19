@@ -7,7 +7,7 @@ vyřešení problému ve výrobních společnostech, atd.
 
 rozhodně neslouží jako ukázka mého současného skylu v programování
 
-Tak doufám, že vám mé díla budou ku prospěchu
+Tak věřím, že vám mé díla budou inspirací či přímo ještě k užitku
 
 Libor Svoboda
 https://groupware-solution.eu
