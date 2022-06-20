@@ -1,5 +1,5 @@
 # FreeProjects
-Older Projects for support production companies
+Older Projects for support production in companies
 
 hóodně staré kódy kdy jsem začínal a vyráběl různé utility ve společnostech
 je zde spousta zajímavých provedení které mohou dobře posloužit k inspiraci 
