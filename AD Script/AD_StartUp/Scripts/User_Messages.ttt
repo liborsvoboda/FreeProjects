@@ -1,0 +1,12 @@
+'NESAHAT BEGIN
+Dim objNetwork
+Set objNetwork = CreateObject("WScript.Network") 
+'NESAHAT END
+
+
+'ZASLANI ZPRAVY VYBRANYM UZIVATELUM
+
+IF objNetwork.UserName = "nekdosv" THEN 
+	'msgbox("ahoj nekdo")
+END IF
+

@@ -1,0 +1,15 @@
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\bin\Debug\direct_print.exe.config
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\bin\Debug\direct_print.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\bin\Debug\direct_print.pdb
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\bin\Debug\direct_print.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.vbprojResolveAssemblyReference.cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.Component1.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.Resources.resources
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.vbproj.GenerateResource.Cache
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.exe
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.xml
+D:\MY VISUAL\VB_PROJEKTY\VB2012_projects\direct_print\direct_print\obj\Debug\direct_print.pdb
+E:\Smažba\TVD\VS12\direct_print\direct_print\bin\Debug\direct_print.exe.config
+E:\Smažba\TVD\VS12\direct_print\direct_print\obj\Debug\direct_print.exe
+E:\Smažba\TVD\VS12\direct_print\direct_print\obj\Debug\direct_print.xml
+E:\Smažba\TVD\VS12\direct_print\direct_print\obj\Debug\direct_print.pdb

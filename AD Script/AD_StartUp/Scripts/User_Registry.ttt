@@ -1,0 +1,38 @@
+'NESAHAT BEGIN
+Dim objShell,objNetwork,wshShell,strRegValue,strRegValue1
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+'NESAHAT END
+'--------- END HEADER ---------------------
+
+
+
+
+'--------- ACTIVEX wshell HOTLINE script ---------------------
+	Set wshShell = CreateObject( "WScript.Shell" )
+	strRegValue = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1\1201"
+IF wshShell.RegRead( strRegValue ) <> 0 THEN
+	objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\reg_files\activeX_wshell_enable.reg ", 0, True
+END IF
+
+
+
+'--------- INTRANET ZONE ---------------------
+	Set wshShell = CreateObject( "WScript.Shell" )
+	strRegValue = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Ranges\Range1\file"
+
+	Set wshShell = CreateObject( "WScript.Shell" )
+	strRegValue1 = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Ranges\Range1\:Range"
+
+IF wshShell.RegRead( strRegValue ) <> 1 OR wshShell.RegRead( strRegValue1 )<>"pc"   THEN
+	objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\reg_files\intranet_zone.reg ", 0, True
+END IF
+
+
+
+'-----------------------NASTAVENI REGISTRU VYBRANYM UZIVATELUM---------------
+IF objNetwork.UserName = "uzivatelske jmeno" THEN 
+  ' objShell.Run "regedit /S " + " d:\activeX_wshell_enable.reg ", 0, True  -  spusteni REG souboru
+END IF
+
+

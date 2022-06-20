@@ -1,0 +1,88 @@
+'NESAHAT BEGIN
+Dim objShell,objNetwork,clDrives,objApp,objFSO,strContents,objFile,mapped_disc
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+
+'Disconnect ALL mapped drives
+'For i = 0 to clDrives.Count -1 Step 2
+'if (clDrives.Item(i)<>"") then objNetwork.RemoveNetworkDrive clDrives.Item(i), True, True
+'Next
+
+
+'Function check Member
+Function IsMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objUser, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objUser = GetObject("LDAP://" & objADSystemInfo.UserName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objUser.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+ 
+  IsMember = booIsMember
+End Function
+'NESAHAT END
+
+
+
+
+
+'NAPOVEDA
+'NASTAVENI DISKOVYCH JEDNOTEK NA SKUPINY
+
+
+
+
+
+IF IsMember("skupina") = True THEN
+  ' objNetwork.MapNetworkDrive "W:" , "\\pc\backup_karat",True  -  namapovani cesty jako disk W (true - zapamatovat jednotku)
+  ' objApp.NameSpace("W:").Self.Name = "Nìco"  -  nastaveni jmena jednotky W
+END IF
+
+
+
+
+
+'----------------------------------START log ALL mapped drives------------------------------
+Const ForReading = 1
+Const ForWriting = 2
+FOR i = 0 TO clDrives.Count -1 STEP 2
+	if (clDrives.Item(i)<>"") then mapped_disc = mapped_disc &";"& FormatDateTime(Now, vbShortDate) &";"& objNetwork.ComputerName &";"& objNetwork.UserName &";"& clDrives.Item(i) &";"& clDrives.Item(i+1) &";"& vbCrLf
+NEXT
+
+IF mapped_disc<>"" THEN 
+	Set objFile = objFSO.OpenTextFile("\\pc\SpeedTestResult\mapped_drives\mapped_drives.txt", ForReading)
+	strContents = objFile.ReadAll
+	objFile.Close
+
+	Set objFile = objFSO.OpenTextFile("\\pc\SpeedTestResult\mapped_drives\mapped_drives.txt", ForWriting )
+		IF (strContents<>"") THEN 
+			objFile.WriteLine mapped_disc & strContents
+		ELSE 
+			'objFile.WriteLine mapped_disc
+		END IF
+	objFile.Close
+END IF 
+
+
+'----------------------------------END of logg ALL mapped drives-----------------------

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CheckPublicIPOwner": {
+      "commandName": "Project",
+      "commandLineArgs": "IPs.json"
+    }
+  }
+}

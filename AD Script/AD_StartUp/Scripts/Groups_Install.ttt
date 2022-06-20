@@ -1,0 +1,71 @@
+'NESAHAT BEGIN
+Dim objShell,objNetwork,clDrives,objApp
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set wshShell = WScript.CreateObject( "WScript.Shell" )
+Set objFso = CreateObject("Scripting.FileSystemObject")
+
+
+'Function check Member
+Function IsMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objUser, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objUser = GetObject("LDAP://" & objADSystemInfo.UserName)
+  On Error Resume Next
+  booIsMember = False
+  For Each strGroupDN In objUser.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+ 
+  IsMember = booIsMember
+End Function
+'NESAHAT END
+
+
+
+
+
+
+'NAPOVEDA
+'NASTAVENI REGISTRU SKUPINE
+
+
+IF IsMember("TEST_GROUP") = True THEN
+
+	if objFso.FileExists("C:\i2\FP\6.3.8\bin\Regsvr32.exe") Then
+		'Checking Condition whether the build is 64bit or 32 bit
+		if (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"64")) then
+			'msgbox("INST 64")
+			 WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+		Elseif (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"x86")) then
+			'msgbox("INST 32")
+			 WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+		end if
+
+		'msgbox("Program is Installed")
+	Else
+		'msgbox("Program is Not Installed")
+	End if
+
+END IF
+
+
+'IF IsMember("Kalkulace") = True THEN
+	CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\addon\ad_signature.vbs"
+'END IF
+

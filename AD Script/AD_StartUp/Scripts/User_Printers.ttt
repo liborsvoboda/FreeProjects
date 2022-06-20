@@ -1,0 +1,16 @@
+'NESAHAT BEGIN
+Dim objNetwork
+Set objNetwork = CreateObject("WScript.Network") 
+'NESAHAT END
+
+
+
+'NAPOVEDA
+'NASTAVENI TISKARNY VYBRANYM UZIVATELUM
+
+IF objNetwork.UserName = "uzivatelske jmeno" THEN 
+  ' objNetwork.AddWindowsPrinterConnection "\\pc\HP 3015dn-IT"  -  pripoji sitovou tiskarnu
+  ' objNetwork.SetDefaultPrinter "\\pc\HP 3015dn-IT"  -  Nastavi tiskarnu jako Defaultni
+END IF
+
+

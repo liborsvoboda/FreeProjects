@@ -1,0 +1,16 @@
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.AssemblyInfoInputs.cache
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.AssemblyInfo.cs
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.csproj.CoreCompileInputs.cache
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.exe
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.deps.json
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.runtimeconfig.json
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.runtimeconfig.dev.json
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.dll
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\ref\CheckPublicIPOwner.dll
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\CheckPublicIPOwner.pdb
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.dll
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\ref\CheckPublicIPOwner.dll
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.pdb
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\obj\Debug\net5.0\CheckPublicIPOwner.genruntimeconfig.cache
+E:\Projekty\MyGitHub\MinervaOMS\MinervaOMS\ConsoleUtilities\CheckPublicIPOwner\bin\Debug\net5.0\config.json

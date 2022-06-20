@@ -1,0 +1,117 @@
+Dim objShell,objNetwork,clDrives,objApp,objFso,strValue
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set wshShell = WScript.CreateObject( "WScript.Shell" )
+Set objFso = CreateObject("Scripting.FileSystemObject")
+
+Function IsMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objUser, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objUser = GetObject("LDAP://" & objADSystemInfo.UserName)
+  On Error Resume Next
+  booIsMember = False
+  For Each strGroupDN In objUser.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+ 
+  IsMember = booIsMember
+End Function 
+
+
+Function IsComputerMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objComputer, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objComputer = GetObject("LDAP://" & objADSystemInfo.ComputerName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objComputer.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+  IsComputerMember = booIsMember
+End Function
+
+
+'NESAHAT END
+
+
+'NAPOVEDA
+  ' WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+  ' WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\code128.ttf C:\Windows\Fonts /c /R /Y " , 0
+
+
+IF IsComputerMember("FACTORY_PLANNER") = True THEN
+
+	if objFso.FileExists("C:\i2\FP\6.3.8\bin\Regsvr32.exe") Then
+		'Checking Condition whether the build is 64bit or 32 bit
+		if (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"64")) then
+			'msgbox("INST 64")
+			 WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+		Elseif (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"x86")) then
+			'msgbox("INST 32")
+			 WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+		end if
+
+		'msgbox("Program is Installed")
+	Else
+		'msgbox("Program is Not Installed")
+	End if
+
+END IF
+
+
+'------------------------ OCS NG -----------------------
+IF IsComputerMember("NB") = True OR IsComputerMember("PC") = True OR IsComputerMember("Servers") = True THEN
+Const HKEY_LOCAL_MACHINE = &H80000002
+Set oReg = GetObject("winmgmts:{impersonationLevel=impersonate}!\\.\root\default:StdRegProv")
+oReg.GetStringValue HKEY_LOCAL_MACHINE, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\OCS Inventory NG Agent", "DisplayIcon", strValue
+    If IsNull(strValue) Then
+        WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\OCS_Agent_Setup.exe c:\temp\ /c /R /Y", 0, true  ' true - delayed task
+'       WshShell.Run "\\pc\netlogon\AD_StartUp\Scripts\install\OCS_Agent_Setup.exe /S /Server=http://pc/ocsinventory /NO_SYSTRAY /TAG=DOMAIN /NOSPLASH /NOW" , 0
+	WshShell.Run "c:\temp\OCS_Agent_Setup.exe /S /Server=http://pc/ocsinventory /NO_SYSTRAY /TAG=DOMAIN /NOSPLASH /NOW" , 0
+
+    END IF        
+END IF
+'------------- END OCS NG ------------------- 
+
+
+'------------- REMOTE SESSION ADMIN ------------
+'IF IsComputerMember("REMOTE_ADMIN") = True THEN
+'	IF NOT objFso.FileExists("%windir%\system32\tsadmin.msc") THEN
+'		objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\TSADMIN\tsadmin.reg ", 0, True
+'	        WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\run\TSADMIN\*.* %windir%\system32\ /c /R /Y", 0, true  
+'		WshShell.Run "\\pc\netlogon\AD_StartUp\Scripts\run\TSADMIN\tsadmin.msc" , 0
+'	ELSE
+'		WshShell.Run "\\pc\netlogon\AD_StartUp\Scripts\run\TSADMIN\tsadmin.msc" , 0
+'	END IF 
+'END IF
+'------------- REMOTE SESSION ADMIN ------------

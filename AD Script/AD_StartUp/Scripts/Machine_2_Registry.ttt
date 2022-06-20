@@ -1,0 +1,63 @@
+Dim objShell,objNetwork,clDrives,objApp,objFso 
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set wshShell = WScript.CreateObject( "WScript.Shell" )
+Set objFso = CreateObject("Scripting.FileSystemObject")
+
+
+Function IsComputerMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objComputer, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objComputer = GetObject("LDAP://" & objADSystemInfo.ComputerName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objComputer.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+  IsComputerMember = booIsMember
+End Function
+'NESAHAT END
+
+
+'NAPOVEDA
+'NASTAVENI REGISTRU VSEM POCITACUM
+'objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\reg_files\parent_control_disable.reg ", 0, True
+'objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\reg_files\WSUS_WIN_8.reg ", 0, True
+'objShell.Run "regedit /S " + "\\pc\NETLOGON\AD_StartUp\Scripts\reg_files\WSUS_TVD.reg ", 0, True
+
+
+
+IF IsComputerMember("TEST_GROUP") = True THEN
+
+	'Checking Condition whether the build is 64bit or 32 bit
+	if (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"64")) then
+		'msgbox("INST WIN 64")
+		' objShell.Run "regedit /S " + " d:\activeX_wshell_enable.reg ", 0, True  -  spusteni REG souboru
+	Elseif (instr(GetObject("winmgmts:root\cimv2:Win32_Processor='cpu0'").AddressWidth,"x86")) then
+		'msgbox("INST WIN 32")
+		' objShell.Run "regedit /S " + " d:\activeX_wshell_enable.reg ", 0, True  -  spusteni REG souboru
+	end if
+
+
+END IF
+
+
+
+

@@ -1,0 +1,70 @@
+Dim objShell,objNetwork,clDrives,objApp,objFso,strValue
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set wshShell = WScript.CreateObject( "WScript.Shell" )
+Set objFso = CreateObject("Scripting.FileSystemObject")
+
+Function IsMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objUser, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objUser = GetObject("LDAP://" & objADSystemInfo.UserName)
+  On Error Resume Next
+  booIsMember = False
+  For Each strGroupDN In objUser.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+ 
+  IsMember = booIsMember
+End Function 
+
+
+Function IsComputerMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objComputer, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objComputer = GetObject("LDAP://" & objADSystemInfo.ComputerName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objComputer.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+  IsComputerMember = booIsMember
+End Function
+
+
+'NESAHAT END
+
+
+'NAPOVEDA
+  ' WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\rhythm_dst_file C:\i2\FP\6.3.8\bin /c /R /Y " , 0
+  ' WshShell.Run "xcopy \\pc\netlogon\AD_StartUp\Scripts\copy\code128.ttf C:\Windows\Fonts /c /R /Y " , 0
+

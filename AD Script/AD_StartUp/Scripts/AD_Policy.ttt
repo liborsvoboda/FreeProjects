@@ -1,0 +1,59 @@
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Run_As_Admin.exe"
+
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Groups_Registry.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Groups_Drives.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Groups_Printers.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Groups_Install.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Groups_Messages.vbs"
+
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\User_Registry.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\User_Drives.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\User_Printers.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\User_Install.vbs"
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\User_Messages.vbs"
+
+CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Startup_run.vbs"
+
+'--------------------------------------------------------
+
+'Function check Member
+
+Dim objNetwork
+Set objNetwork = CreateObject("WScript.Network") 
+
+
+Function IsMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objUser, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objUser = GetObject("LDAP://" & objADSystemInfo.UserName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objUser.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+ 
+  IsMember = booIsMember
+End Function
+'-----------------------------------------------------
+
+
+
+'------------- TEST SCRIPTY ---------------------------
+'IF IsMember("IT") = True OR IsMember("KALKULACE") = True OR objNetwork.UserName = "nekdo" THEN
+'	CreateObject("WScript.Shell").Run "\\pc\netlogon\AD_StartUp\Scripts\Test\AD_Policy.vbs"
+'END IF

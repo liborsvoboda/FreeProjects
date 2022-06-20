@@ -1,0 +1,17 @@
+'NESAHAT BEGIN
+Dim objNetwork,objApp
+Set objNetwork = CreateObject("WScript.Network") 
+Set objApp = CreateObject("Shell.Application")
+'NESAHAT END
+
+
+
+'NAPOVEDA
+'NASTAVENI DISKOVYCH JEDNOTEK VYBRANYM UZIVATELUM
+
+
+IF objNetwork.UserName = "uzivatelske jmeno" THEN 
+  ' objNetwork.MapNetworkDrive "W:" , "\\pc\backup_karat",True  -  namapovani cesty jako disk W (true - zapamatovat jednotku)
+  ' objApp.NameSpace("W:").Self.Name = "Nìco"  -  nastaveni jmena jednotky W
+END IF
+

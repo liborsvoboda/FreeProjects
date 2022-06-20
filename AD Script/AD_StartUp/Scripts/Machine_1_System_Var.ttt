@@ -1,0 +1,103 @@
+Dim objShell,objNetwork,clDrives,objApp,objFso,objLocalGroup, objDomainUser,wshShell,strRegValue,strHostName,strUser,strDomain,strValue
+
+ 
+Set objShell = CreateObject("WScript.Shell")
+Set objNetwork = CreateObject("WScript.Network") 
+Set clDrives = objNetwork.EnumNetworkDrives
+Set objApp = CreateObject("Shell.Application")
+Set wshShell = WScript.CreateObject( "WScript.Shell" )
+Set objFso = CreateObject("Scripting.FileSystemObject")
+set oEnv=WshShell.Environment("System")
+
+
+Function IsComputerMember(strGroup)
+ 
+  Dim strGroupDN
+  Dim objComputer, objGroup
+  Dim booIsMember
+
+  Set objADSystemInfo = CreateObject("ADSystemInfo")
+  Set objComputer = GetObject("LDAP://" & objADSystemInfo.ComputerName)
+ 
+  On Error Resume Next
+  booIsMember = False
+
+  For Each strGroupDN In objComputer.GetEx("memberOf")
+    Err.Clear
+    Set objGroup = GetObject("LDAP://" & strGroupDN)
+    If Err.Number = 0 Then
+      If LCase(objGroup.Get("name")) = LCase(strGroup) Then
+        booIsMember = True
+        Exit For
+      End If
+    End If
+    Set objGroup = Nothing
+  Next
+  On Error Goto 0
+  IsComputerMember = booIsMember
+End Function
+'NESAHAT END
+'DEKLARACE A FUNKCE
+'----------------------------------------------------------------------------------------------
+
+
+'NAPOVEDA 
+' VSECHNY SOUBORY ZACINAJICI ADM_ JSOU SPOUSTENY JAKO DA. V TECHTO SOUBORECH MUSI BYT POUZE NASTAVENI - TEDY ZADNE MESSAGE
+
+
+'ZALOZENI DOMAIN ADMIN UCTU NA LOCAL STANICI
+	Set wshShell = CreateObject( "WScript.Shell" )
+	strRegValue = "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Hostname"
+	strHostName = wshShell.RegRead( strRegValue )
+
+	Set objLocalGroup = GetObject("WinNT://" & strHostName & "/Administrators,group")
+	Set objDomainUser = GetObject("WinNT://DOMAIN/administrator,user")
+
+	If (objLocalGroup.IsMember(objDomainUser.ADsPath) = False) Then
+		objLocalGroup.Add(objDomainUser.ADsPath)
+	End If
+
+
+
+
+' FACTORY PLANNER UPDATE
+	IF IsComputerMember("FACTORY_PLANNER") = True THEN
+		oEnv("RHYTHM_DST") = "Y"
+		oEnv("RHYTHM_DST_FILE") = "C:\i2\FP\6.3.8\bin"
+	END IF
+
+
+'-----------------------------------------------------------------------------------------------
+'prava na slozku tonic
+	Set wshShell = CreateObject( "WScript.Shell" )
+	strRegValue = "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Hostname"
+	strHostName = wshShell.RegRead( strRegValue )
+
+Const HKEY_LOCAL_MACHINE = &H80000002
+Set oReg = GetObject("winmgmts:{impersonationLevel=impersonate}!\\.\root\default:StdRegProv")
+oReg.GetStringValue HKEY_LOCAL_MACHINE, "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run", "Tonic",strValue
+
+
+If Not IsNull(strValue) Then
+	strRegValue = "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\Tonic"
+	Tonic_path= Cstr(wshShell.RegRead( strRegValue ))
+
+'If Tonic_path<>"" Then
+'Tonic_path = "D:\Debug"
+'strUser = "Domain Users"
+strUser = "Everyone"
+'strDomain = "DOMAIN" & "\"
+strDomain = ""
+
+        'intRunError = objShell.Run( "%comspec% /c echo Y| cacls """ & Replace(Tonic_path,"\Tonic\Tonic.exe","") &  """ /T /E /C /G " & strUser & ":F",2,True)
+        'intRunError = objShell.Run( "%comspec% /c echo Y| cacls """ & Replace(Tonic_path,"\Tonic\Tonic.exe","") &  """ /T /E /C /G """ & strDomain & "\" & strUser & """:F ",2,True)
+
+        intRunError = objShell.Run("icacls " & CSTR(Replace(Tonic_path,"\Tonic\Tonic.exe","")) & " /inheritance:d /grant:r """ & strDomain & strUser & """:(OI)(CI)F",2,True)
+
+        If intRunError <> 0 Then
+            Wscript.Echo "Error assigning permissions for user " &strDomain & strUser & " to folder " & strFolder
+        End If
+
+end if 
+'-----------------------------------------------------------------------------------------------
+
